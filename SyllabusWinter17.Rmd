@@ -28,8 +28,8 @@ As with most economics courses, the more background you bring to the class, the 
 
 ## Key Dates
 
-+ Last day to drop or change grade option: XX
-+ Holidays: XX
++ Last day to drop or change grade option: Feb 26, 2017
+
 
 # Contact Information
 
@@ -50,7 +50,7 @@ Office Hours:
 
 # Textbook and Other Resources
 
-The main text for the course is XXX.  It was chosen undergraduates in mind and illustrates many of the concepts they learned in EC 311/415. 
+The main text for the course is Lesser, Johnathan A. & Leonardo R. Giacchino. Fundamentals of Energy Regulation, ed 2. Public Utilities Fortnightly, 2013.  It was chosen undergraduates in mind and illustrates many of the concepts they learned in EC 311/415. 
 
 This text will be heavily supplemented with  journal articles and books available electronically through the library.
 
@@ -66,6 +66,7 @@ Each topic has some readings that both undergraduates and graduate students will
 + Required Topics
     + Economic Regulation 
         + Introduction. Ch 10, Viscusi, W. Kip, Joseph E. Harrington, and John M. Vernon. Economics of regulation and antitrust. MIT press, 2005. http://search.library.pdx.edu/PSU:psu_library:CP71189149050001451
+        + Lesser & Giacchino, Ch 2
         + Efficiency and Technical Progress, Ch 4,Viscusi, et al (2005) 
         + Theory of Natural Monopoly. Ch 11, Viscusi, et al (2005)
         + Public Enterprise. Ch 14, Viscusi, et al (2005)
@@ -73,9 +74,15 @@ Each topic has some readings that both undergraduates and graduate students will
         + Franchise Bidding and Cable Television, Ch 13, Viscusi, et al (2005)
     + Telecommunications
         + Franchise Bidding and Cable Television, Ch 15, Viscusi, et al (2005)
-    + Introduction to Electricity
-        + Natural Monopololy Regulation and Electric Power,  Ch 12, Viscusi, et al (2005)
-+ Topic Options, Voted on in Class
+    + Introduction to Electricity and Natural Gas
+        + Lesser & Giacchino, Ch 1
+        + Natural Monopoly Regulation and Electric Power,  Ch 12, Viscusi, et al (2005)
+    + ROR Regulation and Other Options with Focus on Electricity
+        + Lesser & Giacchino, Ch 3, 4
+    + Costs and Cost Allocation with Focus on Electricity
+        + Lesser & Giacchino, Ch 5, 6
+    + Rate Setting and Tariff Adjustment with Focus on Electricity
+        + Lesser & Giacchino, Ch 7, 8
 
 # Other Rules
 
@@ -102,5 +109,5 @@ Each topic has some readings that both undergraduates and graduate students will
 
 + I am sympathetic to family emergencies but you must inform me as soon as possible. If the notice is verbal, please email me with your understanding of our agreement. All agreements have to be in writing.
 
-Link to this syllabus https://github.com/woodsjam/Course-Energy-Economics. Check branch for this term.
+Link to this syllabus https://github.com/woodsjam/Course-Public-Utility-Economics. Check branch for this term.
 
