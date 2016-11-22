@@ -1,0 +1,16 @@
+
+
+
+# Reading
+
++ Economic Regulation
+    + Introduction. Ch 10, Viscusi, W. Kip, Joseph E. Harrington, and John M. Vernon. Economics of regulation and antitrust. MIT press, 2005. http://search.library.pdx.edu/PSU:psu_library:CP71189149050001451
+    + Efficiency and Technical Progress, Ch 4,Viscusi, et al (2005) 
+    + Theory of Natural Monopoly. Ch 11, Viscusi, et al (2005)
+    + Public Enterprise. Ch 14, Viscusi, et al (2005)
++ Broadband
+    + Franchise Bidding and Cable Television, Ch 13, Viscusi, et al (2005)
++ Telecommunications
+    + Franchise Bidding and Cable Television, Ch 15, Viscusi, et al (2005)
++ Electricity
+    + Natural Monopololy Regulation and Electric Power,  Ch 12, Viscusi, et al (2005)
