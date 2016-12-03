@@ -28,7 +28,11 @@ As with most economics courses, the more background you bring to the class, the 
 
 ## Key Dates
 
-+ Last day to drop or change grade option: Feb 26, 2017
++ Midterm: Feb 9th
++ First Issue Paper: Feb 23rd
++ Last day to drop or change grade option: Feb 26th
++ Second Issue Paper: March 14th.
++ Final Exam: March 21st, 8am
 
 
 
@@ -56,14 +60,32 @@ This text will be heavily supplemented with  journal articles and books availabl
 
 # Assessments and Grade Policy
 
+Your grade in the class will be based on your performance on homework assignments, two exams, and two, brief, issue papers on a regulatory topic.  
+
++ Final Exam (30%)
++ Midterm  (25%)
++ Issue Papers (20%)
++ Homework (25%)
+
+## Homework
+
+There will be several assignments over the term.  All will be equally weighted and are intended to be completed by an individual and turned into a dropbox in D2L. They will be graded on a 0-2 scale with 1 being the most common grade, 2 being exceptional and zero possible for substandard work. Simply turning in something does not automatically warrant a grade of 1.
+
+## Issue Papers
+
+## Exams
+
+Exams are open book and open note.  No electronic resources are allowed. If you want to bring electronic reserve material please bring your own printed copies.  Because of the resources available, the exams will be *considerably* more difficult than the typical closed note and book exam.  Please prepare accordingly. 
 
 # Topics and Readings
 
 Do not let this section alarm you.  We will only address part of this outline in the class. As with most of my upper-division courses, we will complete a small subset at the start of the class and then vote on each succeeding topic. Each topic will have an assignment, usually working with real data or using a model from the readings.
 
-Each topic has some readings that both undergraduates and graduate students will read and some that are specific to each. Note that some of these modules will be shared with the Public Utility Economics course and I will be adding optional topics and supplementary readings throughout the term.
+Each topic has some readings that both undergraduates and graduate students will read and some that are specific to each. I will be adding optional topics and supplementary readings throughout the term.
 
 + Required Topics
+    + Review of Microeconomic Theory
+    + Review of Basic Econometrics
     + Economic Regulation 
         + Introduction. Ch 10, Viscusi, W. Kip, Joseph E. Harrington, and John M. Vernon. Economics of regulation and antitrust. MIT press, 2005. http://search.library.pdx.edu/PSU:psu_library:CP71189149050001451
         + Lesser & Giacchino, Ch 2
