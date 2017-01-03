@@ -28,15 +28,14 @@ As with most economics courses, the more background you bring to the class, the 
 
 ## Key Dates
 
++ First Issue Paper: Feb 1st
 + Midterm: Feb 9th
-+ First Issue Paper: Feb 23rd
 + Last day to drop or change grade option: Feb 26th
-+ Second Issue Paper: March 14th.
++ Second Issue Paper: March 13th.
 + Final Exam: March 21st, 8am
 
-
-
 # Contact Information
+
 Communication will be handled through slack https://utilityeconwinter17.slack.com. You should have received an invitation, if not just go to that URL and use your @pdx.edu email to sign up. There are reasonable help documents to get you started. https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users
 
 Slack will be used for IM, email and forum style communication.  It even handles phone calls. If you have a question about course material or the course itself, ask in one of the channels. If you have a personal message that is not intended for others, send a direct message.
@@ -49,18 +48,18 @@ Office Hours:
 + Drop in office hours are Tuesday 1:00-2:30pm  through the last week of class. There is no need to make an appointment for these hours -- just come.
 + If you can’t attend regular office hours, please check my calendar https://woodsj.youcanbook.me/. I will make a limited number of 20 minute slots available each week. If you make an appointment and fail to show up without first canceling, I will penalize your final exam score two points.  
 
-Contact information and office hours for the teaching assistant will be posted on slack after the first week of class.  We will also post some hours were we will available interactively on slack.
+Contact information and office hours for the teaching assistant will be posted on slack after the first week of class.  We will also post some hours where we will available interactively on slack.
 
 
 # Textbook and Other Resources
 
-The main text for the course is Lesser, Johnathan A. & Leonardo R. Giacchino. Fundamentals of Energy Regulation, ed 2. Public Utilities Fortnightly, 2013. It was chosen undergraduates, and the previous focus on electricity, in mind and illustrates many of the concepts they learned in EC 311/415. 
+The main text for the course is Lesser, Johnathan A. & Leonardo R. Giacchino. Fundamentals of Energy Regulation, ed 2. Public Utilities Fortnightly, 2013. It was chosen with undergraduates, and the previous focus on electricity, in mind and illustrates many of the concepts they learned in EC 311/415. 
 
-This text will be heavily supplemented with  journal articles and books available electronically through the library.
+This text will be supplemented with journal articles and books available electronically through the library.
 
 # Assessments and Grade Policy
 
-Your grade in the class will be based on your performance on homework assignments, two exams, and two, brief, issue papers on a regulatory topic.  
+Your grade in the class will be based on your performance on homework assignments, two exams, and two issue papers on a regulatory topic.  
 
 + Final Exam (30%)
 + Midterm  (25%)
@@ -73,38 +72,49 @@ There will be several assignments over the term.  All will be equally weighted a
 
 ## Issue Papers
 
+The homework assignments are intended to be brief, technically contained, questions.  Issues papers are longer, more free-form, explorations of a regulatory issue of less than five pages in length.  There will be one prior to each exam.  They will be graded on a 0-5 scale with 3 being the most common grade and 5 being exceptional.  As with the homework, simply turning in something does not automatically warrant a grade of 1.
+
 ## Exams
 
-Exams are open book and open note.  No electronic resources are allowed. If you want to bring electronic reserve material please bring your own printed copies.  Because of the resources available, the exams will be *considerably* more difficult than the typical closed note and book exam.  Please prepare accordingly. 
+Exams are open book and open note.  No electronic resources are allowed. If you want to bring electronic reserve material please bring your own printed copies.  Note that there is a limitation on the number of pages from the "Economics of Regulation and Antitrust" text that can be printed by each student. 
+
+Because of the resources available, the exams will be *considerably* more difficult than the typical closed note and book exam.  Please prepare accordingly. The intent is to have exam questions be between homework and issue paper complexity but closer to homework.
 
 # Topics and Readings
 
 Do not let this section alarm you.  We will only address part of this outline in the class. As with most of my upper-division courses, we will complete a small subset at the start of the class and then vote on each succeeding topic. Each topic will have an assignment, usually working with real data or using a model from the readings.
 
-Each topic has some readings that both undergraduates and graduate students will read and some that are specific to each. I will be adding optional topics and supplementary readings throughout the term.
+Each topic has some readings that both undergraduates and graduate students will read and some that are specific to each. I will be adding topics and supplementary readings throughout the term.
 
-+ Required Topics
-    + Review of Microeconomic Theory
-    + Review of Basic Econometrics
-    + Economic Regulation 
-        + Introduction. Ch 10, Viscusi, W. Kip, Joseph E. Harrington, and John M. Vernon. Economics of regulation and antitrust. MIT press, 2005. http://search.library.pdx.edu/PSU:psu_library:CP71189149050001451
-        + Lesser & Giacchino, Ch 2
-        + Efficiency and Technical Progress, Ch 4,Viscusi, et al (2005) 
-        + Theory of Natural Monopoly. Ch 11, Viscusi, et al (2005)
-        + Public Enterprise. Ch 14, Viscusi, et al (2005)
-    + Broadband
-        + Franchise Bidding and Cable Television, Ch 13, Viscusi, et al (2005)
-    + Telecommunications
-        + Franchise Bidding and Cable Television, Ch 15, Viscusi, et al (2005)
-    + Introduction to Electricity and Natural Gas
-        + Lesser & Giacchino, Ch 1
-        + Natural Monopoly Regulation and Electric Power,  Ch 12, Viscusi, et al (2005)
-    + ROR Regulation and Other Options with Focus on Electricity
-        + Lesser & Giacchino, Ch 3, 4
-    + Costs and Cost Allocation with Focus on Electricity
-        + Lesser & Giacchino, Ch 5, 6
-    + Rate Setting and Tariff Adjustment with Focus on Electricity
-        + Lesser & Giacchino, Ch 7, 8
+
++ Cost Theory Basis Regulation
+    + Lesser & Giacchino, Ch 2
+    + Introduction. Ch 11, Viscusi, W. Kip, Joseph E. Harrington, and John M. Vernon. Economics of regulation and antitrust. MIT press, 2005. http://search.library.pdx.edu/PSU:psu_library:CP71189149050001451     
+
++ Regulation and Public Enterprise
+    + Efficiency and Technical Progress, Ch 4, Viscusi, et al (2005)
+    + Theory of Natural Monopoly. Ch 10, Viscusi, et al (2005)
+    + Public Enterprise. Ch 14, Viscusi, et al (2005)
+
++ Review of Basic Econometrics
+
++ Franchise Bidding, Dynamics and Deregulation
+    + Franchise Bidding and Cable Television, Ch 13, Viscusi, et al (2005)
+    + Dynamic Issues in Natural Monopoly Regulation, Ch 15, Viscusi, et al (2005)
+    + Economic Regulation of Transportation, Ch 17, Viscusi, et al (2005)
+
++ Introduction to Electricity and Natural Gas
+    + Lesser & Giacchino, Ch 1
+    + Natural Monopoly Regulation and Electric Power,  Ch 12, Viscusi, et al (2005)
+    + Economic Regulation of Energy,Ch 18, Viscusi, et al (2005)
+
++ Electricity
+  + ROR Regulation and Other Options
+    + Lesser & Giacchino, Ch 3, 4
+  + Costs and Cost Allocation
+    + Lesser & Giacchino, Ch 5, 6
+  + Rate Setting and Tariff Adjustment
+    + Lesser & Giacchino, Ch 7, 8
 
 # Other Rules
 
