@@ -88,33 +88,34 @@ Each topic has some readings that both undergraduates and graduate students will
 
 
 + Cost Theory Basis Regulation
-    + Lesser & Giacchino, Ch 2
     + Introduction. Ch 11, Viscusi, W. Kip, Joseph E. Harrington, and John M. Vernon. Economics of regulation and antitrust. MIT press, 2005. http://search.library.pdx.edu/PSU:psu_library:CP71189149050001451     
+    + Lesser & Giacchino, Ch 2 (More small details on electricity than Viscusi and simpler theory)
 
 + Regulation and Public Enterprise
     + Efficiency and Technical Progress, Ch 4, Viscusi, et al (2005)
     + Theory of Natural Monopoly. Ch 10, Viscusi, et al (2005)
     + Public Enterprise. Ch 14, Viscusi, et al (2005)
 
++ Introduction to Electricity and Natural Gas
+    + Lesser & Giacchino, Ch 1 (Good read on the history of gas and electic regulation)
+    + Natural Monopoly Regulation and Electric Power,  Ch 12, Viscusi, et al (2005)
+    + Economic Regulation of Energy, Ch 18, Viscusi, et al (2005)
+    + Lesser & Giacchino, Ch 3 (More electicity specific details on Costs.)
+    
 + Review of Basic Econometrics
 
 + Franchise Bidding, Dynamics and Deregulation
     + Franchise Bidding and Cable Television, Ch 13, Viscusi, et al (2005)
     + Dynamic Issues in Natural Monopoly Regulation, Ch 15, Viscusi, et al (2005)
     + Economic Regulation of Transportation, Ch 17, Viscusi, et al (2005)
+    + Lesser & Giacchino, Ch 4
 
-+ Introduction to Electricity and Natural Gas
-    + Lesser & Giacchino, Ch 1
-    + Natural Monopoly Regulation and Electric Power,  Ch 12, Viscusi, et al (2005)
-    + Economic Regulation of Energy,Ch 18, Viscusi, et al (2005)
-
-+ Electricity
-  + ROR Regulation and Other Options
-    + Lesser & Giacchino, Ch 3, 4
-  + Costs and Cost Allocation
++ Deep Dive on Electricity (Under Construction)
     + Lesser & Giacchino, Ch 5, 6
-  + Rate Setting and Tariff Adjustment
     + Lesser & Giacchino, Ch 7, 8
+        
++ Optional Topics
+    + Lesser & Giacchino, Ch 9-13
 
 # Other Rules
 
