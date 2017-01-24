@@ -60,6 +60,7 @@ In almost all cases, the idea is to find out what the revenue requirement should
 + Design a system that would satisfy these customers.
 + Price that system.
 + Example: Oregon Quality Education Model (http://www.ode.state.or.us/search/results/?id=166)
++ You can see other examples of this in teh EIA cost estimates.
 
 ## Ideal System Comments
 
@@ -74,7 +75,7 @@ In almost all cases, the idea is to find out what the revenue requirement should
 + All these cost estimates are very expensive.    
     
     
-## Multi Year Methods
+## Multi Year (Period) Methods
   
   + The next group:
       + Regression
@@ -83,6 +84,8 @@ In almost all cases, the idea is to find out what the revenue requirement should
       + Data Envelopment Analysis (DEA)
   + Use comparable data from many time periods.
   + I will demonstrate with artificial data.
+
+Please note that even in the test year methodology you still use these techniques behind the scenes.
   
 ## Fake Data
 
@@ -145,7 +148,7 @@ BaseGraphics + geom_smooth(method = "lm")
 
 ## Comments on Regression
 
-+ Will generally hit the true slope parameters but not the intercept
++ Will generally hit the true slope parameters (If the volume is measured without noise) but not the intercept.
     + When it is correctly specified, right parameters and shape.
 + Yes, there is uncertainty.
 + One observation can't do much but you can measure the influence and see the effect easily.
@@ -153,8 +156,8 @@ BaseGraphics + geom_smooth(method = "lm")
 ## Corrected Regression
 
 + Slides the regression line so that all the dots are above the line.
-+ Intercept term is $intercept + min(e)$
-+ Intended to be the idea, what can be accomplished.
++ Intercept term is $intercept + min(e +\nu)$
++ Intended to be the ideal, what can be accomplished.
 
 ##
 
@@ -173,7 +176,7 @@ BaseGraphics + geom_abline(intercept = coef(RegressionModel)[1] + min(resid(Regr
 
 + Regression assumes that the errors, deviations from the line, are symmetric, same amount above as below.
 + Frontier says the errors can by asymmetric
-+ Commonly assume a non-normal distribution like the gamma.
++ Commonly assume a non-normal distribution like the gamma. We used normal-exponential (Special kind of gamma) mixture
 
 ##
 
@@ -219,6 +222,7 @@ dea.plot.frontier(FakeData$Cost,FakeData$kWh, xlab="Cost", ylab = "kWh" )
 + Preferred by engineers
 + Some variations, bootstrap, give uncertainty.
 + See how it depends on only a few observations.
++ You can also use it for isoquants.
 
 ## Yardstick
 
