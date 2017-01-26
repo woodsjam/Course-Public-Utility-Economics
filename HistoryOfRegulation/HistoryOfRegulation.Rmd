@@ -1,0 +1,357 @@
+---
+title: "History of Regulation (US)"
+author: "James Woods"
+date: "1/25/2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# History
+
+## Constitution
+
++ The Takings Clause of the Fifth Amendment
+    + Gives eminent domain but does not require it to be only for the government.
+    + "Use by the public" becomes "public purpose"
+
+End Result:  The state can do this because it is inside the state. Federal alone does interstate.
+
+
+## Munn v. Illinois (1877)
+
++ Farmers wanted the IL state legislature to set limits on prices for transport and storage.
++ Legislature did it.
++ Grain warehouse Munn and Scott got dinged and appealed.
+
+
+## Munn Quote
+
++ https://en.wikisource.org/wiki/Munn_v._Illinois/Opinion_of_the_Court
++ When one becomes a member of society ...
+
+
+## Wabash Case (1886) and Smyth v. Ames (1898)
+
++ Killed Munn v Illinois
++ Put limitations on what states could do.  
+    + You can regulate within a state and it can have an effect on other states but only indirectly.
++ "The corporation may not be required to use its property for the benefit of the public without receiving just compensation for the services rendered by it.""
+    
+End Result:  Feds decide they need to so something and Create Interstate Commerce Commission. Also, you need to give firms _some_ profit.
+
+## Interstate Commerce Act of 1887
+
++ Background:  
+
+    + Weath concentrating in the railroads.  Some was because of large federal subsidies in kind (land) and directly.
+      + Up to 20 square miles per mile of railroad, checkerboarded next to the rail line.
+      + Low interest loans with amount of loan determined by teraine.
+      + Standford is famous for faking maps so there were more mountains.
+    + Railroads were colluding to keep prices up.
+
+## Interstate Commerce Act of 1887 (Cont)
+
++ End Result:
+    + *Our first regulatory agency.*
+    + Court silence them inside states
+    + Actually acts to keep prices high on routes with competition
+    + Prevented some price discrimination
+    + Many changes over the years to include bridges, trucking, etc.
+  
++ Anti-trust legislation (Sherman 1890) starts at this time too.
+
+## Many cases over time bouncing what can and can not be done.
+
++ Example: Penn Central Transportation Co. v. New York City (1978)
+    + They wanted to build a building on top of grand central station.  City said no.
+    + New building would inconsistent with historical preservation.
+    + Court said potential value is lost but that the property is still valuable in existing state.
+    
++ Many cases over the years, moving the line on what can and can not be regulated.
+
+##Different interpretations depending on
+
+  + Due process clause (5th and 14th amendment) "No person shall ... be deprived of life, liberty, or property, without due process of law"
+  + Commerce Clause (Art 1, sec 8, clause 3) "to regulate commerce with foreign nations, and among the several states, and with the Indian tribes."
+  + Takings clause ( 5th too) "nor shall private property be taken for public use, without just compensation"
+  
+
+## About Vietor and the trends in regulation from book
+
++ Richard H. K. Vietor, Contrived Competition: Regulation and Deregulation in America (Cambridge, Mass.: Harvard University Press, 1994). is the source for that history section
+
++ It tells the story of American Airlines, El Paso Natural Gas, AT&T, and Bank of America because they were operating before 1930 and where still going when he wrote.
++ He describes in *minute* detail how government regulation changed how they acted
+    + How deregulation stressed out those firms and industries.
+    + How leadership struggled to adjust
+
+## I think    
+
+...and the textbook author, thinks it is untestable, but a good story but the dynamics of market structure change is fascinating.
+
++ Popular feelings about how people thought about the laissez-faire economy really drive these things.
+    + If free markets fail, governments tend to regulate
+    + If regulation gets too onerous, governments tend to deregulate.
+
+## 1930s
+
++ 1930: Oil prorationing
++ 1933:  Banking Act, Securities Act
++ 1934:  Banking Act, Communications Act (Federal Communications Commission)|
++ 1935: Motor Carrier Act, Public Utility Act (Federal Power Commission), Securities Exchange Act (SEC)
++ 1938: Civil Aeronautics Act (Civil Aeronautics Board),  Natural Gas Act (Pipelines not gas prices)
++ 1940: Transportation Act
+
+
+## Comments on 1930s
+
++ Reactions to what happened in the crash.
++ With a fear of deflation, they wanted to keep prices up.  So, many were to prevent competition.
++ New technology gets regulation right away.
++ Interstate commerce commission grows a lot moving into gas pipelines later
+
+## Regulation Continues.
+
++ Remember, that the political spectrum was shifted back then.
++ Republican Party Platform 1956 http://www.presidency.ucsb.edu/ws/?pid=25838
+    + Plenty about reducing inflation and cutting taxes.
+    + Many statements that presume regulation.
+    + "We shall continue to advocate the maintenance and expansion of a strong, efficient, privately-owned and operated and soundly financed system of transportation that will serve all of the needs of our Nation under Federal regulatory policies that will enable each carrier to realize its inherent economic advantages and its full competitive capabilities."
+
+## Deregulation  1970 -
+
++ Airlines
++ Natural gas (in stages)
++ Radio, cable
+
++ See Economic Report of the President 1989, p. 196 http://www.presidency.ucsb.edu/economic_reports/1989.pdf
+
+## Major Energy Deregulation
+
++ 1992 Energy Policy Act - If vertically integrated, you must carry power for others.
++ 1992 FERC 636 - Natural gas pipelines can't carry their own gas. Unbundle
++ 1996 FERC 888/889 Deregulation with open access transmission and pricing
++ 199 FERC 2000 ISO and RTO for more competition.
+
+## Other
+
++ Cable
++ Trucking
++ Banking
+
+# How to Regulate
+
+
+## Major language problems with "regulation"
+
++ Legislatures pass bills that become law, statute for the most part
+    + Oregon Revised Statutes (https://www.oregonlaws.org/oregon_revised_statutes)
+    + United States Code (http://uscode.house.gov/)
+
++ Laws are always incomplete so you need clarification on what they mean, the clarification are called many things:
+    + Code of Federal Regulations (CFRs) (http://www.ecfr.gov/)
+    + Oregon Administrative Rules (OARs) (http://sos.oregon.gov/archives/Pages/oregon_administrative_rules.aspx)
+    + Policies
+
+## Rule Making Body and Implementation
+
++ Regulation are made by rule making bodies
+    + Commissions and Boards: commission are told to do things by another higher group and formed by them.  Boards are at the top.
+    + HECC was created by the legislature
+    + Boards of Education were created on their own.
+    
++ Implementation is by staff in an agency or other government body.
+
+## Example New Oregon Law
+
++ New ORS
++ Agencies and commissions created by Oregon Law create new OARs
++ All governments under oregon law must obey the ORSs and OARs
+    + They create detailed 'regulations' often called 'polices' if they need to.
+    + The laws these other bodies make are also called 'polices'.
+
+## Federal Example
+
++ New US Code
++ Agencies and commissions created by Federal Code create new CFRs
++ All governments under US code must obey so legislature may create new laws *or*
+    + Their agencies may create new regulations to clarify
++ The other downstream Boards may make policy independent of the level above.
+    + Schools would write new policy for a CFR change even if OARs did not change.
+    
+## Administrative Procedures
+
++ Most states have them.  Oregon is https://www.oregonlegislature.gov/bills_laws/ors/ors183.html
++ The federal is in Title 5 section 500 of the US code.
+    + It dates back to 1946 and sets up the adversarial system 
+    + Also record keeping and some other procedures.
+    
+## How to make a regulation
+
++ Issue a Notice of Inquiry
++ Notice of proposed rule making (60 days for comment and 30 to reply)
++ Further notice of proposed rule making.
+
++ For Federal you can look here for the latest. https://www.regulations.gov/
++ With state you have to go agency by agency.
+
+## Other places
+
++ Can be as simple as "noticing" the rule
++ Have several readings in Open meeting
++ Vote and pass.
+
++ Oregon generally requires two readings.
+
+## Always a provision for review
+
++ At federal level, you can see a judge.
++ At state level you can do that too, often the commission is the first judge, then you may get an administrative law judge, then a "real" judge
+
++ The legislature may review the regulations
+
+## Remember ...
+
+
+*Every procedure can be manipulated to an advantage*
+
+
+# Theories of Regulation
+
+## Theories?
+
++ Yes, it is OK for there to be competing theories.
+    + You can just say things like, 60% sure that this one is true and 90% that this one is true.
++ All theories are incomplete.  
+    + The only perfect model is reality itself.
+    + There is no theory of everything.
+    
+## Good Theory should be
+
++ Falsifiable
++ Supported by existing independent evidence
++ Do at least as well as competitor theories in a forecasting sense.
++ Produces testable hypotheses that new data can be applied to with small changes.
++ KISS
+
+## Econ
+
+Econ often adds the positive and normative distinction:
+
+  + What is: positive
+  + What should: Normative
+
+You may argue that normative theory is not a theory but then we could not use phrases like:
+
+  + Ethical theory
+  + Legal theory
+
+## Theories
+
++ Normative Analysis as Positive Theory
++ Capture Theory
++ Stigler/Peltzman (Price/Profit trade off by Regulator)
++ Becker (Interest groups manipulating a regulator)
++ Taxation by Regulation
+
+# Normative Analysis as Positive Theory
+
+## NPT
++ One firm should be there because that would be cheapest to produce.
++ That one firm will suppress output and rise prices.
++ Unfair and not allocatively efficient.
++ Public demands regulation (Why you regulate)
++ The regulator does well for a while.
++ Regulator over-reaches or screws up (Why you deregulate)
+
+## NPT Crit
+
++ No real correlation between regulation and the need for regulation. (Posner 1974)
++ But, firms that are regulated don't always need to be regulated
+    + Technology, minimum efficient scale could change.
+    + Regulators can slowly screw up.
++ Why would firm's want to be regulated -- to help them collude.
+
+That leads to capture theory.
+
+## Capture Theory
+
++ Observed regulation did not reduce prices or profit.
++ What if the call for regulation was not from the public but the firms?
++ Regulate to stop entry and keep higher profits (Why you regulate)
+    + Or, the public did call for regulation (NPT)
++ Slowly or initially, the regulator helps the firms earn higher profits.
+
+## Capture Theory Crit
+
++ There is some capture but not all regulators, even long-standing ones are suborned.
++ Regulators are required by law, the administrative procedures act,  to consider small producers and do.
++ Cross-subsidies take place, which is _sometimes_, not profit maximizing.
+    + May be just limits of contractability
+    + Limited cognitive ability of consumers.
+    
+Creates the idea that the regulator is balancing the needs of the firm and the public to decide how to regulate.
+
+## Stigler
+
++ Stigler had an idea. https://www-jstor-org.proxy.lib.pdx.edu/stable/3003160?seq=1#page_scan_tab_contents
+    + Demand for regulation is like trying to get something from the state.  It could be cash, national defense, etc.
+    + In particular, "every industry or occupation
+ that has enough political power to utilize the state will seek to control entry"
+    + Control substitutes
+    + Fix prices
+
+## But there are costs
+
++ Distribution of control within industry changes.
+    + "The political decisions take account also of the political strength of the various firms, so small firms have a larger influence than they would possess in an unregulated industry"
++ Regulation is costly
+    + "Robert Gerwig found the price of gas sold in interstate commerce to be 5 to 6 percent higher than in intrastate commerce because of the administrative costs"
++ Outsiders now have some control.
+
+## Stigler/Petzman
+
++ Expanded the idea by making the regulator the decision maker that is balancing political goals.
++ Transfer from large group, distributed costs, to small, with concentrated benefits.
+
++ Diagram shows the utility maximization of the politician choosing between price and profit and having preferences for higher profits and lower prices
+
+## Stigler/Petzman Crit
+
+Becker provides critique (1976) "https://www-jstor-org.proxy.lib.pdx.edu/stable/725165?seq=4#page_scan_tab_contents"
+
++ Requires DWL, but not all regulated industries have it.
++ Requires voters to be naive about quotas and transfers
+
+## Becker
+
++ Own theory 10 years later https://www-jstor-org.proxy.lib.pdx.edu/stable/1886017?seq=1#page_scan_tab_contents
+
++ Similar but has political groups competing with each other.
+    + Groups choose pressure levels (p)
+    + Pressure by one group makes the other group less effective. (Strategic substitutes)
+    + Pressure determines tax level of regulator.
+    
+    
+## Becker Found
+
++ PROPOSITION 1. A group that becomes more efficient at producing political pressure would be able to reduce its taxes or raise its subsidy
+    + Mostly this is about free-riders
+    
++ PROPOSITION 2. An increase in deadweight cost reduces the equilibrium subsidy.
+    + Implies once you have a subsidy there is less DWL because influence is wasteful, and the subsidy will stay.
+    + Also, if gov is efficient in collecting taxes, low DWL, pressure will cause more subsidies. 
+    + Think about the last one and ponder "swamps"
+    
+## More Becker
+
++  PROPOSITION 3. Politically successful groups tend to be small relative to the size of the groups taxed to pay their subsidies.
++  PROPOSITION 4. Competition among pressure groups favors efficient methods of taxation.
+
+## Becker Crit
+
++ Regulators are not sock puppets.
++ They have objectives too.
