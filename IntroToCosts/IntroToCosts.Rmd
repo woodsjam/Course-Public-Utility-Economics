@@ -1,0 +1,76 @@
+---
+title: "Intro to Costs"
+author: "James Woods"
+date: "2/6/2017"
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Overview
+
+## Where we are headed and why
+
++ Regulated firms must be able to meet their revenue requirement.
+    + There are many rate structures that can get them there but you need to know the number.
++ The requirement has two parts:
+    + Expenses - which pass through to the rate payer.  This roughly corresponds to things on the _income statement_.
+    + Rate Base - which the firm earns a 'fair' rate of return on. Roughly corresponds to thing on the _balance sheet_.
+    
+
+# What Does Accounting Do?
+
+## Accounting
+
++ There are rules and standards in accounting.  This is a specialist area.
++ Overarching principles in each country are usually called _Generally Accepted Accounting Principles_. 
+    + Our rules are what the SEC decides.
++ There are additional principles in addition depending on domain.
+    + Government uses Governmental Accounting Standards Board (GASB) in addition
+    + You will also see some very specific systems such as FERC's _Uniform System of Accounts_. http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&SID=054f2bfd518f9926aac4b73489f11c67&rgn=div5&view=text&node=18:1.0.1.3.34&idno=18
+
+## They rules have goals
+
++ Helpful to potential investors and creditors
++ Helpful for making financial decisions
++ Helpful in making long-term decisions
++ Helpful in improving the performance of the business
++ Useful in maintaining records
+
+
+## And Principles to achieve those goals
+
++ Historical Costs -- You have receipts for things.  But, many asset values are adjusted periodically to a "fair" or "market" value.
++ Recognition -- Disconnected to when cash is sent and received but that the obligation is there.
++ Matching -- So you can compare incremental costs and benefits. Not everything can be matched.
++ Full Disclosure -- More detail is better but there is a limit.
++ Consistency -- Don't change the rules and accounts from year-to-year
++ Conservatism -- Tend to overstate costs and understate revenue
+
+# Basics of Financial Accounting
+
+## Financial?
+
++ Just means watching the transactions.
++ Three main documents:
+    + Balance sheet -- What can be owned and who owns it.
+    + Income statement -- Revenue and expenses
+    + Cash Flow -- sinks and sources of cash
+    
++ Avoiding the cash flow statement today.
+
+## Intro to Balance Sheet and Income Statement
+
++ This material is from my EC314 course.
+
++ https://prezi.com/agobxmlocjgj/acco
+untingnoquiz/
+
++ For Additional Details: http://ec314-pdx-edu.wikidot.com/basic-accounting
+
+# Specifics for Economic Regulation
+
