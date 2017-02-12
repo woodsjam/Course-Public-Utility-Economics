@@ -74,3 +74,275 @@ untingnoquiz/
 
 # Specifics for Economic Regulation
 
+## Introduction
+
++ Don't get freaked out because there are three sets of books.
+    + Financial for the investors
+    + Tax for the government
+    + Regulatory for the regulators
+    
++ Accounting recognizes you can't fully commit to three rules.
+    + The obligation to maximize value to shareholders, and therefore to minimize taxes, means your arrange transactions differently for tax purposes.
+    + Regulatory requirements, often related to accurate asset lives, are in conflict with tax treatment, which often bias asset lives low. 
+
+
+
+
+## Breakdown Without Details
+
++ $Revenue~Requirement = Expenses + (Rate~of~Return) Rate~Base$
++ *Expenses* are generally on the income statement, but there are a few things that start on the balance sheet and move over to income statement.
++ *Rate Base* is generally on the balance sheet, but there are a few things that move back and forth between balance and income.
+
+Not without controversy.  Here is recent LA Times on California http://www.latimes.com/projects/la-fi-electricity-capacity/
+
+## More Detail in Later Chapters
+
++ Ch 5: Depreciation, Rate of Return, Rate Base for the firm as a whole.
++ Ch 6: Allocating the above to rate classes
++ Ch 7: Including the future into the income statement items (expense) and the need for balance sheet items (Rate Base).
+
+## Deferred Costs
+
+You paid for it now, but it won't be an expense till later.
+
+  + Personal Finance Example:  You pay next month's rent this month.
+  + Becomes an asset.
+  + Because it is an asset is included in the rate base.
+
+Generally this is for big, "material" is the word of art, things.  Some of these are sinking funds, savings accounts for future events.
+
+## Accrued Costs
+
+Things you have not paid for but owe.
+
+  + Personal Finance Example: Your electric bill 
+  + Becomes a liability
+  + Generally smaller things but included in working capital.
+  
+Just about every cost is accrued. Relatively rare to recognize the expense when you actually pay it.
+
+
+## Direct Costs 
+
+These are the easy ones.  They are the pairs at the top of the income statement.  They always have a close relationship.
+
+After that it can get odd :
+
+  + Selling, General and Administrative expenses are not just for one product
+  + Tend to break them into "Joint" and "Common"
+  + Distinction is rare in financial but common in cost and regulatory accounting
+  
+## Joint vs Common
+
+There are official definitions but these are easier:
+
++ Joint used for several products at the same time
++ Common used for several products but *not* at the same time.
+
+Gets complicated quickly (Sausage Making Example):
+
++ Grind meat (Joint). Note we added effort and used the grinder for all the things at once.
++ Grab some for lunch.
+    + Most is still _joint_ for sausage but 
+    + Now I have a common cost, my lunch.
++ I split the meat into three groups for different kinds of sausage, now the ground meat is common.
++ I add separate seasonings for each (Direct).
+
+## Large One-Time Costs
+
++ Most costs are on the income statement and flow through directly to the revenue requirement.  Fuel cost for example.
++ Some are so large they would have a material effect on rates if they were expensed, so you spread them out.
++ Regulatory and Financial rules may split on this.
+
++ Research and Development Example
+    + Spend money every year to develop a new product.
+    + Some is expensed, if you are uncertain of future benefits (Income Statement)
+    + Some is capitalized (Balance Sheet)
+    + The capitalized part is amortized (Income Statement) over years
+    
+Pretty big incentives to capitalize. Shareholders get the money back with interest.
+
+## Depreciation
+
+What is depreciation?  Many definitions and ways of thinking about it. The core is simple.
+
++ Assets cost a lot and while purchased in one year provide benefits over many years. We would like to allocate cost of purchasing that asset over the years we use it (Matching principle).
++ There are things like depreciation, amortization (What you use for R&D and One-time expenses) and depletion (When removing oil or trees reduces the value of an asset.) but depreciation is the most complex.
+
+## Depreciation in Action: Year of Purchase
+
+The Frame:
+
+|Income|Balance|Cash Flow|
+|------|-------|---------|
+|R(evenue)|A(ssets)|Op(erations)|
+|E(xpenses)|L(iabilities)| Inv(estments)|
+|Net Income| O(wner) E(quity)| Fin(ance)|
+
+How Used: Example buy an asset.  Note: No expenses.
+
+|Income|Balance|Cash Flow|
+|------|-------|---------|
+|R|A $\uparrow \downarrow$ |Op|
+|E|L  | Inv $\downarrow$|
+|| OE| Fin |
+
++ Cash down from investing.  Increase in a fixed asset (What you bought). Decrease in a current asset (Cash)
+
+## Depreciation in Action: Following Years
+
+|Income|Balance|Cash Flow|
+|------|-------|---------|
+|R|A $\downarrow$ |Op $\uparrow \downarrow$|
+|E $\uparrow$|L  | Inv |
+|$\downarrow$| OE$\downarrow$| Fin |
+
+Income Statement:
+
++ Some of the asset value is taken as a depreciation expense. $E \uparrow$
++ The expense lowers taxable income and taxes but 
++ Lowers net income (profit) $\downarrow$
+
+## Depreciation in Action: Following Years
+
+|Income|Balance|Cash Flow|
+|------|-------|---------|
+|R|A $\downarrow$ |Op $\uparrow \downarrow$|
+|E $\uparrow$|L  | Inv |
+|$\downarrow$| OE$\downarrow$| Fin |
+
+Cash Flow Statement:
+
++ Net income is a source of cash for operations. $Op \downarrow$ but it is lower by $(tax ~ rate) Depreciation$.
++ Depreciation is added back in as a source of cash from operations $Op \uparrow$.
++ The logic:
+    + Cash already left to buy the asset.
+    + Nobody to pay the depreciation bill to but yourself.
+
+## When you sell the asset
+
+|Income|Balance|Cash Flow|
+|------|-------|---------|
+|R|A $?$ |Op $\uparrow \downarrow$|
+|E $?$|L  | Inv $\uparrow$|
+|| OE| Fin |
+
++ When you sell assets go up (Cash) and down (Fixed) and there is an inflow of cash.
++ If sold for something other than book value, what is on the balance sheet.
+    + Depreciation and the tax savings are trued up.  
+    + There could be losses or gains from sale that show on income statement.
+
+## In summary
+
++ When you buy the asset (Balance Sheet) it is in the rate base and earns interest
++ Every year some of the purchase price turns into depreciation (Income statement) and passed on the consumers.
++ Ideally, sale of an asset should result in no income changes but it almost always happens.
+
+## Why Depreciation Gets Complicated
+
++ Different depreciation for financial, tax and regulatory purposes.
+    + Best tax treatment is under MACRS.  More depreciation sooner and less later means more tax saving sooner and less later.
+    + Short lives, https://www.irs.gov/pub/irs-pdf/p946.pdf p. 108
+    + Financial tends to be straight line
+    + Regulatory varies considerably from jurisdiction to jurisdiction
++ Depreciation based on use.
++ Assets Under construction.
++ Not being used 
+
+## Mark-to-Market and other asset re-valuation
+
++ Good idea
+    + Give a truthful reporting of how much debt and equity are really worth.
+    + Use all the data you have to make that assessment.
+
++ Sometimes called mark-to-model or mark-to-fantasy
+
++ Can be implicated in quite a few financial crises, which see every few years.
+    + Some great depression deepened by MTM, asset values crashed balance sheets.
+    + S&L crisis in 80s. Not marking to market hid problems.
+    + Enron valued securities in ways that didn't make sense mark-to-model
+
+## Public Utilities Have Long-lived Assets
+
++ Many choices on how to value them:
+    + Historical Cost less depreciation
+    + Replacement costs : Make a new one with modern technology
+    + Reproduction cost : Old school tech
+    + Value of service:  Present Discounted value of what it produces
+    
++ The real question, If you don't know future environmental regulation, how do you value thermal generators?
+
+## Taxes
+
++ This seems simple, Taxes are an expense,so , pass the expense on to the consumer.
++ But ...
+    + Tax depreciation is different than regulatory depreciation
+    + Tax savings is front loaded in MACRS.
+    + Normalization spreads it out.
++ This encourages states to use the utility as a tax collector
+    + Oregon has rules limiting this. http://arcweb.sos.state.or.us/pages/rules/oars_800/oar_860/860_022.html
+    + OAR 860-022-0040
+    + OAR 860-022-0042
+    
+## Alternate Proposals on Taxes
+
++ Remember M97, the gross receipts tax that did not pass? 
++ That would have been passed through to the consumer.
++ Some economists propose
+    + Eliminating corporate tax
+    + Tax long-term capital gains at the same rate as ordinary income 
+
+Would fix a lot of distortions in the economy but this is a topic for your public finance class, not public utility.  Also, it needs to be done at the Federal level.
+
+## Working Capital
+
++ Another phrase with multiple meanings depending on context.
+    + Inventory and accounts receivable
+    + Current assets less current liabilities
+
++ Our context is just cash on hand to cover the friction between cash from revenue comes in and cash from expenses goes out.
+    + Often just a rule of thumb 30 or 45 days of expenses.
+    + Or study of accounts receivable and accounts payable ageing.
+    
+In any case it is in the rate base (balance sheet) and earns interest. 
+
+## Return on Capital Assets
+
++ Lots of fighting time here
++ Key parameters
+    + Cost of debt (Bonds)
+    + Cost of equity (Stock)
+    + Capital structure (Balance of Stock and Bonds)
+    
++ Seems easy but often the reasoning is circular
++ Lots of details in Ch 5
+
+## Circular How?
+
++ One way to value a stock
+    + Find the expected dividend rate and expected appreciation rate
+    + NPV is the value of the stock.
+    + But the dividend rate and appreciation rate depend on the rates that are set.
+    + Rates depend on the revenue requirement.
+    + Back where you started
+    
+There are ways around this with CAPM and others.
+
+## Capital Structure
+
++ Capital structure generally describes the blend of stocks and bonds that the firm issues.
++ There is a concept of an ideal capital structure
+    + Debt ratio, $\frac{Liabilities}{Assets}$
+    + As Debt ratio increases, the market requires high interest rates on bonds.
+    + As Debt ratio increases, the market requires lower expected dividends.
+    + Ideal is a debt ratio where the cost of issuing new bonds is equal to the cost of issuing new equity.
+    
+## Example
+
+Ideal is rare in practice for public utilities.  Gas and electric tend to be very close to .5 
+
+## Next Reading 
+
++ Ch 5 of Lesser where we hit the details.
++ Expect homework.
