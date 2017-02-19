@@ -1,0 +1,159 @@
+---
+title: "Cost Measurements (Ch 5)"
+author: "James Woods"
+date: ""
+output:
+  beamer_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+# Depreciation
+
+
+## Review from Intro to Costs
+
+Assets cost a lot and while purchased in one year provide benefits over many years. We would like to allocate cost of purchasing that asset over the years we use it (Matching principle).
+
+
++ When you buy the asset (Balance Sheet) it is in the rate base and earns interest
++ Every year some of the purchase price turns into depreciation (Income statement) and passed on the consumers.
++ Ideally, sale of an asset should result in no income changes but it almost always happens.
+
+<!-- ## Extended Numerical Example -->
+
+<!-- + Numerical example -->
+<!-- + WTF is whole life vs remaining life -->
+<!-- + Effects on revenue requirement -->
+<!-- + Tax normalization -->
+<!-- + Iowa curve ...please -->
+
+
+
+## Asset Retirement Obligations
+
+
+## Examples of Dissallowance and the Reasons Why
+
+Disallowance is the technical term for not including an expense or an asset in the rate base.
+
+Key terms:
+
++ Used and Useful
++ Prudent
+
+
+Examples:
+
++ Trojan Nuclear Power Plant (PGE) http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
+
++ Multiple Wind Projects (PacifiCorp) https://apps.puc.state.or.us/orders/2008ords/08-548.pdf
+
+
+## Trojan
+
+
+## PacifiCorp Wind Projects
+
+
+
+# Regulated Rate of Return
+
+## What we will look at
+
++ The effects of capital structure on the rate of return
++ The rarity of using actual structure and a framework for choosing one in a regulatory framework.
++ Technical problems:
+    + Subsidiarys
+    + Used assets
++ Three ways to estimate ROE and a critique.
+
+## Earnings volitility and Debt
+
+## Why Assume a Structure Rather than Measure
+
+
+## Criteria for an Assumed Structure
+
+http://www.sciencedirect.com/science/article/pii/S1040619011001722
+
+
+## Technical Issues
+
++ Subsidiaries
++ Used Assets
+
+## Subsidiary
+<!-- Parant company and subsidiary issues. -->
+<!--   Who's data to use. -->
+<!--   How transfered -->
+
+## Used Assets
+
+<!-- Buying used assets.,  How different in regulatory world and why -->
+<!-- Purchase accounting adjustments -->
+
+
+# Return on Equity (ROE)
+
+## Usual Methods and an Unavoidable Assumption
+
+Methods:
++ Discounted Cash Flow (DCF)
++ Capital Asset Pricing Model (CAPM)
++ Risk Premium Model (RPM)
+
+Sitting under all of them is one of the efficient market assumptions. 
+
+
+## Three Basic Kinds of Efficient Market Assumptions
+
+Usefullness of information to predict future prices
+
++ Weak: All past price data will not help.  
++ Semi-Strong: Public data does not help
++ Strong: No data public or private can help
+
+## Grampa Ish and Betting on Horses
+
++ You don't know who will win.
++ Calculate your own odds of each horse.
++ Bet the horse that is paying off more than you think it should.
++ You win more often if you have your grandson talk to the jockys.
+
+## Behavioral Finance 
+
++ Behavioral Economics has a brother.
++ There are plenty of anomolies
+    + Monday Effect, French (1980)
+    + January Effect, Roll(1983)
+    + Firm Size, Banz(1981)
+    + Mean Reversion, DeBondt and Thaler (1985)
+    + Momentum, Jegadeesh (1990)
+    
++ Anomolies get smaller after a paper about it is published.
++ Many critiques have to do with statistical details.
+
+## Comparable Data
+
+The intent is to have observations of a firm just like the one being regulated but without the effect of regulation.
+
++ The intent is a quasi-experimental control.
++ Comparability is easier to work with for populations but harder for an individual.
+    + There is no perfect match
+    + The Parable of the Cookie and Parent's Problem.
+
+## DCM
+
+<!-- DCM often uses a blend of historical and forecast with GDP growth. -->
+
+## CAPM 
+<!-- CAPM as regression with alpha and beta -->
+
+
+## RPM
