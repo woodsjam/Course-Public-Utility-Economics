@@ -25,18 +25,87 @@ Assets cost a lot and while purchased in one year provide benefits over many yea
 + Every year some of the purchase price turns into depreciation (Income statement) and passed on the consumers.
 + Ideally, sale of an asset should result in no income changes but it almost always happens.
 
-<!-- ## Extended Numerical Example -->
+## Extended Numerical Example
 
-<!-- + Numerical example -->
-<!-- + WTF is whole life vs remaining life -->
-<!-- + Effects on revenue requirement -->
-<!-- + Tax normalization -->
-<!-- + Iowa curve ...please -->
++ Data Needed to Depreciate an Asset
+    + Service Date
+    + Cost Basis
+    + Asset Life
+    + Salvage Value
+    + Method, accelerated, straight line, etc.
 
+## Example
 
++ Asset goes into service now.
++ Cost 10K
++ Will last five years
++ Salvage for 2K
++ Tax uses MACRS but we will use straight line.
+
+Depreciation each year:
+
+$$\frac{(Cost - Salvage)}{Life} = \frac{10K - 2K}{5} = `r 8/5`K$$
+The book spends a few pages doing this in percentage terms but that is more about the "Iowa Curve" methodology, what survival analysis looked like in the 1950s
+
+## Example Continued
+
+```{r, include=FALSE}
+Dep <- data.frame(Year=c(0,1,2,3,4,5), Depreciation = 8/5, Book = 10)
+Dep$Depreciation[1] <- 0
+for(i in 2:6) Dep$Book[i] <- 10 - sum(Dep$Depreciation[1:i]) 
+
+```
+
+```{r}
+library(knitr)
+kable(Dep)
+```
+
+The Book Value is the cost basis less accumulated depreciation.  This is in the rate base and earns the allowable return.
+
+## Example to Revenue Requirement
+
+```{r, include = FALSE}
+Dep$RR <- Dep$Depreciation + .1*Dep$Book
+Dep$RR[1] <- 0 
+
+```
+
+All the depreciation is part of the revenue requirement and with an allowable rate of return of 10\%, 10\% of the book value.
+
+```{r}
+library(knitr)
+kable(Dep)
+```
 
 ## Asset Retirement Obligations
 
+Now lets add in that a site will need to be cleaned up or that it is expensive to decommission.  In this case 5K.
+
+  + Every year, take an equal amount as an expense.
+  + Add to the rate base, it earns interest in the rate base.
+  + When you decommission, remove it from the rate base but don't add it as an expense since you already did.
+
+```{r, include =FALSE}
+Dep$RR <-NA
+Dep$Decomission <- 1
+Dep$Decomission[1] <- 0
+
+Dep$ARO <-0
+for(i in 2:6) Dep$ARO[i] <- sum(Dep$Decomission[1:i]) 
+
+
+Dep$RR <- Dep$Depreciation + Dep$Decomission + .1*(Dep$Book+Dep$ARO)
+Dep$RR[1] <- 0 
+
+```
+
+```{r}
+library(knitr)
+kable(Dep)
+```
+
+# Disallowance
 
 ## Examples of Dissallowance and the Reasons Why
 
@@ -44,11 +113,11 @@ Disallowance is the technical term for not including an expense or an asset in t
 
 Key terms:
 
-+ Used and Useful
-+ Prudent
++ Used and Useful: Comes from Smyth v. Ames (1898) and says physically used and useful to current rate payers before they can be asked to pay for it.  There are some exceptions.
++ Prudent:  Makes sense at the time it was made.  Not penalized for not knowing the future.
 
 
-Examples:
+## Examples of Dissallowance in Orgon
 
 + Trojan Nuclear Power Plant (PGE) http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
 
@@ -73,7 +142,9 @@ Examples:
     + Used assets
 + Three ways to estimate ROE and a critique.
 
-## Earnings volitility and Debt
+## Earnings Volitility and Debt
+
+
 
 ## Why Assume a Structure Rather than Measure
 
@@ -113,7 +184,7 @@ Sitting under all of them is one of the efficient market assumptions.
 
 ## Three Basic Kinds of Efficient Market Assumptions
 
-Usefullness of information to predict future prices
+Usefulness of information to predict future prices
 
 + Weak: All past price data will not help.  
 + Semi-Strong: Public data does not help
@@ -124,19 +195,19 @@ Usefullness of information to predict future prices
 + You don't know who will win.
 + Calculate your own odds of each horse.
 + Bet the horse that is paying off more than you think it should.
-+ You win more often if you have your grandson talk to the jockys.
++ You win more often if you have your grandson talk to the jockeys.
 
 ## Behavioral Finance 
 
 + Behavioral Economics has a brother.
-+ There are plenty of anomolies
++ There are plenty of anomalies
     + Monday Effect, French (1980)
     + January Effect, Roll(1983)
     + Firm Size, Banz(1981)
     + Mean Reversion, DeBondt and Thaler (1985)
     + Momentum, Jegadeesh (1990)
     
-+ Anomolies get smaller after a paper about it is published.
++ Anomalies get smaller after a paper about it is published.
 + Many critiques have to do with statistical details.
 
 ## Comparable Data
