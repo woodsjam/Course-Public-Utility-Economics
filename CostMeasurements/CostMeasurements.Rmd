@@ -71,12 +71,15 @@ Dep$RR[1] <- 0
 
 ```
 
-All the depreciation is part of the revenue requirement and with an allowable rate of return of 10\%, 10\% of the book value.
+All the depreciation is part of the revenue requirement and with an allowable rate of return of 10\%.
 
 ```{r}
 library(knitr)
 kable(Dep)
 ```
+
+$$Revenue~Requirement = Depreciation + (.1) Book~Value$$
+
 
 ## Asset Retirement Obligations
 
@@ -85,9 +88,10 @@ Now lets add in that a site will need to be cleaned up or that it is expensive t
   + Every year, take an equal amount as an expense.
   + Add to the rate base, it earns interest in the rate base.
   + When you decommission, remove it from the rate base but don't add it as an expense since you already did.
+  + $Revenue~Requirement = Depreciation + Decommission + .1 (Book~Value+ ARO)$
 
 ```{r, include =FALSE}
-Dep$RR <-NA
+Dep$RR <- NA
 Dep$Decomission <- 1
 Dep$Decomission[1] <- 0
 
@@ -119,16 +123,64 @@ Key terms:
 
 ## Examples of Dissallowance in Orgon
 
-+ Trojan Nuclear Power Plant (PGE) http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
++ Trojan Nuclear Power Plant (PGE) as part of a larger rate case.  http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
 
-+ Multiple Wind Projects (PacifiCorp) https://apps.puc.state.or.us/orders/2008ords/08-548.pdf
++ Multiple Wind Projects (PacifiCorp) as part of a larger rate case. Costs associated with Rolling Hills was excluded. https://apps.puc.state.or.us/orders/2008ords/08-548.pdf
 
 
 ## Trojan
 
++ 1976 - 1992 
++ Only commercial Nuclear plant built in OR
++ Main issue is management problems
++ Many interesting aspects to this case, beyond diassallowance as well as controversy.
+    + Public protests
+    + Dissenting opinions
+  
+
+## Trojan Key Dissallowance Part 1
+
+After an examination of the net benefits analysis, we conclude that the premature closure of Trojan resulted in a negative net benefit of approximately $20.4 million. We find that continued operation of Trojan would have cost less than immediate shutdown but for steam generator defects and management problems at Trojan. Management problems resulted in avoidable costs that should be borne by shareholders, not ratepayers.
+
+## Trojan Key Dissallowance Part 2
+
+We adopt TBA's finding that PGE behaved prudently with respect to the steam generator degradation. However, we disallow the steam generator costs incurred since 1991 and exclude the cost of replacing the steam generators from the imputed costs of running Trojan in the net benefits analysis. Although PGE's behavior was not faulty, PGE and the ratepayers are the only two parties to whom we can assign or impute steam generator costs. As between those two parties, PGE is better situated to recover its costs from the manufacturer of the steam generators. Moreover, it is fair that shareholders bear some of the consequences of management investment decisions. 
+
+## Trojan Key Part 3
+
+These conclusions result in a disallowance of 13.0 percent of the remaining Trojan costs, which will be borne by shareholders, not ratepayers. That result approximates a scenario in which Trojan was reasonably operated and managed. In the main, the disallowances correct for avoidable costs. 
+
+## Trojan Key Part 4
+
+PGE would incur decommissioning and transition costs regardless of when the plant was taken out of service, and the company has already been paying into a decommissioning fund. Because Trojan was shut down before the end of its license life, however, payments into the fund will have to increase for a time.
 
 ## PacifiCorp Wind Projects
 
++ Many projects but two "Rolling Hills" and "Glenrock" were very close.
++ Appeared that project was split to:
+    + Avoid bidding rules and other standards used to show prudence.
+    + The capacity factor, average divided by nameplate, was only 31%, which is very low for wind in WY.
+
+Acronyms:
+
++ Industrial Customers of Northwest Utilities (ICNU)
++ Renewable Adjustment Clause (RAC)
+
+## Rolling Hills Key Part 1
+
+Where the utility avoids the Guidelines, the burden of producing evidence remains with the utility. Pacific Power bears that burden of producing evidence in this case that its actions were prudent.
+
+...
+
+Because we find that Pacific Power failed to prove that it prudently acquired the Rolling Hills project, all costs associated with that project are excluded from the RAC cost recovery mechanism.
+
+## Rolling Hills Key Part 2
+
+ICNU suggested that Pacific Power be allowed to “cure” its “imprudence,” depending on the results of a future competitive bidding process. The finding that the Company failed to prove the prudence of its Rolling Hills project acquisition in this case applies only to the Company’s right to recover the costs of these projects in this RAC. Future ratemaking treatment of the Rolling Hills project will be taken up as appropriate.
+
+## Rolling Hills Dissent by Beyer (Now OR Senate)
+
+Not putting the Rolling Hills investment in rate base allows the Company to attempt to recover its investment by selling Rolling Hills output in the market or, perhaps, bidding the project or its output into a subsequent request for proposal to see how it stacks up against the competition.
 
 
 # Regulated Rate of Return
