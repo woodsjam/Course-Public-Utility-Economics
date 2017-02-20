@@ -132,10 +132,10 @@ Key terms:
 
 + 1976 - 1992 
 + Only commercial Nuclear plant built in OR
-+ Main issue is management problems
++ Main issue is management problems often around maintenance
 + Many interesting aspects to this case, beyond diassallowance as well as controversy.
     + Public protests
-    + Dissenting opinions
+    + Two dissenting opinions
   
 
 ## Trojan Key Dissallowance Part 1
@@ -196,30 +196,100 @@ Not putting the Rolling Hills investment in rate base allows the Company to atte
 
 ## Earnings Volitility and Debt
 
+The capital structure plays a big part in the return on common equity (ROE).
+
+Consider a firm with:
+
++ Some capital, $K$.
++ A return on assets, $\beta$, that is random with a mean of 10% and a known standard deviation, 3%.
++ Some, $\alpha$, of the capital was funded by bonds that have an interest rate of 8%.
++ There are no other costs
+
+## Earnings Volitility
+
++ When the firm runs, profits should be, $\beta K$.
++ Then when you pay the bond holders interest you have, $\beta K - .08 \alpha K$.  
+    + $\alpha K$ is the capital financed by bonds
+    + $.08 \alpha K$ is the interest.
++ Dividing by the capital owned by shareholders, $(1- \alpha)K$ gives the return on equity
+
+$$ROE = \frac{\beta K - .08 \alpha K}{(1-\alpha) K}$$
+
+## Simulated Earnings Volitility
+
+```{r, include=FALSE}
+# same beta for everyone
+beta <- rnorm(10000, mean = .1, sd = .03)
+
+ROE <- function(alpha ,theBetas) {(theBetas - alpha*.08)/(1-alpha)}
+
+#Test
+#ROE(.5, beta)
+
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(reshape2)
+ROES <- data.frame(Alph0 = ROE(0,beta), Alpha1 = ROE(.1,beta), Alpha2 = ROE(.3,beta), Alpha1 = ROE(.3,beta), Alpha4 = ROE(.4,beta),Alpha5 = ROE(.5,beta),Alpha6 = ROE(.6,beta), Alpha7 = ROE(.7,beta),Alph8 = ROE(.8,beta),Alpha9 = ROE(.9,beta))
+
+d <- melt(ROES)
+
+ggplot(d,aes(x = value)) + 
+    facet_wrap(~variable) + 
+    geom_histogram(binwidth = .015)+geom_vline(xintercept = 0, color="red")
+```
 
 
-## Why Assume a Structure Rather than Measure
+## Volitility
+
++ As the debt ratio, fraction of capital funded by bonds, increases:
+    + The average return increases.
+    + The variance of returns increases.
+    + The probability of negative returns increases
 
 
-## Criteria for an Assumed Structure
+## Regulated rate of return
 
-http://www.sciencedirect.com/science/article/pii/S1040619011001722
+The usual system for the regulated rate of return is to use a weighted average of the returns on all sources of funds.  In our simple model, we have just bonds and equity.
+
+$$RRR = \alpha .08 + (1-\alpha) ROE$$
+
+Clearly, the mix is a choice variable for the firm but new bond and stock issuance typically need to go through the regulator.
+
+## Bond Rate
+
+The bond rate is usually not controversial:
+
++ Bonds issued by the utility complete with other firms on the basis of the probability of default.
++ Bonds come with a face value, usually 1K and a coupon rate.
++ If the coupon rate is too low for the risk the price of the bond falls, i.e., they trade at a discount.
++ If the coupon rate is too high the price of the bond rises, i.e., they trade at a premium.
+    
+The number used is called the yield to maturity which is just the internal rate of return on the bond.
+
+## Yield to Maturity
+
+Simple case of a bond:
+
++ You buy now for $P_0$
++ Has face value of $P$
++ Matures in $N$ years.
++ No coupons.  These are typically purchased for way less than face value
+
+$$\left( \frac{P}{P_0} \right)^{\frac{1}{N}} -1$$
+The case with coupons is more complex but you are finding the internal rate of return for the current purchase price and the face value and the coupon payments. EC314 Material if you are interested.
 
 
-## Technical Issues
+## Where things Get Ugly
 
-+ Subsidiaries
-+ Used Assets
-
-## Subsidiary
-<!-- Parant company and subsidiary issues. -->
-<!--   Who's data to use. -->
-<!--   How transfered -->
-
-## Used Assets
-
-<!-- Buying used assets.,  How different in regulatory world and why -->
-<!-- Purchase accounting adjustments -->
++ The capital structure is a choice and you can manipulate the RRR by changing the capital structure.
++ The ROE is circular:
+    + The value of the stock is determined by prices and profits
+    + Prices and profits are determined by the revenue requirement
+    + Which is determined on the change in the value of the stock and dividends
++ Key point, you should not really use the firm's own ROE and capital structure, but one constructed from what similar firms with competitive pressure, a quasi-experimental control group. 
 
 
 # Return on Equity (ROE)
@@ -227,11 +297,14 @@ http://www.sciencedirect.com/science/article/pii/S1040619011001722
 ## Usual Methods and an Unavoidable Assumption
 
 Methods:
+
 + Discounted Cash Flow (DCF)
 + Capital Asset Pricing Model (CAPM)
 + Risk Premium Model (RPM)
 
 Sitting under all of them is one of the efficient market assumptions. 
+
+BTW a nice discussion of ROE be found at http://stats.lib.pdx.edu/proxy.php?url=http://www.sciencedirect.com/science/article/pii/S1040619011001722
 
 
 ## Three Basic Kinds of Efficient Market Assumptions
@@ -270,6 +343,28 @@ The intent is to have observations of a firm just like the one being regulated b
 + Comparability is easier to work with for populations but harder for an individual.
     + There is no perfect match
     + The Parable of the Cookie and Parent's Problem.
+
+## Typical Variables Used to find matches
+
++ Same industry
++ Bond rating
++ Beta (A measure of market risk)
++ Market Capitalization
++ Fraction of revenues from regulated operations
++ MORE
+
+## Quasi-Experimental Methods is hot in Econ
+
++ Many fields have very strong standards for establishing causality
++ We often use
+    + Coarsened Exact Matching
+    + Propensity Score Matching (General)
+    + NN matching
+    + Kernel ...
++ Regulators are still not there with this.
+
+Key observation is to use several methods to get a reasonable range.  If a proposed mix or ROE is in your range, stipulate.
+
 
 ## DCM
 
