@@ -121,6 +121,8 @@ Key terms:
 + Prudent:  Makes sense at the time it was made.  Not penalized for not knowing the future.
 
 
+For an overview of ratemaking http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf
+
 ## Examples of Dissallowance in Orgon
 
 + Trojan Nuclear Power Plant (PGE) as part of a larger rate case.  http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
@@ -136,7 +138,7 @@ Key terms:
 + Many interesting aspects to this case, beyond diassallowance as well as controversy.
     + Public protests
     + Two dissenting opinions
-  
++ Theodore Barry and Associates (TBA) 
 
 ## Trojan Key Dissallowance Part 1
 
@@ -157,9 +159,10 @@ PGE would incur decommissioning and transition costs regardless of when the plan
 ## PacifiCorp Wind Projects
 
 + Many projects but two "Rolling Hills" and "Glenrock" were very close.
-+ Appeared that project was split to:
++ Appeared that project:
     + Avoid bidding rules and other standards used to show prudence.
     + The capacity factor, average divided by nameplate, was only 31%, which is very low for wind in WY.
+    + Rushed to get tax credits and meet the new Renewable Portfolio Standard
 
 Acronyms:
 
