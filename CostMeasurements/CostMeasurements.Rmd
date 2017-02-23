@@ -356,6 +356,29 @@ The intent is to have observations of a firm just like the one being regulated b
 + Fraction of revenues from regulated operations, There is a regulated and a merchant generation side for the most part.  
 + MORE?
 
+## Sample From a FERC Case
+
+They spent 129 pages on the inclusion of basically one observation.
+
+https://www.ferc.gov/CalendarFiles/20160928194709-EL14-12-002.pdf
+
+The Commission uses the following standards to select the proxy group: (1) a national group of companies considered electric utilities by Value Line Investment Survey (Value Line); (2) the inclusion of companies with credit ratings no more than one notch above or below the utility or utilities whose rate is at issue; (3) the inclusion of companies that pay dividends and have neither made nor announced a dividend cut during the six-month study period; (4) the inclusion of companies with no major merger activity during the six-month study period; and (5) companies whose DCF results pass threshold tests of economic logic.
+
+
+## Number of Observations
+
+In order to establish a proxy group, the Presiding Judge reviewed the DCF determined cost of equity for 42 companies. The Presiding Judge determined that 37 of those companies should be included in the proxy group. Of those companies, the lowest cost of equity was Public Service Enterprise Group’s 7.23 percent and the highest cost was TECO’s 11.35 percent
+
+
+## What?
+
++ You can estimate the standard deviation as $\frac{max - min}{4}$ in this case, $\frac{(11.35 - 7.23)}{4} = `r (11.35-7.23)/4`$. 
++ The standard deviation of the mean is $\frac{`r (11.35-7.23)/4`}{(37)^{1/2}} = `r ((11.35-7.23)/4)/sqrt(37)`$.  
++ That implies that the population mean is within  +/- `r ((11.35-7.23)/4)/sqrt(37)*2` of the mean.
++ Clearly, if they had a larger proxy group they would have a larger N and a larger $\sqrt{N}$ and less uncertainty about the mean.
+
+They need a better definition of "close" for more defensable number but the current battle is over inclusion of a small number of observations.
+
 ## Quasi-Experimental Methods is Hot in Econ
 
 + Many fields have very strong standards for establishing causality
