@@ -377,7 +377,7 @@ In order to establish a proxy group, the Presiding Judge reviewed the DCF determ
 + That implies that the population mean is within  +/- `r ((11.35-7.23)/4)/sqrt(37)*2` of the mean.
 + Clearly, if they had a larger proxy group they would have a larger N and a larger $\sqrt{N}$ and less uncertainty about the mean.
 
-They need a better definition of "close" for more defensable number but the current battle is over inclusion of a small number of observations.
+They need a better definition of "close" for more defensible number but the current battle is over inclusion of a small number of observations.
 
 ## Quasi-Experimental Methods is Hot in Econ
 
@@ -393,7 +393,90 @@ Key observation is to use several methods to get a reasonable range.  If a propo
 
 ## Picking Comparable Firms
 
+You need some measure of sameness but there are complications.
 
++ With _categorical_ or _ordinal_ variables like bond rating it is easy to tell when same, AAA Bond, 
+    + but is a AA bond rating more similar to an AAA or a A bond rating? 
+    + What if you have several categorical variables and not all of them match?
+    
++ With _continous_ variables you never get an exact match, but
+    + How close is close?
+    + How measure closeness when there are differences in more than one thing, market capitalization and beta, for example?
+
+## Exact matches Categorical and Ordinal
+
++ Most data will have a mix of continuous and categorical data
++ Exact matches for categorical or ordinal data is easy, "Is it the same" or as you saw with FERC, one ordinal category different.
+
+
+## For continuous data
+
+Take inspiration from optimal bandwidth in histograms.
++ Start with a broad category, all electric utilities without mergers and acquisitions that provide dividends.
++ Collect the data of interest, say beta
++ Make a histogram and choose boxes by formula
+    + Sturges $\lceil \log_2 n \rceil +1$
+    + Rice $\lceil 2n^{1/3} \rceil$
+    + Many many more
++ Firms in the same box are comparators
++ But this only works for one variable
+
+## Mahalanobis Family
+
+Mahalanobis distance is at the heart of many of many techniques that measure closeness for multiple continuous variables.
+
+Intuition:
+
++ If the data has a big range, small differences _don't_ matter.
++ If the data has a small range, small differences _do_ matter.
++ Distance should be based on the inverse of the variance, $\frac{1}{\sigma^2}$.
++ In multiple dimensions variance is covariance, $S$, a matrix, and should be based on the inverse, $S^{-1}$.
+
+$$d(x,y) = \left( (x-y)S^{-1}(x-y) \right)^{1/2}$$
+
+## Intuition
+
+Suppose you are looking at how long it would take to walk somewhere.
+
++ No correlations between directions and the variances.  It takes equal time to walk any direction.
++ No correlations between directions but the variances are different.  You are in a valley and two directions, East and West or North and South, are up hill.
++ With correlations and unequal variances. You are in a valley but it can have any orientation. NNW/SSE etc.
+
+
+You still have to decide how close is close and that is your choice.
+
+## Mahalanobis is reused
+
++ Is at the heart of propensity score matching and other advanced econometric techniques. 
++ Also used to create indexes, like the Chinn-Ito index which measures country's degree of capital account openness.
+    + You start with $S$ and do a spectral decomposition also called, Eigen decomposition.
+    + Use the first eigen vector as the weights.
+
+
+## For Pure Categorical Data
+
++ Many metrics in common use.
++ Count of common categories is very common.
+    + {blond, blue, curly} and {blond, blue, straight} share two.
+    + {Red, blue, curly} and {blond, blue, curly} also share two.
+    + Counts all characteristics as equal importance.
++ Convert to dummy variables and use Mahalanobis
+    + Harder to do
+    + Does not treat all as equal importance
+
+## Dummy Variable
+
+|Person| Red | Blond| Blue| Brown| Straight | Curly|
+|-----|----|----|----|----|----|----|
+|A |  0 | 1 | 1 | 0 | 0 |1|
+|B | 0 | 1 | 1 | 0 | 1 |0|
+|C | 1 | 0 | 1 | 0 | 1 |0|
+
+You need a lot of data for the covariance matrix, more than the sum of the categories squared plus the sum of the categories.  For this example, 36+6 = 42, is the minimum.
+
+## Again
+
+This is not generally in introduction to econometrics.
 
 ## Discounted Cash Flow (DCF)
 
@@ -469,7 +552,7 @@ Often use annual values, and using the average closing price or the last closing
 
 ## Example of $g$ going bad.
 
-+ Start with just gdp forecast uncertainty.  You add uncertainty on top of that.
++ Start with just GDP forecast uncertainty.  You add uncertainty on top of that.
 + CBO says a standard deviation of 1.3% is average for five year with expected growth of between 2% and 2.4%.  Use 2.4% to give the benefit of the doubt.
 + A normal dividend rate is 2.43%
 http://www.dividend.com/dividend-stocks/utilities/electric-utilities/
@@ -515,8 +598,8 @@ summary(rrr)
 + You are trying to build a portfolio with as high a rate of return as possible given the risk you face.
 + It is _mostly_ true, if a stock is more variable it should have a higher return but:
     + Insurance is very variable, but pays off big when other things go bad.
-    + It is valuable because it is negativly correlated with everything else.
-+ More accuratly, if a stock is _possitivly correlated_ with the rest of the market, then if it is more variable it should have a higher return.    
+    + It is valuable because it is negatively correlated with everything else.
++ More accurately, if a stock is _possitivly correlated_ with the rest of the market, then if it is more variable it should have a higher return.    
 
 
 ## The One Parameter Model
