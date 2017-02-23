@@ -301,9 +301,9 @@ The case with coupons is more complex but you are finding the internal rate of r
 
 Methods:
 
-+ Discounted Cash Flow (DCF)
++ Discounted Cash Flow (DCF) 
 + Capital Asset Pricing Model (CAPM)
-+ Risk Premium Model (RPM)
++ Risk Premium Model (RPM)  _We will not cover._
 
 Sitting under all of them is one of the efficient market assumptions. 
 
@@ -349,14 +349,14 @@ The intent is to have observations of a firm just like the one being regulated b
 
 ## Typical Variables Used to find matches
 
-+ Same industry
-+ Bond rating
-+ Beta (A measure of market risk)
-+ Market Capitalization
-+ Fraction of revenues from regulated operations
-+ MORE
++ Same industry -- Duh
++ Bond rating -- Moody's, S&P is normal and there is a short term and long term rating, but they don't overlap
++ Beta (A measure of market risk), if you are *not* doing CAPM
++ Market Capitalization, Stock price times shares outstanding
++ Fraction of revenues from regulated operations, There is a regulated and a merchant generation side for the most part.  
++ MORE?
 
-## Quasi-Experimental Methods is hot in Econ
+## Quasi-Experimental Methods is Hot in Econ
 
 + Many fields have very strong standards for establishing causality
 + We often use
@@ -368,13 +368,196 @@ The intent is to have observations of a firm just like the one being regulated b
 
 Key observation is to use several methods to get a reasonable range.  If a proposed mix or ROE is in your range, stipulate.
 
+## Picking Comparable Firms
 
-## DCM
 
-<!-- DCM often uses a blend of historical and forecast with GDP growth. -->
+
+## Discounted Cash Flow (DCF)
+
+This is also called the Gordon Growth Model or the Dividend Discount Model.
+
+$$k = \frac{D_0  (1+g)}{P_0} + g$$
+
++ $D_0$: Current Dividend
++ $P_0$: Current Price of Stock
++ $g$: Forecasted growth rate of dividend and the growth rate in the price of the stock.  
++ $k$ required rate of return
+
+The book has a typo, or an odd time convention I am missing.
+
+## Understanding it
+
+Start with the idea that the price of an asset is the present value of the constant dividend stream.
+
+$$P= \sum_{t=0}^\infty \frac{D_0}{(1+k)^t}$$
+Now let the dividends grow at a rate of $g$.
+
+
+$$P= \sum_{t=0}^\infty \frac{D_0 (1+g)^t}{(1+k)^t}$$
+This is an infinite geometric series.
+
+## Trick from Calc 2 Sequences and Series
+
+I'm starting the sum at time 1 not time zero.
+
+$$\sum_{t=1}^\infty \frac{(1+g)^t}{(1+k)^t}= \frac{1}{1 - \frac{(1+g)}{(1+k)}}= \frac{1}{\frac{(1+k)}{(1+k)} - \frac{(1+g)}{(1+k)}}= \frac{1}{\frac{(k-g)}{(1+k)}}= \frac{(1+k)}{(k-g)}$$
+
+So, to convert to summation starting at zero multiply by $\frac{(1+g)}{(1+k)}$
+
+$$\frac{(1+k)}{(k-g)}\frac{(1+g)}{(1+k)}=\frac{(1+g)}{(k-g)}$$
+
+## You then find
+
+$$P= D_0\frac{(1+g)}{(k-g)}$$
+Solve for k, which is the cost of capital that you are looking for.
+
+$$P k -Pg = D_0 (1+g)$$
+$$\frac{Pk}{P}=r=\frac{D_0 (1+g)}{P} + g$$
+
+## Gotchas
+
++ $g<r$ Your dividend growth rate must be less than the return on capital or else you crash the firm in finite time.
+
++ More than 1-to-1 change in k with changes in g.
+
+$$\frac{\partial k}{\partial g} = \frac{D_0}{P} + 1$$
+
+
+##  Where to get the parameters
+
++ First you need to choose time steps.
+    + Check with your regulator
++ Usually you use annual.
+    + Nice because you can use annual values for $g$ and $D_0$
+    + Also less complicated because you don't have to deal with autocorrelation of $P$.
++ Prices change minute by minute.
++ Dividends change annually.
+
+
+Often use annual values, and using the average closing price or the last closing price for $P$
+
+## But $g$?
+
++ g is often a blend of a few things.
++ FERC uses a five-year forecast for that firm in a weighted averaged with GDP growth.
++ Forecasts for publicly traded firms are fairly easy to get either through paid or unpaid sources.
+
++ But, lets be clear, $g$ is a random variable with significant noise.
+
+## Example of $g$ going bad.
+
++ Start with just gdp forecast uncertainty.  You add uncertainty on top of that.
++ CBO says a standard deviation of 1.3% is average for five year with expected growth of between 2% and 2.4%.  Use 2.4% to give the benefit of the doubt.
++ A normal dividend rate is 2.43%
+http://www.dividend.com/dividend-stocks/utilities/electric-utilities/
+
+
+$$r=0.0243(1+g) + g ~with ~g \sim N(.024, .013 )$$
+
+
+##  Histogram
+
+```{r, include=FALSE}
+gg <- rnorm(10000, mean = .024, sd = .013)
+
+rrr <- .0243*(1+gg)+gg
+
+```
+
+```{r}
+plot(density(rrr))
+summary(rrr)
+```
+
+
+
+## More Problems with DCF
+
++ Capital structure can move this around so comparators have to have similar debt ratios and the bonds need to have similar yield to maturity.
++ Tends to underestimate values by a factor of 4 when compared to the value of a spark-spread option.
++ Spark Spread
+    + Spark Spread is the the difference between the price of the fuel and the price of electricity.  The gap is is the value added by the generator.
+    + Assumes crazy things like, instant on/off power plants, zero fixed costs, and constant heat rate (BTU/kWh)
++ Sale of CA generation assets provided more evidence that this was going to value things low.
+
 
 ## CAPM 
-<!-- CAPM as regression with alpha and beta -->
+
++ You can do a full class on just the Asset Pricing Model.
++ CAPM is ancient, 1961, and has in many places been replaced. I learned it as a special case of when looking at no-arbitrage models.
++ You can get it from a theoretical model but mostly it is thought of as an empirical relationship.
+
+## CAPM Key Ideas
+
++ You are trying to build a portfolio with as high a rate of return as possible given the risk you face.
++ It is _mostly_ true, if a stock is more variable it should have a higher return but:
+    + Insurance is very variable, but pays off big when other things go bad.
+    + It is valuable because it is negativly correlated with everything else.
++ More accuratly, if a stock is _possitivly correlated_ with the rest of the market, then if it is more variable it should have a higher return.    
 
 
-## RPM
+## The One Parameter Model
+
+$$E(R) = R_f + \beta \left[ E(R_m) -R_f \right]$$
+
++ $E(R)$: Expected rate of return on the security
++ $E(R_m)$: Expected rate of return on the market,S&P 500 is common.
++ $R_f$: Risk free rate, usually the 30-Day Treasury bill.
++ $\beta$: Yes, they call it "beta" how market risk, everything moving at once, is reflected in the price of this stock.
+    + If $\beta = 0$ a 1% increase in the market return increases the stock by the same 1%.
+    + If $\beta < 0$ Then the change in return is less than the market.
+
+## Implement as Regression
+
+$$R_i - R_f  = \alpha + \beta \left[ R_m -R_f \right] + \epsilon$$
+
++ On the left subtract the risk free rate from the rate of the stock you are evaluating.
++ on the right subtract the risk free rate of return from the market return.
++ $\alpha$ is how well the firm did for the risk it faced.  
+    + $\alpha =0$ as well as the market
+    + $\alpha >0$ better than the market.
+
+Use:
+
++ Use data from the other firms then
++ Use the model to forecast what the return on your firm should be. 
+
+## Many Variations
+
++ Without risk-free rate, Black (1972)
++ Lifetime consumption, Merton (1973)
++ Dividends, taxes, Brennan (1970)
++ Foreign exchange, Solnik (1974)
++ Inflation, Long (1974)
+
+## What Can Trip You Up
+
++ Influential observations
+    + Relationship driven by just a few outliers.
+    + Check with Cooks Distance or leverage (Diagonal of projection matrix)
+    + You can drop these or
+    + Use Least Absolute Deviation estimator. 
+    
++ Multiple observations of individual firms
+    + People often leave them in because they think more observations is better.
+    + The observations are correlated with each other.
+    + Either avoid or use some panel data methods.
+
+## How can this be worse?
+
++ Still has the assumption that the capital structure, debt ratio, is the same in all firms.
++ Sometimes you have to dig back in the income statement and find
+    + Earnings before interest taxes and depreciation, EBITD
+    + Total Assets
+    + Debt ratio
+    + The tax rate (t)
+    + This give "return on total assets", $\frac{EBIT}{Assets}$, rather than "return on common equity".
++ Run the regression as before but adjust the resulting $\beta$.
+    + $\beta_l = \beta \left[1 + (1-t) (1-Debt~Ratio)\right]$
+    + Assumes no noise in the debt ratio and tax rate but mostly works.
+    
+## Next Week 
+
++ Start reading chapter 6.
++ We need to decide if you want a regression based homework.
+
