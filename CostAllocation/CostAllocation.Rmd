@@ -198,12 +198,12 @@ Raises enough to pay for the painting and everyone pays their personal benefit s
 
 + As the social benefits get larger relative to price the more revenue is collected. Examples 2 and 4.
 
-+ If a player is not piviotal, they pay their marginal valuation.
++ If a player is not pivotal, they pay their marginal valuation.
 
 + Pivotal players are treated the same.
 
-+ Implies that even when you get the right metric, peak, coincident peak, volumetric, etc., that porportional sharing of costs is not always right.
-    + It does work when the individual or group does not not piviotable and induce the need for more infrastructure.
++ Implies that even when you get the right metric, peak, coincident peak, volumetric, etc., that proportional sharing of costs is not always right.
+    + It does work when the individual or group does not pivotal and induce the need for more infrastructure.
 
 + Most efficient systems will fail on a fairness criteria.
 
@@ -212,7 +212,7 @@ Raises enough to pay for the painting and everyone pays their personal benefit s
 The Shapley Value comes from cooperative game theory. It is a unique way of distributing the gains from cooperating that has nice properties.
 
 + Efficient:  All the gains/costs are distributed with none left over.
-+ Symmetric: If two agents are equivelent they get the same payoff.
++ Symmetric: If two agents are equivalent they get the same payoff.
 + Linear: You can subdivide the coalition and the system still works.
 
 
@@ -231,14 +231,14 @@ Ignore this. The math notation gets in the way.
 
 + You have a bunch of players that will cooperate with each other.
 + They join the team in random order.
-+ When they join they demand $(v(S\cup\{i\})-v(S))$ which is the benefit to the coolition of them joining.
++ When they join they demand $(v(S\cup\{i\})-v(S))$ which is the benefit to the coalition of them joining.
 + Each individual gets the average from all possible orderings, which is what the $\sum_{S \subseteq N \setminus
 \{i\}} \frac{|S|!\; (n-|S|-1)!}{n!}$ term does.
 
 
 ## What Does This Have to Do with Costs 
 
-+ If you have several customers that are piviotal, causing the utility to make added investments it is unclear how to allocate the incremental costs. 
++ If you have several customers that are pivotal, causing the utility to make added investments it is unclear how to allocate the incremental costs. 
 + Shapely averages over all possible orders.
 + They see a reduction in cost from non-cooperation.
 
@@ -287,7 +287,7 @@ Common and Joint Costs are the hard ones.
 For Common Costs (Same thing at same time)
 
 + You need to a good volume index
-+ Allocate porportionally
++ Allocate proportionally
 
 ## The Right Volume Index
 
@@ -302,7 +302,7 @@ For Common Costs (Same thing at same time)
     + Volume, kWh.
     + But will use other similar costs when the right index is unclear: KN, Mass, Distrigas
 
-Allocation is usually porportional with some movement for fairness.
+Allocation is usually proportional with some movement for fairness.
 
 
 ## For Hard Joint costs
@@ -313,7 +313,7 @@ Non-allocable accounts, for example, accounting costs, office rents, etc.
 + Massachusetts -- the ratio of direct labor, capital investment and gross revenue of each affiliate to total direct labor, capital investment and gross revenue. 
 + Distrigas --  the ratio of direct labor, capital investment and net operating revenue of each affiliate to total direct labor, capital investment and net operating revenues.
 
-Basically, if the shared costs are accross several corportate entities, use Massachusetts or Distrigas, otherwise KN
+Basically, if the shared costs are across several corporate entities, use Massachusetts or Distrigas, otherwise KN
 
 
 ## Management Fees
@@ -330,9 +330,9 @@ The book gives a few worked examples but the NARUC Electric Utility Cost Allocat
 
 The book focuses on 
 
-+ 4-CP which averages the coinciedent peak for four seasons and tries to use this for kW type measures
-+ Inverse Load factor, $\frac{maximum ~ use}{average ~ use}$, to say that kW measure should be charged more to those that are more volitile.
-+ Equivelent peaker, which, I think, tries to split the difference between the two points of view.
++ 4-CP which averages the coincident peak for four seasons and tries to use this for kW type measures
++ Inverse Load factor, $\frac{maximum ~ use}{average ~ use}$, to say that kW measure should be charged more to those that are more volatile.
++ Equivalent peaker, which, I think, tries to split the difference between the two points of view.
 
 But misses key things like
 + Hourly models
