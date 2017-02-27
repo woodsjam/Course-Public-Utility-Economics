@@ -1,0 +1,294 @@
+---
+title: "Cost Allocation"
+author: "James Woods"
+date: ""
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+## Abstraction of Costs
+
+Consider the load shape of a customer and the load shape of the entire utility.
+
+The individual:
+
++  Integrate the load for individual, i, $kW_i$, to get $kWh_i$. $\int kW_i(t) dt$
+    + But the cost of electricity is not the same throughout the day, $\int kW_i(t) p(t) dt$
+    + Price goes up when lots of people want electricity at the same time. 
++ Look at the individual peak, $\max kW_i$
+    + Associated with the cost of the distribution system close to an individual
+    + But, if an individual down the street has a higher peak demand, the you benefit because fewer local outages.
++ Sunk costs of you, e.g., service head, meter, Depending on jurisdiction
++ Fixed cost because of you, e.g., bill sent to you
+    
+    
+## Abstraction of Costs (Con't)
+
+The System:
+
++ Look at the system peak, $\sum_{\forall i} \max(kW)$
+    + Transmission and generation must be sized for this.
+    + You contribute a lot to these costs if you use a lot at that time but little if you don't
++ System Sunk Costs
++ System Fixed Cost
+
+
+Note that many of these costs are shared, like a public good, or that the action of some individuals has positive and negative effect on others, like an externality.
+
+## Our Approach
+
++ Start with a pure economic approach that is rooted in mechanism design and game theory for joint and common costs.
++ This will help us evaluate some of the problems with common practice and some vague statements in the book.
++ We will return to common practice with focus on choosing the proper volume index for each kind of joint/common cost.
+
+## Mechanism Design and Game Theory Approaches
+
+## The Regulatory Allocation Mechanisms
+
++ Often approximate a rules from mechanism design called the Clarke Pivot Rule and cooperative game theory called the Shapely Value.
++ Both try to get at incremental cost
++ The rules have many advantages but there are problems.
++ Most of the pure econ material does not address time, much in the same way the "equivalent peaker" methodology ignores time.
+
+
+## Mechanism Design
+
++ Mechanism design is game theory backwards.
+    + Given a desired objective, what would a game that gives you that objective look like.
+    + The game has constraints, voluntary participation, incentive compatible, truth revealing, budget neutral, etc.
++ Main body of work started with Vickrey in 1961
+
+## Vickrey-Clarke-Groves Mechanisms
+
+This is part of a large class of mechanisms that encourage actors to reveal private information, beliefs for example, and achieve a socially-optimal solution.
+
+The general pattern is:
+
++ Agents report the value of all the choices.
++ The mechanism then chooses the choice that maximizes social welfare.
++ Gives everyone identical money equal to the value of the *other* agents combined.
+
+The trick is figuring out how to implement the last step.
+
+## Step 3? 
+
+The idea is to align the individual incentives with social welfare.
+
++ Rule three could be to give the sum of everyone's Consumer Surplus.
++ Clearly, not budget neutral.
+
+
+## The Clarke Pivot Rule
+
+This is step 4.
+
+Charge the player the difference between social welfare if they didn't exist and social welfare when they exist.
+
++ This is the externality of the player.
++ Maximizes social welfare
++ Individually rational, the benefit of participating and being charged is greater than not participating and not being charged.
++ You only pay if you play
+
+## Odd things to watch for
+
++ This does induce people to be truthful about their valuations, but beyond the scope of the course.
++ Rarely, do the bids yield exactly the right revenue.
++ Accounting style cost splitting is a special case.  Only when there is no change in the social choice.
+
+## Clarke Pivot
+
++ Do we get a painting with cost $20?
++ Two agents, A, B with true benefits of, ${6,10}$.
+
++ A
+    + With A, the value to the others is $6+10 =16$.
+    + Without A, the value of the painting is still $20, the avoided cost.
+    + A is charged $4.
++ B
+    + With B, the value to the others is still $16.
+    + Without B, the value of the painting is still the avoided costs, $20.
+    + B is charged $4.
+    
+We sell the painting and give the money back.
+
+## Clarke Pivot Example 1
+
++ Do we get a painting with cost $14?
++ Two agents, A, B with true benefits of, ${6,10}$.
+
++ A
+    + With A, the value to the others is $6+10 =16$.
+    + Without A, the value of the painting is still $14, the avoided cost.
+    + A is charged $2.
++ B
+    + With B, the value to the others is still $16.
+    + Without B, the value of the painting is still the avoided costs, $14.
+    + B is charged $2.
+    
+Does not raise enough to pay for the painting and treats both agents the same.  Both are pivotal. Without them, the choice would flip from keeping the painting to not keeping it.
+
+
+## Clarke Pivot Example 2
+
++ Do we get a painting with cost $14?
++ Two agents, A, B with true benefits of, ${10,12}$.
+
+
++ A
+    + With A, the value to the others is $10+12 =22$.
+    + Without A, the value of the painting is still $14, the avoided cost.
+    + A is charged $8.
++ B
+    + With B, the value to the others is still $22.
+    + Without B, the value of the painting is still the avoided costs, $14.
+    + B is charged $8.
+    
+Raises more than enough for the painting  and treats both agents the same.  Both are pivotal, without them, the choice would flip from keeping the painting to not keeping it.
+
+
+## Clarke Pivot Example 3
+
++ Do we get a painting with cost of $7?
++ Three agents, A, B and C with true benefits of, ${1,3,5}$.
+
++ A
+    + With A, the value to the others is $1+3+5 =9$.
+    + Without A, the value of the painting is still $3+5 =8$.
+    + A is charged $1.
++ B
+    + With B, the value to the others is still $1+3+5 =9$.
+    + Without B, the value of the painting is the avoided costs, $7.
+    + B is charged $2.
++ C
+    + With C, the value to the others is still $9.
+    + Without C, the value of the painting is still the avoided costs, $7.
+    + C is charged $2.
+    
+Does not raise enough to pay for the painting, but charges B and C more because they were pivotal.
+    
+    
+
+## Clarke Pivot Example 4
+
++ Do we get a painting with cost of $14?
++ Three agents, A, B and C with true benefits of, ${9,10,12}$.
+
++ A
+    + With A, the value to the others is $9+10+12 =31$.
+    + Without A, the value of the painting is still $10+12 =22$.
+    + A is charged $9.
++ B
+    + With B, the value to the others is still $9+10+12 =31$.
+    + Without B, the value of the painting is $9+12 =21$.
+    + B is charged $10.
++ C
+    + With C, the value to the others is still $31.
+    + Without C, the value of the painting is $9+10=19$.
+    + B is charged $12.
+    
+Raises enough to pay for the painting and everyone pays their personal benefit since they would not change the social choice.  Nobody is pivotal.
+
+
+##  Observations
+
++ As the social benefits get larger relative to price the more revenue is collected. Examples 2 and 4.
+
++ If a player is not piviotal, they pay their marginal valuation.
+
++ Pivotal players are treated the same.
+
++ Implies that even when you get the right metric, peak, coincident peak, volumetric, etc., that porportional sharing of costs is not always right.
+    + It does work when the individual or group does not not piviotable and induce the need for more infrastructure.
+
++ Most efficient systems will fail on a fairness criteria.
+
+## Cooperative Game Theory Point of View
+    
+The Shapley Value comes from cooperative game theory. It is a unique way of distributing the gains from cooperating that has nice properties.
+
++ Efficient:  All the gains/costs are distributed with none left over.
++ Symmetric: If two agents are equivelent they get the same payoff.
++ Linear: You can subdivide the coalition and the system still works.
+
+
+## Obligatory formula 
+
+The amount that player i gets, $\phi_i(v)$, is some function of what they all produce together, $v$. 
+
+$$\phi_i(v)=\sum_{S \subseteq N \setminus
+\{i\}} \frac{|S|!\; (n-|S|-1)!}{n!}(v(S\cup\{i\})-v(S))$$
+
+
+
+Ignore this. The math notation gets in the way.
+
+## Shapely Intuition
+
++ You have a bunch of players that will cooperate with each other.
++ They join the team in random order.
++ When they join they demand $(v(S\cup\{i\})-v(S))$ which is the benefit to the coolition of them joining.
++ Each individual gets the average from all possible orderings, which is what the $\sum_{S \subseteq N \setminus
+\{i\}} \frac{|S|!\; (n-|S|-1)!}{n!}$ term does.
+
+
+## What Does This Have to Do with Costs 
+
++ If you have several customers that are piviotal, causing the utility to make added investments it is unclear how to allocate the incremental costs. 
++ Shapely averages over all possible orders.
++ They see a reduction in cost from non-cooperation.
+
+
+If you need to balance a budget and fully allocate costs, this gives the best welfare result.
+
+## Cost Allocation With Shapely
+
++ Two new customers with:
+    + $v(\{1\})=10$
+    + $v(\{2\})=12$
+    + $v(\{1,2\})=18$
++ Notice the joint costs are subadditive.
+
++ Two arrival orders 1,2 and 2,1
+    + 1 then 2: 1's contribution 10, 2's is $18-10=8$.
+    + 2 then 1: 2's contribution 12, 1's is $18-12=6$
+    
+Now average for player 1 is $(10+6)/2 =8$ and player two is $(8+12)/2 = 10$.  
+
+
+## Shapely Observations
+
++ Works when costs are subadditive, natural monopoly style.
++ If costs are super additive or constant returns to scale, then you should not have common or joint costs.
++ Still requires a what-if, least cost alternative plan for each. 
+
+
+## Back to Accounting Style 
+
++ FERC has a well developed Uniform System of Accounts. http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&SID=054f2bfd518f9926aac4b73489f11c67&rgn=div5&view=text&node=18:1.0.1.3.34&idno=18
++ The system of accounts
+    + Keeps the regulated separate from the unregulated.
+    + Helps with the easy to functionalize expenditures, the new transmission line is in the transmission category
++ Requires chooseing a method for non-allocable accounts, for example, accounting costs, office rents, etc.
+    + KN Formula
+    + Massachusetts Formula 
+    + Distrigas Formula
+
+## The Choices
+
++ Kansas Nebraska (KN) -- the ratio of direct labor and capital investment of each division to total direct labor and capital investment. 
++ Massachusetts -- the ratio of direct labor, capital investment and gross revenue of each affiliate to total direct labor, capital investment and gross revenue. 
++ Distrigas --  the ratio of direct labor, capital investment and net operating revenue of each affiliate to total direct labor, capital investment and net operating revenues.
+
+Basically, if the shared costs are accross several corportate entities, use Massachusetts or Distrigas, otherwise KN
+
+## In General
+
+You classify costs three ways
++ Variable: Change with sales
++ Fixed: Uncorrelated with sales
++ Customer: Very direct
