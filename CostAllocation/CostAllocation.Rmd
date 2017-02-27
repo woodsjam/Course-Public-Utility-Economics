@@ -273,22 +273,68 @@ Now average for player 1 is $(10+6)/2 =8$ and player two is $(8+12)/2 = 10$.
 + The system of accounts
     + Keeps the regulated separate from the unregulated.
     + Helps with the easy to functionalize expenditures, the new transmission line is in the transmission category
-+ Requires chooseing a method for non-allocable accounts, for example, accounting costs, office rents, etc.
-    + KN Formula
-    + Massachusetts Formula 
-    + Distrigas Formula
 
-## The Choices
+## In General
 
+You classify costs three ways
+
++ Variable: Change with sales
++ Fixed: Uncorrelated with sales
++ Customer: Very direct
+
+Common and Joint Costs are the hard ones.
+
+For Common Costs (Same thing at same time)
+
++ You need to a good volume index
++ Allocate porportionally
+
+## The Right Volume Index
+
++ A volume index is a generalization of quantity that allows you to measure more than one thing at once.
++ Many volumes have more than one logical volume index, for example a restaurant.
+    + Tops -- Good for wait staff
+    + Plates -- Balance between wait staff and food costs.
+    + Revenue -- Good for food costs
++ Utilities usually use some combination of
+    + Customer counts
+    + Coincident peak, kW.
+    + Volume, kWh.
+    + But will use other similar costs when the right index is unclear: KN, Mass, Distrigas
+
+Allocation is usually porportional with some movement for fairness.
+
+
+## For Hard Joint costs
+
+Non-allocable accounts, for example, accounting costs, office rents, etc.
+ 
 + Kansas Nebraska (KN) -- the ratio of direct labor and capital investment of each division to total direct labor and capital investment. 
 + Massachusetts -- the ratio of direct labor, capital investment and gross revenue of each affiliate to total direct labor, capital investment and gross revenue. 
 + Distrigas --  the ratio of direct labor, capital investment and net operating revenue of each affiliate to total direct labor, capital investment and net operating revenues.
 
 Basically, if the shared costs are accross several corportate entities, use Massachusetts or Distrigas, otherwise KN
 
-## In General
 
-You classify costs three ways
-+ Variable: Change with sales
-+ Fixed: Uncorrelated with sales
-+ Customer: Very direct
+## Management Fees
+
++ These are fees charged to the regulated part of a firm by the unregulated part.
++ This may be an avenue for cross-subsidization.
++ Hedge funds use this mechanism to pull profits out of a firm they took over without pulling profits directly out of the firm.
+
+## Methods
+
+The book gives a few worked examples but the NARUC Electric Utility Cost Allocation Manual (http://pubs.naruc.org/pub/53A20BE2-2354-D714-5109-3999CB7043CE
+) is more comprehensive.  
+
+
+The book focuses on 
+
++ 4-CP which averages the coinciedent peak for four seasons and tries to use this for kW type measures
++ Inverse Load factor, $\frac{maximum ~ use}{average ~ use}$, to say that kW measure should be charged more to those that are more volitile.
++ Equivelent peaker, which, I think, tries to split the difference between the two points of view.
+
+But misses key things like
++ Hourly models
++ Loss of Load Probability Models (LOLP)
+
