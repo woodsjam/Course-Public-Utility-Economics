@@ -31,7 +31,7 @@ The individual:
 
 The System:
 
-+ Look at the system peak, $\sum_{\forall i} \max(kW)$
++ Look at the system peak, $\max_t(\sum_{\forall i} kW_{i,t})$
     + Transmission and generation must be sized for this.
     + You contribute a lot to these costs if you use a lot at that time but little if you don't
 + System Sunk Costs
@@ -335,6 +335,17 @@ The book focuses on
 + Equivalent peaker, which, I think, tries to split the difference between the two points of view.
 
 But misses key things like
+
 + Hourly models
 + Loss of Load Probability Models (LOLP)
 
+
+## On the Board
+
++ Industrial and Residential Annual Load Shapes
++ Peak, Coincident Peak
+    + Periodicity of observation, hourly vs 5min, changes the peak
+    + Breaking the year up into quarters changes it too.
++ Splitting joint and common by coincident peak share.
++ What Shapely has to say about it.
+    + Peak use not just coincident matters.
