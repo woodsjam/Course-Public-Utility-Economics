@@ -7,6 +7,8 @@ output: beamer_presentation
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+options(scipen=999)
+
 ```
 
 
@@ -340,12 +342,289 @@ But misses key things like
 + Loss of Load Probability Models (LOLP)
 
 
-## On the Board
+## Data Used to Allocate Joint/Common Costs
 
-+ Industrial and Residential Annual Load Shapes
-+ Peak, Coincident Peak
-    + Periodicity of observation, hourly vs 5min, changes the peak
-    + Breaking the year up into quarters changes it too.
-+ Splitting joint and common by coincident peak share.
-+ What Shapely has to say about it.
-    + Peak use not just coincident matters.
++ Peak Load (kW) in period
+    + Maximum load in kW in each rate class
+    + Can be at different time than other rate classes.
++ Coincident Peak load (kW) in period
+    + The load at the highest system peak in the period.
+    + Not necessarily the highest load for that class, commercial can be pretty low at the coincident peak if the peak is in the evening
++ Use in period (kWh)
+
+##  Periodicity of Peak Observations
+
++ Some methodologies require peak:
+    + Monthly
+    + Quarterly
+    + Annually
+    
+The monthly and quarterly figures are often averaged but be careful, max and sum do not always work well together.
+
+## Monthly Coincident Peaks for Domestic Service
+
+```{r, message=FALSE, warning=FALSE, include=FALSE}
+Periodicity <- data.frame(Month = 1:12, DOM = c(3887,3863,2669, 2103,2881,3338,4537,4735,4202,2534,3434,4086))
+
+```
+
+```{r}
+library(knitr)
+kable(Periodicity)
+```
+
+Annual peak is `r max(Periodicity$DOM)` and happens in month `r Periodicity$Month[which.max(Periodicity$DOM)]`.  The average of the coincident peaks is `r mean(Periodicity$DOM)`.
+
+## Now Look at Quarterly
+
+
+```{r}
+library(knitr)
+kable(Periodicity[1:3,])
+```
+
+The coincident peak in the first quarter is `r max(Periodicity[1:3,])`.  You can also see the max of the other quarters are `r max(Periodicity[4:6,])`, `r max(Periodicity[7:9,])`, and `r max(Periodicity[10:12,])` respectively.
+
+The average of those four peaks is `r mean(max(Periodicity[1:3,]),max(Periodicity[4:6,]),max(Periodicity[7:9,]),  max(Periodicity[10:12,]) )`.
+
+## Compare those Average Coincident Peaks
+
++ Annual Peak `r max(Periodicity$DOM)`
++ Average of Quarterly Peaks `r mean(max(Periodicity[1:3,]),max(Periodicity[4:6,]),max(Periodicity[7:9,]),  max(Periodicity[10:12,]) )`
++ Average of Monthly Peaks  `r mean(Periodicity$DOM)`
+
+Those are pretty different, but remember all the other rate classes will have similar differences.  The average maximum values decreases as you more finely subdivide the time periods.
+
+## Why Use One or the Other?
+
+Remember your objectives.  You are trying to make sure that the capacity is there so that your have a loss of load probability of 1 day in 10 years.
+
++ Ideal, the demand in the area does not change and you can look the peak day in the last 10 years and say that you can just meet that.
++ But, load changes because industry, population, incomes, installed equipment, etc., all change over time.
++ The common largest unit of analysis is the year but the peak is usually forecasted many years out as part of integrated resource planning.
+
+
+But, do you want to allocate costs based on one hour in a year?
+
++ It could be a very odd hour.
++ Industrial consumers may have done some demand response and shut off equipment.
++ Maybe using more than one hour in a year is a good idea?
+
+
+## Balance Your Risk
+
++ The goal is to get as good an estimate as possible for the share of peak demand for each rate class.
++ More *similar* observations gives greater certainty about that share.
++ If summer and winter shares are similar, averaging them is not a problem.
++ If monthly shares are similar, averaging them is not a problem.
+
+
+## Many Criteria in Common Use
+
++ Use all hours where the demand is within 5% or 10% of annual peak.
++ Use all hours where the loss of load probability (LOLP) is above a certain threshold.
+
+The method will depend on utility and jurisdiction but always keep in mind that the objective is not to estimate the rate classes load at the system peak, but their share of the load when it does peak.
+
+## Warning 1
+
+Make sure all data is from the same frequency, hour, 15-minute, 5-minute data.  Maximum data at higher frequencies, 5-minute in particular is often much higher than hourly frequency.  The lower frequencies are averages of the higher frequencies and averages hide extreme values.
+
+Mercury has a daytime average temp of 800F and a nighttime temperature of -290F and an average of 332F.  If you design your ship for the average, you will be fried or frozen in no time.
+
+## Warning 2
+
+Make sure all your estimates or data come from the same point in the system.
+
++ At the meter
++ At the substation
++ At the generator
+
+There are line losses because of electrical resistance. Line loss increases as temperature increases, which is often when demand is the highest.
+
++ If at meter, there often a topping out of use with increased temperature. $\frac{d}{dt}<0$
++ Often nutral at the substation $\frac{d}{dt}=0$
++ But looks like a positive second dirivative at the generator $\frac{d}{dt}>0$
+
+
+## Worked Examples of Allocation
+
+This is actually from the "Electric Utility Cost Allocation Manual" which uses old SCE data from 1988. Warning, the publication reverses some columns.
+
++ Loads in MW
++ Energy is in millions of kWh
++ NCP is the peak for the customer class.
++ Example is rigged so that the peak of the customer class is not at the system peak.
+
+## System Data
+
+```{r, message=FALSE, warning=FALSE, include=FALSE}
+library(knitr)
+
+AYear <- data.frame(Month = 1:12, SystemkWH = c(5610,5130,5590,5400,5670,5860,6580,6910,6410,6110,5500,5700), SystemCP = c(11074,11126,10716,11178,11779,12726,14453,15379,15842,13032,11337,11705), SystemNCP = c(10520,10570,10180,10620,11190,12090,13730,14610,15050,12380,10770,11120) , CustCP = c(319,315,344,358,403,427,515,520,489,405,336,347), CustNCP = c(337,344,354,361,410,431,524,524,491,405,364,355), CustkWh = c(166,153,179,180,210,215,268,271,246,211,169,181) )
+
+```
+
+
+```{r, echo=FALSE}
+kable(AYear[1:4])
+```
+
+
+
+
+## Data for one rate class
+
+```{r, echo = FALSE}
+kable(AYear[c(1, 5:7)])
+```
+
+
+## Coincident Peak Share (Average Monthly)
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+# library(dplyr)
+# AYear %>% select(Month, SystemCP, CustCP)  -> CP
+
+CP <- AYear[, c("Month", "SystemCP", "CustCP")]
+SumSystem <- sum(AYear$SystemCP)
+SumCust <- sum(AYear$CustCP)
+Share <- SumCust/SumSystem
+
+
+```
+
+
+```{r}
+kable(CP)
+```
+
+
+## Single System Coincident Peak (1CP)
+
++ Find the month with the highest peak and use the system peak and customer coincident peak for that month.
+
+```{r, echo=FALSE}
+kable(CP[which.max(CP$SystemCP),])
+```
+
+
+The customer share of the common/joint costs should be $\frac{489}{15842}= `r 489/15842`$.
+
+
+## Average of 12 Monthly System Coincident Peak (12 CP)
+
++ Note that you are actually using 12 observations in this.
++ Add up the monthly system peaks.  `r sum(CP$SystemCP)`
++ Add the monthly customer peaks, `r sum(CP$CustCP)`
++ Divide and get the share of common/joint costs, `r  sum(CP$CustCP)/sum(CP$SystemCP)`
+
+Note that this is slightly different from the 1CP method, `r 489/15842`.
+
+## Seasonal Coincident Peak (4 CP)
+
++ Add up the system peak in each of the four quarters.
++ Note that this is four observations and not 12 or 1.
++ Add up the monthly customer peaks in the same months as the system peak for each of the four quarters.
++ Divide and get the share of common/joint costs.
+
+
+## Inverse Load Factor
+
++ This is intended to get at the variability of loads.
++ The logic
+    + Highly variable loads, where the peak is high relative to the average, will require greater capacity than a load with the same average and lower peak.
+    + Capacity, the joint/common costs, are driven by peak.
+    + Those with more stable loads can be better served by a baseload plant rather than a baseload and peaker plant.
++ The load factor is the ratio of the average load to the maximum load, $\frac{Avg}{Peak}$
+
+
+Problem is that it does not work when the loads are not on the same scale.
+
+## Inverse Load Factor Steps
+
++ Find the Annual Peak for for each rate class.
++ Find the Average Annual Demand, aMW in PNW parlance.
++ Divide the Peak by average for each class.
++ Find sum of the inverse load factors.
++ Divide each inverse load factor by the sum of the inverse load factors.
+
+```{r, echo=FALSE}
+
+PeakClass <- max(AYear$CustNCP)
+AvgClass <- sum(AYear$CustkWh)*1000/8760
+PeakSystem <- max(AYear$SystemCP)
+AvgSystem <- sum(AYear$SystemkWH)*1000/8760  
+
+PeakOther <-max(AYear$SystemCP- AYear$CustCP)
+AvgOther <-sum(AYear$SystemkWH- AYear$CustkWh)*1000/8760
+
+ClassInvLF <- (PeakClass/AvgClass)
+OtherInvLF <- PeakOther/AvgOther
+SystemInvLF <- PeakSystem/AvgSystem
+
+
+```
+
+## Numerical Example
+
+We don't quite have all the data but we can create a Not-Cust rate class, which is just everyone else.  We create a new peak by subtracting the Cust coincident peak from the system peak and subtract the Cust kWh from the system kWh.
+
++ Data
+    + Peak of Cust is `r PeakClass` MW
+    + aMW for Cust is `r AvgClass` aMW
+    + Peak for Non-Cust is `r PeakOther` MW
+    + aMW for Non-Cust is `r AvgOther` aMW
+
++ Inverse Load Factors
+    + Cust Inverse Load Factor, $\frac{`r PeakClass`}{`r AvgClass`} = `r PeakClass/AvgClass`$ 
+    + Non-Cust Inverse Load Factor, $\frac{`r PeakOther`}{`r AvgOther`} = `r PeakOther/AvgOther`$
+    + Sum of inverse load factors is `r ClassInvLF+OtherInvLF` 
+
+Share for Cust is `r ClassInvLF/(ClassInvLF+ OtherInvLF)`.  See what I mean.  
+
+
+## Shapely Approach
+
++ Find the annual peak.
++ Then find what the annual peak would be with only one customer type.
++ Then with all pairwise combinations
++ Then three way and so on.
++ Once you have that data, which is significant, you need full year load shapes.
+    + Simulate having the customer types enter in random order.
+    + Find the new concident peak as each customer type enters.
+    + Find how that customer adds to that peak.
+    + Average for each customer type all their contributions to peak load.
+    
+## Shapely Example
+
++ We divide the system into two parts, the customer and Non-Cust, just like in the inverse load factor.
++ Data
+    + Peak of Cust is `r PeakClass` MW.  This is the NC peak and is in a different month than coincident peak
+    + Peak for Non-Cust is `r PeakOther` MW, which is in the same period as the coincident peak.
+    + System peak, `r PeakSystem`
+
+Note the difference between the sum of the two peaks and the system peak is small even though the cust peak is in a different month.
+
+## Shapely Calculations
+
++ Cust First
+    + Cust adds, `r PeakClass`, to the load
+    + Non-Cust enters the load goes up by (System Peak - Cust Peak) = `r PeakSystem - PeakClass`.
++ Non-Cust First
+    + Non-Cust adds, `r PeakOther`
+    + When Cust enters the load goes up by (System Peak - Non-Cust Peak) = `r PeakSystem - PeakOther`.
+    
++ The average contribution to the load is then for
+    + Cust $(`r PeakClass` +`r PeakSystem - PeakOther`)/2 = `r ( PeakClass + PeakSystem - PeakOther)/2`$ 
+    + Non-Cust $(`r PeakOther` +`r PeakSystem - PeakClass`)/2 = `r ( PeakOther + PeakSystem - PeakClass)/2`$
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+
+CustShapely <- (PeakClass + PeakSystem - PeakOther)/2 
+OtherShapely <-(PeakOther + PeakSystem - PeakClass)/2 
+
+```
+
+
+Cust share is then $\frac{`r CustShapely`}{`r CustShapely` + `r OtherShapely`} = `r CustShapely/(CustShapely + OtherShapely)`$
