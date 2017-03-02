@@ -443,8 +443,8 @@ Make sure all your estimates or data come from the same point in the system.
 There are line losses because of electrical resistance. Line loss increases as temperature increases, which is often when demand is the highest.
 
 + If at meter, there often a topping out of use with increased temperature. $\frac{d}{dt}<0$
-+ Often nutral at the substation $\frac{d}{dt}=0$
-+ But looks like a positive second dirivative at the generator $\frac{d}{dt}>0$
++ Often neutral at the substation $\frac{d}{dt}=0$
++ But looks like a positive second derivative at the generator $\frac{d}{dt}>0$
 
 
 ## Worked Examples of Allocation
@@ -548,7 +548,7 @@ The Cust Class share is then just ratio of the sum of these coincident peaks, $\
 + The logic
     + Highly variable loads, where the peak is high relative to the average, will require greater capacity than a load with the same average and lower peak.
     + Capacity, the joint/common costs, are driven by peak.
-    + Those with more stable loads can be better served by a baseload plant rather than a baseload and peaker plant.
+    + Those with more stable loads can be better served by a base load plant rather than a base load and peaker plant.
 + The load factor is the ratio of the average load to the maximum load, $\frac{Avg}{Peak}$
 
 
@@ -605,10 +605,14 @@ Share for Cust is `r ClassInvLF/(ClassInvLF+ OtherInvLF)`.  See what I mean.
 + Then three way and so on.
 + Once you have that data, which is significant, you need full year load shapes.
     + Simulate having the customer types enter in random order.
-    + Find the new concident peak as each customer type enters.
+    + Find the new coincident peak as each customer type enters.
     + Find how that customer adds to that peak.
     + Average for each customer type all their contributions to peak load.
     
+    
+There is a longer explanation here http://stats.lib.pdx.edu/proxy.php?url=https://www.jstor.org/stable/2490320
+
+
 ## Shapely Example
 
 + We divide the system into two parts, the customer and Non-Cust, just like in the inverse load factor.
@@ -650,3 +654,5 @@ Cust share is then $\frac{`r CustShapely`}{`r CustShapely` + `r OtherShapely`} =
 + 4 CP : `r sum(Season$CustCP)/sum(Season$SystemCP)`
 + Inverse Load Factor : `r ClassInvLF/(ClassInvLF+ OtherInvLF)` !!!!!
 + Shapely : `r CustShapely/(CustShapely + OtherShapely)`
+
+I think 
