@@ -330,7 +330,7 @@ The book gives a few worked examples but the NARUC Electric Utility Cost Allocat
 ) is more comprehensive.  
 
 
-The book focuses on 
+The book mentions 
 
 + 4-CP which averages the coincident peak for four seasons and tries to use this for kW type measures
 + Inverse Load factor, $\frac{maximum ~ use}{average ~ use}$, to say that kW measure should be charged more to those that are more volatile.
@@ -528,6 +528,19 @@ Note that this is slightly different from the 1CP method, `r 489/15842`.
 + Add up the monthly customer peaks in the same months as the system peak for each of the four quarters.
 + Divide and get the share of common/joint costs.
 
+## 4 CP Calculations
+
+The system peaks in the four seasons are in months 2,6,9,10.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+Season <- AYear[c(2,6,9,10),c("Month","SystemCP","CustCP")]
+kable(AYear[c(2,6,9,10),c("Month","SystemCP","CustCP")])
+```
+
+The Cust Class share is then just ratio of the sum of these coincident peaks, $\frac{`r sum(Season$CustCP)`}{`r sum(Season$SystemCP)`} = `r sum(Season$CustCP)/sum(Season$SystemCP)`$
+
+
+
 
 ## Inverse Load Factor
 
@@ -571,7 +584,7 @@ SystemInvLF <- PeakSystem/AvgSystem
 We don't quite have all the data but we can create a Not-Cust rate class, which is just everyone else.  We create a new peak by subtracting the Cust coincident peak from the system peak and subtract the Cust kWh from the system kWh.
 
 + Data
-    + Peak of Cust is `r PeakClass` MW
+    + Peak of Cust is `r PeakClass` MW.  This is the non-coincident peak which is slightly higher than the coincident peak.
     + aMW for Cust is `r AvgClass` aMW
     + Peak for Non-Cust is `r PeakOther` MW
     + aMW for Non-Cust is `r AvgOther` aMW
@@ -628,3 +641,12 @@ OtherShapely <-(PeakOther + PeakSystem - PeakClass)/2
 
 
 Cust share is then $\frac{`r CustShapely`}{`r CustShapely` + `r OtherShapely`} = `r CustShapely/(CustShapely + OtherShapely)`$
+
+
+## Summary of Load Shares
+
++ 1 CP  : `r 489/15842`
++ 12 CP : `r  sum(CP$CustCP)/sum(CP$SystemCP)`
++ 4 CP : `r sum(Season$CustCP)/sum(Season$SystemCP)`
++ Inverse Load Factor : `r ClassInvLF/(ClassInvLF+ OtherInvLF)` !!!!!
++ Shapely : `r CustShapely/(CustShapely + OtherShapely)`
