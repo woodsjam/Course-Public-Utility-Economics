@@ -385,7 +385,7 @@ kable(Periodicity[1:3,])
 
 The coincident peak in the first quarter is `r max(Periodicity[1:3,])`.  You can also see the max of the other quarters are `r max(Periodicity[4:6,])`, `r max(Periodicity[7:9,])`, and `r max(Periodicity[10:12,])` respectively.
 
-The average of those four peaks is `r mean(max(Periodicity[1:3,]),max(Periodicity[4:6,]),max(Periodicity[7:9,]),  max(Periodicity[10:12,]) )`.
+The average of those four peaks is `r mean(c(max(Periodicity[1:3,]),max(Periodicity[4:6,]),max(Periodicity[7:9,]),  max(Periodicity[10:12,])) )`.
 
 ## Compare those Average Coincident Peaks
 
@@ -442,9 +442,9 @@ Make sure all your estimates or data come from the same point in the system.
 
 There are line losses because of electrical resistance. Line loss increases as temperature increases, which is often when demand is the highest.
 
-+ If at meter, there often a topping out of use with increased temperature. $\frac{d}{dt}<0$
-+ Often neutral at the substation $\frac{d}{dt}=0$
-+ But looks like a positive second derivative at the generator $\frac{d}{dt}>0$
++ If at meter, there often a topping out of use with increased temperature. $\frac{d^2}{dt^2}<0$
++ Often neutral at the substation $\frac{d^2}{dt^2}=0$
++ But looks like a positive second derivative at the generator $\frac{d^2}{dt^2}>0$
 
 
 ## Worked Examples of Allocation
