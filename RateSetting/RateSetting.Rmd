@@ -210,6 +210,15 @@ How to fix this, pick a base temp without looking and stick with it.  Easier and
 http://www.sciencedirect.com.proxy.lib.pdx.edu/science/article/pii/S014098831400139X
 
 
+## Main Points of the Paper
+
++ Stop guessing setpoints and stop scanning for setpoints
++ Either way, you are going to cause persistent under and over prediction for weather driven use.
++ Errors-in-variables 
+    + Simple with one variable, just attenuation effect.
+    + With two variables that are correlated, the attenuation pushes off each other biasing one value up and the other down.
+    + It _tends_ to increase apparant precision of estimates.
+
 ## Heat Buildup and Other Effects
 
 + Loads at the beginning of a heat wave are typically lower than loads later even when the temperature is the same.
@@ -219,26 +228,116 @@ http://www.sciencedirect.com.proxy.lib.pdx.edu/science/article/pii/S014098831400
 + You often put in a lagged CDD and HDD in your model $kWh = \alpha + \beta_1 CDD + \beta_2 HDD  + \beta_3 L(CDD) + g(X)$
 + or even polynomial lags $kWh = \alpha + \beta_1 CDD + \beta_2 HDD + \beta_3 \sum \gamma^n L^n HDD +  g(X)$ and estimate the weight of the lag, $\gamma$. 
 
-<!-- # library("lubridate") -->
-<!-- # res_all$date_time <- ymd_hm( -->
-<!-- #   sprintf("%s %s", as.character(res_all$date), res_all$time) -->
-<!-- # ) -->
-<!-- # ## remove 999's -->
-<!-- # res_all <- res_all %>% filter(temperature < 900) -->
-<!-- # ## plot -->
-<!-- # library("ggplot2") -->
-<!-- # ggplot(res_all, aes(date_time, temperature)) + -->
-<!-- #   geom_line() + -->
-<!-- #   facet_wrap(~usaf_station, scales = "free_x") -->
-<!-- #  -->
-<!-- # # print progress -->
-<!-- # (res <- isd(usaf="011690", wban="99999", year=1993, progress=TRUE)) -->
+## For the Metrics Crowd  
+
+There is a lot of autocorrelation or a lot of misspecified models or a lot of people that want to avoid talking about autocorrelation.
+
++ Often misspecification looks like autocorrelation.
++ Once people learn that they correct for autocorrelation they forget.
+
+## Example of False Autocorrelation
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+FakeAuto <- data.frame(X = rnorm(200 , mean = 50, sd = 15))
+FakeAuto$Y <- (FakeAuto$X-50)^2 + rnorm(200, sd = 100)
+
+library(ggplot2)
+library(dplyr)
+FakeAuto %>% ggplot(aes(X,Y)) + geom_point()+ geom_smooth(method='lm')
+
+```
+
+## Why?
+
++ Simple specifications are easy to use
+    + "How much does this go up by with a 2C increase in average temp?"
+    + "What is the elasticity?" 
++ People know how to fix autocorrelation.
++ Often people don't fix autocorrelation because it hurts their argument.
+    + Correcting for autocorrelation reduces the precision of estimates.
+    + Turns p > .95 into p >.7 prety quickly.
++ Non-technical people often have unreasonable standards or rules of thumb for econometric models.  
+    + They treat low significance as the fault of the analysist.
+    + All the tricks in the world can't fix a weak relationship and noisy data.
+
+## Weather Normalization
+
+There are two distinct weather normalizatin techniques in use.
+
++ First Meaning and correct use
+    + Form a statistical model of load or energy use that depends on weather $y=f(Weather, X) + \epsilon$
+    + Estimate the model, $\hat f(Weather, X)$
+    + Use the average weather, commonly some kind of 30-year average to forecast what load or use would be for a typical weather year.
+    + $\hat y = \hat f (\bar{Weather}, \bar X)$
+    + This is a simple regression based forecast.
+
+## Why do this?
+
++ If you hold equipment constant, energy use is a combination of weather and behavior.
++ You may have behavior that reduces use but it could be overwhelmed by weather, example Winter 16-17.
++ Allows you to hold weather constant
+
+
+## The second, bad way
+
+Use the normalized load and weather in a second model ...
+
++ Remember how "estimate" means different things to engineers and statisticians or economists?
++ They use normalized values as exogenous, i.e., RHS,  variables in other models.
+    + These have lower variance, if original model was correct, than the actual variables.
+    + Is kind of like 2SLS without the variance correction.
++ They use normalized values as endogenous, i.e., LHS, variables.
+    + This is like trying to construct a model that is a good fit for the forecasts of a different model.
+    + Artificially more precise estimates.
+
+https://drive.google.com/file/d/0B2gPTwcA567qaF9pX0YwSkRqVlk/view?usp=sharing
+
+
+## A Few Notes On Peak Esimation
+
+There are a few common methodologies for estimating peak load.
+
++ *Peak Data* :Simple regression of monthly peaks on exogenouse variables, i.e., just restrict the data.
++ *Simulate* :All data used in a load model but when forecasting bootstrap the error and find the distribution of the maximum load in year.
++ *Quantile regression*
+
+## Peak Data
+
++ Most common technique
++ Last seen in an IRP
++ Most common problem is that it assumes that the error terms are symetric.
+    + Remember that the peak load is not just extream values for exogenous variables
+    + High values for the error term.
++ Probably should be estimated with a frontier but with negative skew --  not positive skew.
+
+## Simulate
+
++ Much less common
++ Model all loads.
++ Forecast future values
++ Bootstrap the errors from the original model and add to forecasts.
+    + Means drawing, with replacement, a new set of error terms from the one you have.
+    + Add these error terms, which have mean zero, to get a new forecast.
+    + Find the maximum value in a year.
+    + Repeat to get the sampling distribution for the maximum value in a year.
+    
+## Simulate (Cont)
+
++ This is how I did it until quantile regression became practical in about 2005.
++ BTW Bootstrapping is a great technique to learn.
+
+"When the math gets too hard, bootstrap."
+
+## Quantile Regression
+
++ Prefered tool but has not hit the PUC level yet.
++ Idea
+    + OLS finds a line that has half the probability above and below the line.
+    + Quantile allows you to choose how much probability mass is above and below the line.
++ You can litterally say, given known weather, we expect the load to be below x, 90% of the time.
 
 
 
-<!-- ## -->
-
-<!-- + What is weather normalization? -->
 
 <!-- ## About Economic Drivers -->
 
