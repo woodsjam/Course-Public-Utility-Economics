@@ -22,8 +22,8 @@ knitr::opts_chunk$set(echo = FALSE)
 + Two-Part
 + Decreasing block tariff
 + Increasing block tariff
-+ Peak pricing
-+ TOU
++ Peak/TOU pricing
++ Real-Time
 
 The big question?  What do you mean by marginal cost.
 
@@ -212,12 +212,12 @@ http://www.sciencedirect.com.proxy.lib.pdx.edu/science/article/pii/S014098831400
 
 ## Main Points of the Paper
 
-+ Stop guessing setpoints and stop scanning for setpoints
++ Stop guessing set-points and stop scanning for set-points
 + Either way, you are going to cause persistent under and over prediction for weather driven use.
 + Errors-in-variables 
     + Simple with one variable, just attenuation effect.
     + With two variables that are correlated, the attenuation pushes off each other biasing one value up and the other down.
-    + It _tends_ to increase apparant precision of estimates.
+    + It _tends_ to increase apparent precision of estimates.
 
 ## Heat Buildup and Other Effects
 
@@ -255,14 +255,14 @@ FakeAuto %>% ggplot(aes(X,Y)) + geom_point()+ geom_smooth(method='lm')
 + People know how to fix autocorrelation.
 + Often people don't fix autocorrelation because it hurts their argument.
     + Correcting for autocorrelation reduces the precision of estimates.
-    + Turns p > .95 into p >.7 prety quickly.
+    + Turns p > .95 into p >.7 pretty quickly.
 + Non-technical people often have unreasonable standards or rules of thumb for econometric models.  
-    + They treat low significance as the fault of the analysist.
+    + They treat low significance as the fault of the analyst.
     + All the tricks in the world can't fix a weak relationship and noisy data.
 
 ## Weather Normalization
 
-There are two distinct weather normalizatin techniques in use.
+There are two distinct weather normalization techniques in use.
 
 + First Meaning and correct use
     + Form a statistical model of load or energy use that depends on weather $y=f(Weather, X) + \epsilon$
@@ -297,7 +297,7 @@ https://drive.google.com/file/d/0B2gPTwcA567qaF9pX0YwSkRqVlk/view?usp=sharing
 
 There are a few common methodologies for estimating peak load.
 
-+ *Peak Data* :Simple regression of monthly peaks on exogenouse variables, i.e., just restrict the data.
++ *Peak Data* :Simple regression of monthly peaks on exogenous variables, i.e., just restrict the data.
 + *Simulate* :All data used in a load model but when forecasting bootstrap the error and find the distribution of the maximum load in year.
 + *Quantile regression*
 
@@ -305,8 +305,8 @@ There are a few common methodologies for estimating peak load.
 
 + Most common technique
 + Last seen in an IRP
-+ Most common problem is that it assumes that the error terms are symetric.
-    + Remember that the peak load is not just extream values for exogenous variables
++ Most common problem is that it assumes that the error terms are symmetric.
+    + Remember that the peak load is not just extreme values for exogenous variables
     + High values for the error term.
 + Probably should be estimated with a frontier but with negative skew --  not positive skew.
 
@@ -330,37 +330,102 @@ There are a few common methodologies for estimating peak load.
 
 ## Quantile Regression
 
-+ Prefered tool but has not hit the PUC level yet.
++ Preferred tool but has not hit the PUC level yet.
 + Idea
     + OLS finds a line that has half the probability above and below the line.
     + Quantile allows you to choose how much probability mass is above and below the line.
-+ You can litterally say, given known weather, we expect the load to be below x, 90% of the time.
-
-
-
-
-<!-- ## About Economic Drivers -->
-
-<!-- + Price -->
-<!-- + Income -->
++ You can literally say, given known weather, we expect the load to be below x, 90% of the time.
++ No assumption that the quantile lines are parallel
 
 <!-- ## Appliance Surveys -->
 
 <!-- + Endogenaity problems -->
 <!-- + Multicolinearity problems -->
 
-<!-- ## kWh Methodology from Historical -->
+## Tariff Background
 
-<!-- + Heat waves -->
-<!-- + Humidity -->
-<!-- + Wind -->
-<!-- + Seasonality -->
-<!-- + Multiple reactions to weather depending on fuel mix. -->
++ The ideal is to charge the marginal cost.
+    + Efficient use
+    + Minimizes dead weight loss
++ Marginal cost is different:
+    + Every moment of every day of the year
+    + Every customer
++ Tariffs, except for real-time tariffs, lump these moments together and treat them as if they are the same.
++ Tariffs need to be designed as close to marginal cost as possible while:
+    + Being easy to understand and predict for consumer
+    + Allowing for collection of the revenue requirement
 
-<!-- ## Peak Estimation Methodology -->
+## Why Fixed Rates Cause a Problem
 
-<!-- + Peaks only data -->
-<!-- + Quantile regression -->
++ With fixed rate
++ When low demand, there is under use and DWL
++ When high demand, there is over use and DWL
 
+## Real-Time Tariff
 
++ Fixed cost per month
++ Marginal cost of electricity changes hourly
+    + Usually by day-ahead wholesale market -- so you have warning.
+    + Caps may be in place.
++ Most common in Industrial and Commercial but rare in Residential
+    + You see them when there is greater capacity to react.
+    + When the demands are more elastic
+    + When they have generation capability
++ If you have an inelastic demand, the suppler has power
 
+## RT Tariff in the real world
+
++ Attractive to risk tolerant, higher elasticity consumers
++ Residential consumers do peak shave, 2% or so is a normal estimation.
++ Don't time shift -- in the US.
+    + Using timers is not part of US culture.
+    + Not built into US equipment
++ It is like prices per kWh doesn't matter but price per month does.
+
+https://www-sciencedirect-com.proxy.lib.pdx.edu/science/article/pii/S092876551100042X
+
+## Peak/TOU 
+
++ More predictable than RT
++ Still tries to collect attributable cost in each timer period
+    + This is probably a mistake if you want shifting and not just peak reduction.
++ DWL is smaller.
++ Peaks are still shaved
++ Smart thermostats will pre-cool and heat. (https://nest.com/support/article/What-happens-during-a-Summer-or-Winter-Rush-Hour)
+
+## Block Tariffs
+
++ Block tariffs, different prices depending on use are the most common in the US.
++ DBT
+    + Tries to mimic scale effects, lower AC as quantity increases.
+    + As if all loads were correlated with each other
++ IBT
+    + Tries to encourage conservation
+    + Often intended to help the poor.
+
+## IBT
+
++ High CS for low use.
++ Fixed cost collected at higher use.
++ Intended to help the poor?
+    + What if there is an what if larger families have lower income?
+    + https://censusreporter.org/data/table/?table=B19019&geo_ids=04000US41&primary_geo_id=04000US41
+
+## DBT
+
++ CS is more even over use
++ Fixed cost collected at lower use
+
+## Life-line or Low-Income Tarrifs
+
++ The "on average" fix of IBT is only partially right.
++ We tend to avoid direct income support in the US
++ Lower prices for the poor is an acceptable second-best solution.
+    + We do it all the time.
+    + Rents, fuel, education, ..., even the Romans did it.
++ May not increase total CS but
+    + CS assumes a that each person is the same.
+    + All gains to one person is the same as equal gains for all.
+    + Lower price for poor, weights them more highly.
++ Wait, why lower prices for students and the elderly?
+    + More elastic demand because more flexibility.
