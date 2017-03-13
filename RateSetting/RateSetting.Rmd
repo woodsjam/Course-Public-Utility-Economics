@@ -125,7 +125,7 @@ There are variables about gusts, clouds and other weather.  Except for dew point
 ## The techniques (Scan Over Setpoints)
 
 + Set up a load equation with 
-$$L_i = \alpha + \beta_1 (b-T_i)I(b-T_i>0) + \beta_2(T_i -b)I(T_i -b) + g(X_i)$$
+$$L_i = \alpha + \beta_1 (b-T_i)I(b-T_i>0) + \beta_2(T_i -b)I(T_i -b>0) + g(X_i)$$
     
     + $b$ is the set-point
     + $T$ is the temperature
@@ -233,7 +233,7 @@ http://www.sciencedirect.com.proxy.lib.pdx.edu/science/article/pii/S014098831400
 There is a lot of autocorrelation or a lot of misspecified models or a lot of people that want to avoid talking about autocorrelation.
 
 + Often misspecification looks like autocorrelation.
-+ Once people learn that they correct for autocorrelation they forget.
++ Once people learn that, they correct for autocorrelation they forget.
 
 ## Example of False Autocorrelation
 
@@ -337,10 +337,49 @@ There are a few common methodologies for estimating peak load.
 + You can literally say, given known weather, we expect the load to be below x, 90% of the time.
 + No assumption that the quantile lines are parallel
 
-<!-- ## Appliance Surveys -->
+## Bottom Up Estimates
 
-<!-- + Endogenaity problems -->
-<!-- + Multicolinearity problems -->
++ This usually uses survey data
+    + RECS https://www.eia.gov/consumption/residential/
+    + CBECS https://www.eia.gov/consumption/commercial/
+    + MECS https://www.eia.gov/consumption/manufacturing/
++ State Do it Too
+    + California RASS
+    + Oregon does a few of these
+
+
+## Pattern
+
++ Survey http://www.energy.ca.gov/2010publications/CEC-200-2010-004/CEC-200-2010-004-AP.PDF (Page 7)
++ Engineers take the data and form Unit Energy Consumption (UEC) estimates by specific end uses.
+    + These UECs are usually annual kWh (3412 BTU) measures but you will also see them combined with Therms (100K BTU) for gas and BTU for total energy use.
+    + Lots of assumptions need to be made for these estimates.
++ These estimates are then compared to statistical estimates of actual use, or
+    + NAC (Normalized Annual Consumption), the adjustment I warned you about.
+    + They create a statistically adjusted engineering model (SAE)
++ Everyone gets to use these numbers to estimate use given estimates of changes in the number of consumers.
+
+## Problems? Plenty
+
++ endogeneity
+    + The choice of tenure (Own/Rent) and structure type is not independent of race and ethnicity but treated like it it.
+    + Conference paper with a student https://github.com/woodsjam/EnergyEthnicity/blob/master/ConferencePaper/DraftEdwardsWoods.pdf
+    + Housing market discrimination probably has something to do with use patterns.
+
++ multicollinearity
+    + Explanatory variables are correlated.
+    + They share explanatory power
+    + Messes up parameter estimates and variances are too high but forecasts are still good.
+    + https://s3.amazonaws.com/woodsjworking/DraftConferncePaper.pdf (Pages 18-19)
+
+##  More Problems
+
++ Statistically Adjusted Engineering Models
+    + Predict a real value with an engineering estimate and an intercept.
+    + $Real = \alpha + \beta Estimate + \epsilon$
+    + If the engineering estimate is good, $\alpha=0$ and $\beta=1$.
+    + Didn't work for California http://www.energy.ca.gov/2010publications/CEC-200-2010-004/CEC-200-2010-004-V1.PDF (Page 129 or 143)
+    + Better than previous RASS when they didn't notice that there was a problem.
 
 ## Tariff Background
 
@@ -402,6 +441,8 @@ https://www-sciencedirect-com.proxy.lib.pdx.edu/science/article/pii/S09287655110
 + IBT
     + Tries to encourage conservation
     + Often intended to help the poor.
+
+Please keep in mind that this is all price discrimination, either second or third degree.
 
 ## IBT
 
