@@ -1,5 +1,5 @@
 ---
-title: "Syllabus EC437/537 Winter 2017"
+title: "Syllabus EC437/537 Winter 2018"
 author: "James Woods"
 date: ""
 output: pdf_document
@@ -116,6 +116,33 @@ Each topic has some readings that both undergraduates and graduate students will
         
 + Optional Topics
     + Lesser & Giacchino, Ch 9-13
+
+<!-- Readings from slides -->
++ Cost Measurement
+    + Lesser & Giacchino, Ch 5
+    + Oregon Public Utility Commission, "Regulation of Water Utility Rates and Service" http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf
+    + Example Disallowance, Trojan: Public Utility Commisson of Oregon Order 95-322 http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
+    + Example Disallowance, Rolling Hills: Public Utility Commisson of Oregon Order 08-548 https://apps.puc.state.or.us/orders/2008ords/08-548.pdf
+    + Malko, J. Robert, and Robert Skinner. "Selecting a Capital Structure for a Regulated Electric Utility: Some Issues and Directions." The Electricity Journal 24.7 (2011): 49-56. http://stats.lib.pdx.edu/proxy.php?url=http://www.sciencedirect.com/science/article/pii/S1040619011001722
+    + Add a few Behavioral finance readings here. ( Monday Effect, French (1980); January Effect, Roll(1983); Firm Size, Banz(1981)
+    ; Mean Reversion, DeBondt and Thaler (1985);Momentum, Jegadeesh (1990))
+    + Sample FERC Case:  156 FERC 61,234 (2016) https://www.ferc.gov/CalendarFiles/20160928194709-EL14-12-002.pdf
+    + Quasi-Experimental Methods Reading (CEM, Propensity score, NN, Kernel)
+    + CAPM and Variations Reading (Without risk-free rate, Black (1972)
+; Lifetime consumption, Merton (1973)
+; Dividends, taxes, Brennan (1970)
+; Foreign exchange, Solnik (1974)
+; Inflation, Long (1974))
+
++ Cost Allocation
+    + Clarke Pivot reading
+    + Shapely Value reading
+    + Uniform System of Acounts, 18 CFER Part 101 https://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&SID=054f2bfd518f9926aac4b73489f11c67&rgn=div5&view=text&node=18:1.0.1.3.34&idno=18
+    + Electric Utility Cost Allocation Manual, . National Association
+of Regulatory Utility Commissioners (1992) http://pubs.naruc.org/pub/53A20BE2-2354-D714-5109-3999CB7043CE
+    + Roth, Alvin E., and Robert E. Verrecchia. "The Shapley value as applied to cost allocation: a reinterpretation." Journal of Accounting Research (1979): 295-303. http://stats.lib.pdx.edu/proxy.php?url=https://www.jstor.org/stable/2490320
+  
+
 
 # Other Rules
 
