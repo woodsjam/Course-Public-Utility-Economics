@@ -74,7 +74,7 @@ End Result:  Feds decide they need to so something and Create Interstate Commerc
     
 + Many cases over the years, moving the line on what can and can not be regulated.
 
-##Different interpretations depending on
+## Different interpretations depending on
 
   + Due process clause (5th and 14th amendment) "No person shall ... be deprived of life, liberty, or property, without due process of law"
   + Commerce Clause (Art 1, sec 8, clause 3) "to regulate commerce with foreign nations, and among the several states, and with the Indian tribes."
