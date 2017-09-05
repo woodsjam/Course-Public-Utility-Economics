@@ -1,6 +1,0 @@
-+ New Issues in Energy Markets
-  + Keay, Malcolm (2016) Electricity markets are broken – can
-they be fixed? OIES PAPER: EL 17 https://www.oxfordenergy.org/wpcms/wp-content/uploads/2016/02/Electricity-markets-are-broken-can-they-be-fixed-EL-17.pdf
-+ Spectrum Rights
-  + McAfee, R. Preston, and John McMillan. "Analyzing the airwaves auction." The Journal of Economic Perspectives 10.1 (1996): 159-175.http://www.jstor.org.proxy.lib.pdx.edu/stable/2138289?seq=1#page_scan_tab_contents
-  + McMillan, John. "Selling spectrum rights." The Journal of Economic Perspectives 8.3 (1994): 145-162. http://www.jstor.org.proxy.lib.pdx.edu/stable/2138224?seq=1#page_scan_tab_contents
