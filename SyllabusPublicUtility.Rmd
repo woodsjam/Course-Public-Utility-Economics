@@ -16,7 +16,7 @@ The official description of the course is:
 
 > Examines the rationale, economic principles, and institutions of historic economic regulation. Contemporary theory of the firm and microeconomic pricing are analyzed. Technological changes suggest that to achieve economic efficiency it may no longer be necessary or appropriate to subject energy and telecommunications firms to traditional utility regulation. There is academic enthusiasm for displacing economic regulation with competition. Deregulation and restructuring are explored with emphasis on contemporary issues in Oregon, the Pacific Northwest, and the nation. In particular, difficulties in transformation to the marketplace will be examined. Expert guest lecturers from the utility and regulatory communities will be scheduled, and contemporary scholarly literature will be reviewed. Recommended: Ec 201, 202. 
 
-This is the second time I have tought this course. There will be changes from previous terms with  official changes in description and prerequisites during this year.  
+This is the second time I have taught this course. There will be changes from previous terms with  official changes in description and prerequisites during this year.  
 
 This is a companion course to EC 438/538 which will address the development of energy markets. The order of the courses has changed to reflect the evolving nature of the field.
 
@@ -57,7 +57,7 @@ This text will be supplemented with journal articles and books available electro
 
 # Assessments and Grade Policy
 
-Your grade in the class will be based on your performance on homework assignments, two exams, and two issue papers on a regulatory topic.  
+Your grade in the class will be based on your performance on homework assignments and two exams.  
 
 + Final Exam (30%)
 + Midterm  (30%)
@@ -77,9 +77,9 @@ Because of the resources available, the exams will be *considerably* more diffic
 
 # Topics and Readings
 
-Do not let this section alarm you.  We will only address part of this outline in the class. As with most of my upper-division courses, we will complete a small subset at the start of the class and then vote on each succeeding topic. Each topic will have an assignment, usually working with real data or using a model from the readings.
+Do not let this section alarm you.  We will only address part of this outline in the class. As with most of my upper-division courses, we will complete a small subset at the start of the class and then vote on each succeeding topic. 
 
-Each topic has some readings that both undergraduates and graduate students will read and some that are specific to each. I will be adding topics and supplementary readings throughout the term.
+Each topic has some readings that both undergraduates and graduate students will read and some that are specific to each. I will be adding topics and supplementary readings throughout the term.  Except for the books, this reading list should be considered incomplete.
 
 
 + Cost Theory Basis Regulation
@@ -98,10 +98,10 @@ Each topic has some readings that both undergraduates and graduate students will
         + Becker, Gary S. “A Theory of Competition Among Pressure Groups for Political Influence.” The Quarterly Journal of Economics, vol. 98, no. 3, 1983, pp. 371–400.https://www-jstor-org.proxy.lib.pdx.edu/stable/1886017.
 
 + Introduction to Electricity and Natural Gas
-    + Lesser & Giacchino, Ch 1 (Good read on the history of gas and electic regulation)
+    + Lesser & Giacchino, Ch 1 (Good read on the history of gas and electric regulation)
     + Natural Monopoly Regulation and Electric Power,  Ch 12, Viscusi, et al (2005)
     + Economic Regulation of Energy, Ch 18, Viscusi, et al (2005)
-    + Lesser & Giacchino, Ch 3 (More electicity specific details on Costs.)
+    + Lesser & Giacchino, Ch 3 (More electricity specific details on Costs.)
     
 + Franchise Bidding, Dynamics and Deregulation
     + Franchise Bidding and Cable Television, Ch 13, Viscusi, et al (2005)
@@ -116,23 +116,13 @@ Each topic has some readings that both undergraduates and graduate students will
 + Cost Measurement
     + Lesser & Giacchino, Ch 5
     + Oregon Public Utility Commission, "Regulation of Water Utility Rates and Service" http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf
-    + Example Disallowance, Trojan: Public Utility Commisson of Oregon Order 95-322 http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
-    + Example Disallowance, Rolling Hills: Public Utility Commisson of Oregon Order 08-548 https://apps.puc.state.or.us/orders/2008ords/08-548.pdf
+    + Example Disallowance, Trojan: Public Utility Commission of Oregon Order 95-322 http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
+    + Example Disallowance, Rolling Hills: Public Utility Commission of Oregon Order 08-548 https://apps.puc.state.or.us/orders/2008ords/08-548.pdf
     + Malko, J. Robert, and Robert Skinner. "Selecting a Capital Structure for a Regulated Electric Utility: Some Issues and Directions." The Electricity Journal 24.7 (2011): 49-56. http://stats.lib.pdx.edu/proxy.php?url=http://www.sciencedirect.com/science/article/pii/S1040619011001722
-    + Add a few Behavioral finance readings here. ( Monday Effect, French (1980); January Effect, Roll(1983); Firm Size, Banz(1981)
-    ; Mean Reversion, DeBondt and Thaler (1985);Momentum, Jegadeesh (1990))
     + Sample FERC Case:  156 FERC 61,234 (2016) https://www.ferc.gov/CalendarFiles/20160928194709-EL14-12-002.pdf
-    + Quasi-Experimental Methods Reading (CEM, Propensity score, NN, Kernel)
-    + CAPM and Variations Reading (Without risk-free rate, Black (1972)
-; Lifetime consumption, Merton (1973)
-; Dividends, taxes, Brennan (1970)
-; Foreign exchange, Solnik (1974)
-; Inflation, Long (1974))
 
 + Cost Allocation
-    + Clarke Pivot reading
-    + Shapely Value reading
-    + Uniform System of Acounts, 18 CFER Part 101 https://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&SID=054f2bfd518f9926aac4b73489f11c67&rgn=div5&view=text&node=18:1.0.1.3.34&idno=18
+    + Uniform System of Accounts, 18 CFER Part 101 https://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&SID=054f2bfd518f9926aac4b73489f11c67&rgn=div5&view=text&node=18:1.0.1.3.34&idno=18
     + Electric Utility Cost Allocation Manual, . National Association
 of Regulatory Utility Commissioners (1992) http://pubs.naruc.org/pub/53A20BE2-2354-D714-5109-3999CB7043CE
     + Roth, Alvin E., and Robert E. Verrecchia. "The Shapley value as applied to cost allocation: a reinterpretation." Journal of Accounting Research (1979): 295-303. http://stats.lib.pdx.edu/proxy.php?url=https://www.jstor.org/stable/2490320
@@ -155,6 +145,7 @@ Resources in the Annual Energy Outlook 2017 https://www.eia.gov/outlooks/aeo/pdf
     + Efficiency and Technical Progress, Ch 19-21, Viscusi, et al (2005)
 
 + Current Topics in Cap and Trade
+    + Oregon legislation will drop on the first day of class.
 
 # Other Rules
 

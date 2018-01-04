@@ -1,0 +1,128 @@
+---
+title: "Public Utility Economics"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# Plan for the Day
+
++ Walk through the syllabus
++ Walk through tools and resources
++ Take a pre-test
++ Talk a little about microeconomics as time permits
+
+# Syllabus
+
+You can find the syllabus here. (https://github.com/woodsjam/Course-Public-Utility-Economics/blob/Winter2018/SyllabusPublicUtility.Rmd)
+
+Almost all the slides will also be on github. (https://github.com/woodsjam/Course-Public-Utility-Economics/tree/Winter2018)
+
++ Download them before each class if you like but they are not a substitute for coming to class.
+
+
+# Course Description
+
+> Examines the rationale, economic principles, and institutions of historic economic regulation. Contemporary theory of the firm and microeconomic pricing are analyzed. Technological changes suggest that to achieve economic efficiency it may no longer be necessary or appropriate to subject energy and telecommunications firms to traditional utility regulation. There is academic enthusiasm for displacing economic regulation with competition. Deregulation and restructuring are explored with emphasis on contemporary issues in Oregon, the Pacific Northwest, and the nation. In particular, difficulties in transformation to the marketplace will be examined. Expert guest lecturers from the utility and regulatory communities will be scheduled, and contemporary scholarly literature will be reviewed. Recommended: Ec 201, 202.
+
+# Description
+
++ This was the description from when Mike Katz was teaching the class.
++ It is being changed.
+
++ Fundimental problem is preparation
+    + Undergraduate Students
+        + Typically had 201 or 311 but not econometrics
+        + Often the 311 skills  are pretty weak.
+    + Graduate Students
+        + Typically have no background in economics
+        + May have very strong math skills -- if they come from engineering.
+
+Solution is to teach the microeconomics and econometrics needed to understand the material  -- but no more than that.
+
+# Key Dates
+
+
++ Midterm: Feb 8th
++ Final Exam: March 20th, 10:15 am-12:05
+
+There will be no class on January the 18th.  I will be at WWU giving a seminar and recruiting for our masters program.
+
+# Contact Information
+
++ My office is in CH 241-O.
++ Drop in office hours are Thursday 12:00-1:00  through the last week of class. There is no need to make an appointment for these hours -- just come.
++ If you can’t attend regular office hours, please check my calendar https://goo.gl/6vGvMF. I will make a limited number of 20 minute slots available each week. If you make an appointment and fail to show up without first canceling, I will penalize your final exam score two points. 
+
+Meetings can be via phone or even the hangout function in your pdx.edu email.
+
+I will also keep Slack up during office hours to answer questions.
+
+# Slack
+
+I avoid email since it is a trash heap and a constant distraction.
+
++ The class will use slack https://utilityeconwinter18.slack.com
++ Handles direct messages, forum style responses.
++ You should be able to sign up with your pdx.edu account
++ Can access via webpage, apps in Android and iOS.
+
+# Hints on Slack
+
++ Prefer #general to direct messaging me.
+    + Questions about course material is for #general
+    + Questions about your grade or anything private is for @jamie woods
++ Provide full text of the question you are working on.
+
+In short, make it easy for someone to help you.
+
++ Rants and bellyaching put you at the bottom of the queue or off the queue.
++ Night before the exam?  You are on your own.
++ Set Do Not Disturb times.
+    + Defaults to 10pm -8am
+    + You may miss notification of class cancellation.
+
+# Textbook and Other Resources
+
+The main text for the course is Lesser, Johnathan A. & Leonardo R. Giacchino. Fundamentals of Energy Regulation, ed 2. Public Utilities Fortnightly, 2013.
+
++ Other material will be available through the libary.  
++ Links are in the syllabus including the other textbook.
+
+# Assessments and Grade Policy
+
+Your grade in the class will be based on your performance on homework assignments and two exams.  
+
++ Final Exam (30%)
++ Midterm  (30%)
++ Homework (40%)
+
+# Homework
+
++ Equally weighted. 
++ 0-2 scale with 1 being the most common grade, 2 being exceptional and zero possible for substandard work.
++ Homework may also take the form of an in-class presentation on a course topic.
+
+# Exams
+
++ Open book and open note.  No electronic resources are allowed. 
++ I will bring copies of the textbooks  for you to consult.
++ Some questions will be computational and some will require essays.
+
+# Question from Last Year
+
+1. Suppose a utility has an old, 1910, coal generating plant that is on the historical registry. There are a few like this in real life. Given the cases and regulatory laws you have seen, which of the following actions would be allowed and why.
+    + Convert the building from a generator to a substation.
+    + Knock down the building a replace it with a modern Combined Cycle Natural Gas plant.
+    + The city could seize it, without compensation, for public use as part of a museum.
+    
+# Lets try the Pre-Test
+
++ We are going to do this one question at a time.
++ Brief answers will be given today
++ Will guide how much microtheory we do in class.
+
+        
