@@ -91,7 +91,7 @@ Each topic has some readings that both undergraduates and graduate students will
     + Theory of Natural Monopoly. Ch 10, Viscusi, et al (2005)
     + Public Enterprise. Ch 14, Viscusi, et al (2005)
     + History of Regulation
-        + Posner, Richard A. “Theories of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 5, no. 2, 1974, pp. 335–358. JSTOR, https://www-jstor-org.proxy.lib.pdx.edu/3003113.
+        + Posner, Richard A. “Theories of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 5, no. 2, 1974, pp. 335–358. JSTOR, https://www-jstor-org.proxy.lib.pdx.edu/stable/3003113
         + Stigler, George J. “The Theory of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 2, no. 1, 1971, pp. 3–21 (https://www-jstor-org.proxy.lib.pdx.edu/stable/3003160)
         + Peltzman, Sam. "Toward a more general theory of regulation." The Journal of Law and Economics 19.2 (1976): 211-240. https://www.jstor.org/stable/725163
         + Becker, Gary. “Toward a More General Theory of Regulation.” The Journal of Law & Economics, vol. 19, no. 2, 1976, pp. 245–248. https://www-jstor-org.proxy.lib.pdx.edu/stable/725165
