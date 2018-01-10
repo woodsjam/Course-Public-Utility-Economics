@@ -1,0 +1,176 @@
+---
+title: "Syllabus EC437/537 Winter 2018"
+author: "James Woods"
+date: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Course Description
+
+The official description of the course is:
+
+> Examines the rationale, economic principles, and institutions of historic economic regulation. Contemporary theory of the firm and microeconomic pricing are analyzed. Technological changes suggest that to achieve economic efficiency it may no longer be necessary or appropriate to subject energy and telecommunications firms to traditional utility regulation. There is academic enthusiasm for displacing economic regulation with competition. Deregulation and restructuring are explored with emphasis on contemporary issues in Oregon, the Pacific Northwest, and the nation. In particular, difficulties in transformation to the marketplace will be examined. Expert guest lecturers from the utility and regulatory communities will be scheduled, and contemporary scholarly literature will be reviewed. Recommended: Ec 201, 202. 
+
+This is the second time I have taught this course. There will be changes from previous terms with  official changes in description and prerequisites during this year.  
+
+This is a companion course to EC 438/538 which will address the development of energy markets. The order of the courses has changed to reflect the evolving nature of the field.
+
+## Prerequisites
+
+The undergraduate section has only the introductory economics courses listed as prerequisites.  The graduate section requires only graduate standing.  
+
+As with most economics courses, the more background you bring to the class, the more get from the class.  For this class, it means bringing a background in microeconomic theory and econometrics.  
+
+Not all students will have a background in both and many of the graduate students from outside of economics will have neither.  Any technical skills that students are missing will be supplemented with in-class tutorials and homework assignments. The goal is to fill in the blanks that make learning on your own difficult.
+
+## Key Dates
+
++ Midterm: Feb 8th
++ Final Exam: March 20th, 10:15 am-12:05
+
+# Contact Information
+
+Communication will be handled through slack https://utilityeconwinter18.slack.com. You should have received an invitation, if not just go to that URL and use your @pdx.edu email to sign up. There are reasonable help documents to get you started. https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users
+
+Slack will be used for IM, email and forum style communication.  It even handles phone calls. If you have a question about course material or the course itself, ask in one of the channels. If you have a personal message that is not intended for others, send a direct message.
+
+Please note that I am not online all the time and when I am online I will prioritize well phrased questions with sufficient detail.  I tend to ignore general complaints, questions that can be answered by reading the syllabus or using the search bar.  
+
+Office Hours:
++ My office is in CH 241-O.
++ Drop in office hours are Thursday 12:00-1:00  through the last week of class. There is no need to make an appointment for these hours -- just come.
++ If you can’t attend regular office hours, please check my calendar https://goo.gl/6vGvMF. I will make a limited number of 20 minute slots available each week. If you make an appointment and fail to show up without first canceling, I will penalize your final exam score two points.  
+
+Office hours for the teaching assistant will be posted on slack after the first week of class.  We will also post some hours where we will available interactively on slack.
+
+
+# Textbook and Other Resources
+
+The main text for the course is Lesser, Johnathan A. & Leonardo R. Giacchino. Fundamentals of Energy Regulation, ed 2. Public Utilities Fortnightly, 2013. It was chosen with undergraduates, and the previous focus on electricity, in mind and illustrates many of the concepts they learned in EC 311/415. 
+
+This text will be supplemented with journal articles and books available electronically through the library.
+
+# Assessments and Grade Policy
+
+Your grade in the class will be based on your performance on homework assignments and two exams.  
+
++ Final Exam (30%)
++ Midterm  (30%)
++ Homework (40%)
+
+## Homework
+
+There will be several assignments over the term.  All will be equally weighted and are intended to be completed by an individual and turned into D2L. They will be graded on a 0-2 scale with 1 being the most common grade, 2 being exceptional and zero possible for substandard work. Simply turning in something does not automatically warrant a grade of 1.
+
+Homework may also take the form of an in-class presentation on a course topic.
+
+## Exams
+
+Exams are open book and open note.  No electronic resources are allowed. If you want to bring electronic reserve material please bring your own printed copies.  Note that there is a limitation on the number of pages from the "Economics of Regulation and Antitrust" text that can be printed by each student. 
+
+Because of the resources available, the exams will be *considerably* more difficult than the typical closed note and book exam.  Please prepare accordingly. 
+
+# Topics and Readings
+
+Do not let this section alarm you.  We will only address part of this outline in the class. As with most of my upper-division courses, we will complete a small subset at the start of the class and then vote on each succeeding topic. 
+
+Each topic has some readings that both undergraduates and graduate students will read and some that are specific to each. I will be adding topics and supplementary readings throughout the term.  Except for the books, this reading list should be considered incomplete.
+
+
++ Cost Theory Basis Regulation
+    + Introduction. Ch 11, Viscusi, W. Kip, Joseph E. Harrington, and John M. Vernon. Economics of regulation and antitrust. MIT press, 2005. http://search.library.pdx.edu/PSU:psu_library:CP71189149050001451     
+    + Lesser & Giacchino, Ch 2 (More small details on electricity than Viscusi and simpler theory)
+
++ Regulation and Public Enterprise
+    + Efficiency and Technical Progress, Ch 4, Viscusi, et al (2005)
+    + Theory of Natural Monopoly. Ch 10, Viscusi, et al (2005)
+    + Public Enterprise. Ch 14, Viscusi, et al (2005)
+    + History of Regulation
+        + Posner, Richard A. “Theories of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 5, no. 2, 1974, pp. 335–358. JSTOR, https://www-jstor-org.proxy.lib.pdx.edu/stable/3003113
+        + Stigler, George J. “The Theory of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 2, no. 1, 1971, pp. 3–21 (https://www-jstor-org.proxy.lib.pdx.edu/stable/3003160)
+        + Peltzman, Sam. "Toward a more general theory of regulation." The Journal of Law and Economics 19.2 (1976): 211-240. https://www.jstor.org/stable/725163
+        + Becker, Gary. “Toward a More General Theory of Regulation.” The Journal of Law & Economics, vol. 19, no. 2, 1976, pp. 245–248. https://www-jstor-org.proxy.lib.pdx.edu/stable/725165
+        + Becker, Gary S. “A Theory of Competition Among Pressure Groups for Political Influence.” The Quarterly Journal of Economics, vol. 98, no. 3, 1983, pp. 371–400.https://www-jstor-org.proxy.lib.pdx.edu/stable/1886017.
+
++ Introduction to Electricity and Natural Gas
+    + Lesser & Giacchino, Ch 1 (Good read on the history of gas and electric regulation)
+    + Natural Monopoly Regulation and Electric Power,  Ch 12, Viscusi, et al (2005)
+    + Economic Regulation of Energy, Ch 18, Viscusi, et al (2005)
+    + Lesser & Giacchino, Ch 3 (More electricity specific details on Costs.)
+    
++ Franchise Bidding, Dynamics and Deregulation
+    + Franchise Bidding and Cable Television, Ch 13, Viscusi, et al (2005)
+    + Dynamic Issues in Natural Monopoly Regulation, Ch 15, Viscusi, et al (2005)
+    + Economic Regulation of Transportation, Ch 17, Viscusi, et al (2005)
+    + Lesser & Giacchino, Ch 4
+
++ Deep Dive on Electricity
+    + Lesser & Giacchino, Ch 5, 6
+    + Lesser & Giacchino, Ch 7, 8
+        
++ Cost Measurement
+    + Lesser & Giacchino, Ch 5
+    + Oregon Public Utility Commission, "Regulation of Water Utility Rates and Service" http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf
+    + Example Disallowance, Trojan: Public Utility Commission of Oregon Order 95-322 http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
+    + Example Disallowance, Rolling Hills: Public Utility Commission of Oregon Order 08-548 https://apps.puc.state.or.us/orders/2008ords/08-548.pdf
+    + Malko, J. Robert, and Robert Skinner. "Selecting a Capital Structure for a Regulated Electric Utility: Some Issues and Directions." The Electricity Journal 24.7 (2011): 49-56. http://stats.lib.pdx.edu/proxy.php?url=http://www.sciencedirect.com/science/article/pii/S1040619011001722
+    + Sample FERC Case:  156 FERC 61,234 (2016) https://www.ferc.gov/CalendarFiles/20160928194709-EL14-12-002.pdf
+
++ Cost Allocation
+    + Uniform System of Accounts, 18 CFER Part 101 https://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&SID=054f2bfd518f9926aac4b73489f11c67&rgn=div5&view=text&node=18:1.0.1.3.34&idno=18
+    + Electric Utility Cost Allocation Manual, . National Association
+of Regulatory Utility Commissioners (1992) http://pubs.naruc.org/pub/53A20BE2-2354-D714-5109-3999CB7043CE
+    + Roth, Alvin E., and Robert E. Verrecchia. "The Shapley value as applied to cost allocation: a reinterpretation." Journal of Accounting Research (1979): 295-303. http://stats.lib.pdx.edu/proxy.php?url=https://www.jstor.org/stable/2490320
+  
++ Intro to Gas and Electricity
+    +  Levelized Cost and Levelized Avoided Cost of New Generation
+Resources in the Annual Energy Outlook 2017 https://www.eia.gov/outlooks/aeo/pdf/electricity_generation.pdf
+
++ Forecasting
+    + Li, Z., A. S. Hurn, and A. E. Clements. "Forecasting quantiles of day-ahead electricity load." Energy Economics 67 (2017): 60-71. http://stats.lib.pdx.edu/proxy.php?url=https://www.sciencedirect.com/science/article/pii/S014098831730258X
+    + Woods, James, and Cody Fuller. "Estimating base temperatures in econometric models that include degree days." Energy Economics 45 (2014): 166-171. http://stats.lib.pdx.edu/proxy.php?url=http://www.sciencedirect.com/science/article/pii/S014098831400139X
+
++ Rate setting
+    + Allcott, Hunt. "Rethinking real-time electricity pricing." Resource and energy economics 33.4 (2011): 820-842. https://www-sciencedirect-com.proxy.lib.pdx.edu/science/article/pii/S092876551100042X
+    
++ Optional Topics
+    + Lesser & Giacchino, Ch 9-13
+    
++ Environmental Regulation
+    + Efficiency and Technical Progress, Ch 19-21, Viscusi, et al (2005)
+
++ Current Topics in Cap and Trade
+    + Oregon legislation will drop on the first day of class.
+
+# Other Rules
+
++ Begging for grades will result in an immediate lowering of your course grade by a full letter grade.
+  
++ When completing assignments *The work must be authentically and genuinely your own or group. In other words, if you are copying answers you found online, it is not your work.*
+  
++ Go to office hours at the first sign of trouble -- not as a last resort.
+
++ In this classroom, we support and value diversity.  To do so requires that we:
+
+    + Respect the dignity and essential worth of all individuals
+    + Promote a culture of respect toward all individuals
+    + Respect the privacy, property, and freedom of others
+    + Reject bigotry, discrimination, violence, or intimidation of any kind
+    + Practice personal and academic integrity and expect it from others
+    + Promote the diversity of opinions, ideas, and backgrounds, which is the lifeblood of a university
+
+   For additional information, please see the Office of Affirmative Action \& Equal Opportunity at http://www.pdx.edu/diversity/affirmative-action.
+
++ Accommodations are collaborative efforts between students, faculty, and the Disability Resource Center.  If you have a documented disability and require accommodation, you must arrange to meet with the course instructor prior to or within the first week of the term.  The documentation of your disability must come in writing from the Disability Resource Center (Faculty letter).  Students who believe they are eligible for accommodations but who have not yet obtained approval through the DRC should contact the DRC immediately.  Reasonable and appropriate accommodations will be provided for students with documented disabilities.  For more information on the Disability Resource Center, please see http://www.drc.pdx.edu. 
+
++ Academic honesty is expected and required of students enrolled in this course.  Suspected academic dishonesty in this course will be handled according to the procedures set out in the Student Code of Conduct.
+
++ I am sympathetic to family emergencies but you must inform me as soon as possible. If the notice is verbal, please email me with your understanding of our agreement. All agreements have to be in writing.
+
+Link to this syllabus https://github.com/woodsjam/Course-Public-Utility-Economics. Check branch for this term.
+

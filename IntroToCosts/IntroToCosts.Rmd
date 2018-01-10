@@ -275,7 +275,7 @@ Cash Flow Statement:
 
 ## Taxes
 
-+ This seems simple, Taxes are an expense,so , pass the expense on to the consumer.
++ This seems simple, Taxes are an expense, so ,pass the expense on to the consumer.
 + But ...
     + Tax depreciation is different than regulatory depreciation
     + Tax savings is front loaded in MACRS.
