@@ -23,13 +23,13 @@ knitr::opts_chunk$set(echo = FALSE)
 # Natural Gas
 
 ## Where is it produced? Just conventional
-![](http://dualstack.prod-http-80-test-412114078.us-east-1.elb.amazonaws.com/w/images/1/13/EIA-conventional-gas.pdf)
+![](EIA-conventional-gas.pdf)
 
 ## More in the shale areas.
-![](https://www.eia.gov/todayinenergy/images/2015.04.17/main.png)
+![https://www.eia.gov/todayinenergy/images/2015.04.17/main.png](main.png)
 
 ## How do you move it within the US? Pipelines (Interstate only).
-![](https://www.eia.gov/pub/oil_gas/natural_gas/analysis_publications/ngpipeline/images/dependstates.gif)
+![https://www.eia.gov/pub/oil_gas/natural_gas/analysis_publications/ngpipeline/images/dependstates.gif](Interstate.png)
 
 ## What about those pipelines?
 + There are more intrastate pipelines than shown, plenty in TX and CA but also other states
@@ -44,15 +44,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Compressors
 
-![](https://stateimpact.npr.org/pennsylvania/files/2014/08/Compressor2-620x410.jpg)
+![](Compressor2-620x410.jpg)
 
 ## Compressor Station
 
-![](http://www.gdacoalition.org/GDAC_Images/CompressorStation1.JPG)
+![](CompressorStation1.JPG)
 
 ## Storage is important
 
-![](https://www.eia.gov/todayinenergy/images/2015.11.16/chart3.png)
+![](chart3.png)
 
 ## Most Storage is just old gas wells
 
@@ -67,11 +67,11 @@ There is a weekly report on storage by EIA http://www.eia.gov/dnav/ng/hist/nw2_e
 
 
 ## Hubs, where transactions are made
-![](https://www.eia.gov/pub/oil_gas/natural_gas/analysis_publications/ngpipeline/images/MarketCenterHubsMap.gif)
+![](Hubs.png)
 
 ## Part of Henry Hub LA
 
-![](http://www.2b1stconsulting.com/wp-content/uploads/2012/05/Henry-Hub-Picture.jpg)
+![](Henry-Hub-Picture.jpg)
 
 ## Getting to Prices
 + You will see wellhead prices, but
@@ -443,7 +443,7 @@ With all cost estimates the key conceptual problem is to only look at incrementa
 
 
 + Example:  Maintenance expenditures of $100 a year forever. What is the value of skipping a year?
-    + $PW(Maintance) = \frac{100}{i}$ At i = 10% this is `r 100/.1`.
+    + $PW(Maintenance) = \frac{100}{i}$ At i = 10% this is `r 100/.1`.
     + Delay for 1 year is $\frac{\frac{100}{i}}{1+i}$. This is `r round((100/.1)/1.1,2)`. 
     + The difference is the savings.
 
@@ -470,7 +470,7 @@ With all cost estimates the key conceptual problem is to only look at incrementa
     + If you have no special needs and need to pay full cost of fuel.
     + If you have 'Free' access to fuel, e.g., wood chips, AC of DG is lower.
     + If power quality or interruption is not what is desired, AC of utility power is higher.
-    + If you face a Peek, Time of Use or Demand Charge.
+    + If you face a Peak, Time of Use or Demand Charge.
     + More complicated diagrams can be made but this works.
 
     
@@ -500,18 +500,12 @@ Please note that lots of power quality issues need to be solved on the D side, w
 
 ## What is going on NOW
 
-By NOW I mean in the last three months.  Comments are rough because it is all very new.
 
 + Proposed rule for virtual power plants, though not by that name, as well as new definitions so DER can participate at the wholesale level. (Nov 17, 2016)
     + https://www.ferc.gov/whats-new/comm-meet/2016/111716/E-1.pdf
     + CAISO has had them for a few years http://www.caiso.com/Documents/Non-GeneratorResourceRegulationEnergyManagementImplementationPlan.pdf
 + New York is on the topic too. (Oct 27th, 2016) http://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={59B620E6-87C4-4C80-8BEC-E15BB6E0545E}
 
-## The FERC NOPR is *very* political  
-
-+ Appears timed to be in place before the FERC board turn over.
-+ There is a procedure for rule making that involves months of notice and hearings.
-+ Undoing requires doing this again.
 
 ##  The FERC Proposal
 
@@ -624,7 +618,6 @@ wholesale LMP.
 + Smaller than most ISO/RTO, CAISO is low with 10kW
 + 100kW puts high-end Teslas on the list.
 + 100kWh Powerpack, at $145K, with $52K inverter buys in.
-+ Most DER is under this but with the aggregation rules, may not be an issue.
 
 
 ## No Arbitrage Rule or is it?
