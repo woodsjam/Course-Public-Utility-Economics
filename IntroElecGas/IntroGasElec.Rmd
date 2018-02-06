@@ -325,7 +325,7 @@ So, you spin a turbine
 ## Wind
 
 + You find a good wind resource NREL Class 3 and up (http://www.nrel.gov/gis/wind_detail.html)
-+ Put up a suitably rated 1.5MW windmill. 8MW is the largest I've hear about.
++ Put up a suitably rated 2.5–3 MW windmill (Larger over time). 8MW is the largest I've hear about.
 + Maintain them, upgrade them and if need be demo them.
 
 + What people complain about
