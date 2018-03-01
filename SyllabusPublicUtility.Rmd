@@ -103,16 +103,6 @@ Each topic has some readings that both undergraduates and graduate students will
     + Economic Regulation of Energy, Ch 18, Viscusi, et al (2005)
     + Lesser & Giacchino, Ch 3 (More electricity specific details on Costs.)
     
-+ Franchise Bidding, Dynamics and Deregulation
-    + Franchise Bidding and Cable Television, Ch 13, Viscusi, et al (2005)
-    + Dynamic Issues in Natural Monopoly Regulation, Ch 15, Viscusi, et al (2005)
-    + Economic Regulation of Transportation, Ch 17, Viscusi, et al (2005)
-    + Lesser & Giacchino, Ch 4
-
-+ Deep Dive on Electricity
-    + Lesser & Giacchino, Ch 5, 6
-    + Lesser & Giacchino, Ch 7, 8
-        
 + Cost Measurement
     + Lesser & Giacchino, Ch 5
     + Oregon Public Utility Commission, "Regulation of Water Utility Rates and Service" http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf
@@ -120,32 +110,45 @@ Each topic has some readings that both undergraduates and graduate students will
     + Example Disallowance, Rolling Hills: Public Utility Commission of Oregon Order 08-548 https://apps.puc.state.or.us/orders/2008ords/08-548.pdf
     + Malko, J. Robert, and Robert Skinner. "Selecting a Capital Structure for a Regulated Electric Utility: Some Issues and Directions." The Electricity Journal 24.7 (2011): 49-56. http://stats.lib.pdx.edu/proxy.php?url=http://www.sciencedirect.com/science/article/pii/S1040619011001722
     + Sample FERC Case:  156 FERC 61,234 (2016) https://www.ferc.gov/CalendarFiles/20160928194709-EL14-12-002.pdf
+    
 
 + Cost Allocation
+    + Lesser & Giacchino, Ch 6
     + Uniform System of Accounts, 18 CFER Part 101 https://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&SID=054f2bfd518f9926aac4b73489f11c67&rgn=div5&view=text&node=18:1.0.1.3.34&idno=18
-    + Electric Utility Cost Allocation Manual, . National Association
+    + Electric Utility Cost Allocation Manual, National Association
 of Regulatory Utility Commissioners (1992) http://pubs.naruc.org/pub/53A20BE2-2354-D714-5109-3999CB7043CE
     + Roth, Alvin E., and Robert E. Verrecchia. "The Shapley value as applied to cost allocation: a reinterpretation." Journal of Accounting Research (1979): 295-303. http://stats.lib.pdx.edu/proxy.php?url=https://www.jstor.org/stable/2490320
   
-+ Intro to Gas and Electricity
-    +  Levelized Cost and Levelized Avoided Cost of New Generation
-Resources in the Annual Energy Outlook 2017 https://www.eia.gov/outlooks/aeo/pdf/electricity_generation.pdf
-
-+ Forecasting
-    + Li, Z., A. S. Hurn, and A. E. Clements. "Forecasting quantiles of day-ahead electricity load." Energy Economics 67 (2017): 60-71. http://stats.lib.pdx.edu/proxy.php?url=https://www.sciencedirect.com/science/article/pii/S014098831730258X
-    + Woods, James, and Cody Fuller. "Estimating base temperatures in econometric models that include degree days." Energy Economics 45 (2014): 166-171. http://stats.lib.pdx.edu/proxy.php?url=http://www.sciencedirect.com/science/article/pii/S014098831400139X
 
 + Rate setting
+    + Lesser & Giacchino, Ch 7
     + Allcott, Hunt. "Rethinking real-time electricity pricing." Resource and energy economics 33.4 (2011): 820-842. https://www-sciencedirect-com.proxy.lib.pdx.edu/science/article/pii/S092876551100042X
-    
-+ Optional Topics
-    + Lesser & Giacchino, Ch 9-13
     
 + Environmental Regulation
     + Efficiency and Technical Progress, Ch 19-21, Viscusi, et al (2005)
 
 + Current Topics in Cap and Trade
     + Oregon legislation will drop on the first day of class.
+
+
++ Franchise Bidding, Dynamics and Deregulation
+    + Franchise Bidding and Cable Television, Ch 13, Viscusi, et al (2005)
+    + Dynamic Issues in Natural Monopoly Regulation, Ch 15, Viscusi, et al (2005)
+    + Economic Regulation of Transportation, Ch 17, Viscusi, et al (2005)
+    + Lesser & Giacchino, Ch 4
+
+<!-- + Intro to Gas and Electricity -->
+<!--     +  Levelized Cost and Levelized Avoided Cost of New Generation -->
+<!-- Resources in the Annual Energy Outlook 2017 https://www.eia.gov/outlooks/aeo/pdf/electricity_generation.pdf -->
+
+<!-- + Forecasting -->
+<!--     + Li, Z., A. S. Hurn, and A. E. Clements. "Forecasting quantiles of day-ahead electricity load." Energy Economics 67 (2017): 60-71. http://stats.lib.pdx.edu/proxy.php?url=https://www.sciencedirect.com/science/article/pii/S014098831730258X -->
+<!--     + Woods, James, and Cody Fuller. "Estimating base temperatures in econometric models that include degree days." Energy Economics 45 (2014): 166-171. http://stats.lib.pdx.edu/proxy.php?url=http://www.sciencedirect.com/science/article/pii/S014098831400139X -->
+
+
+<!-- + Optional Topics -->
+<!--     + Lesser & Giacchino, Ch 9-13 -->
+
 
 # Other Rules
 

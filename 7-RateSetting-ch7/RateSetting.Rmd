@@ -1,7 +1,7 @@
 ---
 title: "Rate Setting"
 author: "James Woods"
-date: "3/3/2017"
+date: ""
 output: beamer_presentation
 ---
 
@@ -309,6 +309,7 @@ There are a few common methodologies for estimating peak load.
     + Remember that the peak load is not just extreme values for exogenous variables
     + High values for the error term.
 + Probably should be estimated with a frontier but with negative skew --  not positive skew.
++ Better use a quantile regression model
 
 ## Simulate
 
@@ -361,12 +362,12 @@ There are a few common methodologies for estimating peak load.
 
 ## Problems? Plenty
 
-+ endogeneity
++ Endogeneity
     + The choice of tenure (Own/Rent) and structure type is not independent of race and ethnicity but treated like it it.
     + Conference paper with a student https://github.com/woodsjam/EnergyEthnicity/blob/master/ConferencePaper/DraftEdwardsWoods.pdf
     + Housing market discrimination probably has something to do with use patterns.
 
-+ multicollinearity
++ Multicollinearity
     + Explanatory variables are correlated.
     + They share explanatory power
     + Messes up parameter estimates and variances are too high but forecasts are still good.
@@ -399,6 +400,10 @@ There are a few common methodologies for estimating peak load.
 + With fixed rate
 + When low demand, there is under use and DWL
 + When high demand, there is over use and DWL
+
+## Fixed Rate (Figure)
+
+![](OnePrice.png)
 
 ## Real-Time Tariff
 
@@ -444,6 +449,12 @@ https://www-sciencedirect-com.proxy.lib.pdx.edu/science/article/pii/S09287655110
 
 Please keep in mind that this is all price discrimination, either second or third degree.
 
+## Price Discrimination Terminology
+
++ 1st degree: Personal prices
++ 2nd degree: Different products (Menu pricing)
++ 3rd degree: Different groups (Student discounts)
+
 ## IBT
 
 + High CS for low use.
@@ -451,11 +462,22 @@ Please keep in mind that this is all price discrimination, either second or thir
 + Intended to help the poor?
     + What if there is an what if larger families have lower income?
     + https://censusreporter.org/data/table/?table=B19019&geo_ids=04000US41&primary_geo_id=04000US41
+    
+## IBT Diagram
+
+![](IBT.png)
+    
+    
 
 ## DBT
 
 + CS is more even over use
 + Fixed cost collected at lower use
+
+## DBT Diagram
+
+![](DBT.png)
+
 
 ## Life-line or Low-Income Tarrifs
 

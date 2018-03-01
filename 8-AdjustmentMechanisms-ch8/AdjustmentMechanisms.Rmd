@@ -1,0 +1,23 @@
+---
+title: "Adjustment Mechanisms"
+author: "James Woods"
+date: ""
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Some Problems with Rate Setting
+
++ Rate of return regulation is periodic
+    + Either the utility or the PUC can start a new rate case
+    + PUC if profits seem high
+    + Utility if profits seem low
++ Usually 3-5 years between -- called "regulatory lag".
++ This may limit incentives to make cost reducing investments.
++ May cause wide swings in regulated prices (Fuel prices changing)
+
+## How Regulatory Lag can Make Utilities more Efficient
+

@@ -12,6 +12,16 @@ options(scipen=999)
 ```
 
 
+## Goals
+
++ Background on how economists think about allocating costs.  
+    + Efficiency in the sense of paying your incremental costs, the Clarke Pivot Rule
+    + Sharing costs in a coalition in a way that seems fair, the Shapley Value
++ This will look odd
++ How  PUCs look at allocating costs
+    + These will look very sane, but
+    + Give incentives for some parties to leave the coalition, find a new service provider.
+    + May be statistically dubious, depending on just a few, even one, hour over a year.
 
 ## Abstraction of Costs
 
@@ -53,7 +63,7 @@ Note that many of these costs are shared, like a public good, or that the action
 ## The Regulatory Allocation Mechanisms
 
 + Often approximate a rules from mechanism design called the Clarke Pivot Rule and cooperative game theory called the Shapely Value.
-+ Both try to get at incremental cost
++ Both try to get at incremental cost of a person or group
 + The rules have many advantages but there are problems.
 + Most of the pure econ material does not address time, much in the same way the "equivalent peaker" methodology ignores time.
 
@@ -73,7 +83,7 @@ The general pattern is:
 
 + Agents report the value of all the choices.
 + The mechanism then chooses the choice that maximizes social welfare.
-+ Gives everyone identical money equal to the value of the *other* agents combined.
++ Gives/Takes depending on the effect on other people.
 
 The trick is figuring out how to implement the last step.
 
@@ -87,7 +97,7 @@ The idea is to align the individual incentives with social welfare.
 
 ## The Clarke Pivot Rule
 
-This is step 4.
+This is step 3.
 
 Charge the player the difference between social welfare if they didn't exist and social welfare when they exist.
 
@@ -101,22 +111,6 @@ Charge the player the difference between social welfare if they didn't exist and
 + This does induce people to be truthful about their valuations, but beyond the scope of the course.
 + Rarely, do the bids yield exactly the right revenue.
 + Accounting style cost splitting is a special case.  Only when there is no change in the social choice.
-
-## Clarke Pivot
-
-+ Do we get a painting with cost $20?
-+ Two agents, A, B with true benefits of, ${6,10}$.
-
-+ A
-    + With A, the value to the others is $6+10 =16$.
-    + Without A, the value of the painting is still $20, the avoided cost.
-    + A is charged $4.
-+ B
-    + With B, the value to the others is still $16.
-    + Without B, the value of the painting is still the avoided costs, $20.
-    + B is charged $4.
-    
-We sell the painting and give the money back.
 
 ## Clarke Pivot Example 1
 
@@ -205,7 +199,6 @@ Raises enough to pay for the painting and everyone pays their personal benefit s
 + Pivotal players are treated the same.
 
 + Implies that even when you get the right metric, peak, coincident peak, volumetric, etc., that proportional sharing of costs is not always right.
-    + It does work when the individual or group does not pivotal and induce the need for more infrastructure.
 
 + Most efficient systems will fail on a fairness criteria.
 
@@ -218,24 +211,23 @@ The Shapley Value comes from cooperative game theory. It is a unique way of dist
 + Linear: You can subdivide the coalition and the system still works.
 
 
-## Obligatory formula 
+<!-- ## Obligatory formula  -->
 
-The amount that player i gets, $\phi_i(v)$, is some function of what they all produce together, $v$. 
+<!-- The amount that player i gets, $\phi_i(v)$, is some function of what they all produce together, $v$.  -->
 
-$$\phi_i(v)=\sum_{S \subseteq N \setminus
-\{i\}} \frac{|S|!\; (n-|S|-1)!}{n!}(v(S\cup\{i\})-v(S))$$
+<!-- $$\phi_i(v)=\sum_{S \subseteq N \setminus -->
+<!-- \{i\}} \frac{|S|!\; (n-|S|-1)!}{n!}(v(S\cup\{i\})-v(S))$$ -->
 
 
 
-Ignore this. The math notation gets in the way.
+<!-- Ignore this. The math notation gets in the way. -->
 
 ## Shapely Intuition
 
-+ You have a bunch of players that will cooperate with each other.
++ You have a bunch of players that will cooperate with each other but can threaten to break up the team.
 + They join the team in random order.
 + When they join they demand $(v(S\cup\{i\})-v(S))$ which is the benefit to the coalition of them joining.
-+ Each individual gets the average from all possible orderings, which is what the $\sum_{S \subseteq N \setminus
-\{i\}} \frac{|S|!\; (n-|S|-1)!}{n!}$ term does.
++ Each individual gets the average from all possible orderings of joining the team.
 
 
 ## What Does This Have to Do with Costs 
@@ -268,6 +260,18 @@ Now average for player 1 is $(10+6)/2 =8$ and player two is $(8+12)/2 = 10$.
 + If costs are super additive or constant returns to scale, then you should not have common or joint costs.
 + Still requires a what-if, least cost alternative plan for each. 
 
+
+## Summary
+
++ The Clarke Rule, paying the social cost
+    + Does not collect the right amount of money.
+    + Seems unfair to those with small willingness to pay that are not pivotal.
+    + Treats all pivotal players the same, even when they have different values.
++ Shapely, is by definition fair.
+    + Tend to keep everyone with the utility, provided the other service providers have the same costs.
+    + Is computationally burdensome.
+    + Still depends on knowing loads with certainty.
+    
 
 ## Back to Accounting Style 
 
@@ -368,7 +372,7 @@ Periodicity <- data.frame(Month = 1:12, DOM = c(3887,3863,2669, 2103,2881,3338,4
 
 ```
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 library(knitr)
 kable(Periodicity)
 ```
@@ -378,7 +382,7 @@ Annual peak is `r max(Periodicity$DOM)` and happens in month `r Periodicity$Mont
 ## Now Look at Quarterly
 
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 library(knitr)
 kable(Periodicity[1:3,])
 ```

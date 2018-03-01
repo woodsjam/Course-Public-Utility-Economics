@@ -121,7 +121,7 @@ Key terms:
 + Prudent:  Makes sense at the time it was made.  Not penalized for not knowing the future.
 
 
-For an overview of ratemaking http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf
+For an overview of rate making http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf
 
 ## Examples of Dissallowance in Orgon
 
@@ -415,9 +415,11 @@ Take inspiration from optimal bandwidth in histograms.
 + Start with a broad category, all electric utilities without mergers and acquisitions that provide dividends.
 + Collect the data of interest, say beta
 + Make a histogram and choose boxes by formula
+
     + Sturges $\lceil \log_2 n \rceil +1$
     + Rice $\lceil 2n^{1/3} \rceil$
     + Many many more
+
 + Firms in the same box are comparators
 + But this only works for one variable
 
