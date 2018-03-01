@@ -1,5 +1,5 @@
 ---
-title: "Rate Setting"
+title: "Rate Setting (Ch7)"
 author: "James Woods"
 date: ""
 output: beamer_presentation
@@ -31,6 +31,14 @@ The big question?  What do you mean by marginal cost.
 
 + Life-line or low-income
 + Electric heat or electric vehicle
+
+## But First, Lets Talk about the Future
+
++ We need to make guesses about how much electricity people will use in the future.
++ Our projections  will be based on the past
+    + Past overall consumption
+    + Past installed  equipment and behavior
++ We need to make guesses about 20 year in the future.
 
 ## Data Overview
 
@@ -264,7 +272,7 @@ FakeAuto %>% ggplot(aes(X,Y)) + geom_point()+ geom_smooth(method='lm')
 
 There are two distinct weather normalization techniques in use.
 
-+ First Meaning and correct use
++ First Meaning,  and _the_ correct use
     + Form a statistical model of load or energy use that depends on weather $y=f(Weather, X) + \epsilon$
     + Estimate the model, $\hat f(Weather, X)$
     + Use the average weather, commonly some kind of 30-year average to forecast what load or use would be for a typical weather year.
@@ -382,6 +390,24 @@ There are a few common methodologies for estimating peak load.
     + Didn't work for California http://www.energy.ca.gov/2010publications/CEC-200-2010-004/CEC-200-2010-004-V1.PDF (Page 129 or 143)
     + Better than previous RASS when they didn't notice that there was a problem.
 
+## Once you know the future
+
++ You need to choose  prices that satisfy the revenue requirements for  several years.
++ General rate cases usually take place every 3-5 years
+    + PUC or the Utility can call for one.
+    + Utility, if they they profits are not high enough.
+    + PUC, if they think profits are too high.
++ Once you start, it can be months or years till you are  done.
++ Note that there  is  always a  risk that things will not go as expected.
+
+## The time between General Rate Cases
+
++ That and the time a case takes is generically called, "Regulatory Lag"
++ This is the topic  of the next chapter.
++ Lag is both a good thing and a bad thing.
+
+Back to the tariffs ...
+
 ## Tariff Background
 
 + The ideal is to charge the marginal cost.
@@ -415,18 +441,22 @@ There are a few common methodologies for estimating peak load.
     + You see them when there is greater capacity to react.
     + When the demands are more elastic
     + When they have generation capability
+    + Where you have a meter that can handle it.
 + If you have an inelastic demand, the suppler has power
 
 ## RT Tariff in the real world
 
++ ComEd in Illinois has one https://hourlypricing.comed.com/
 + Attractive to risk tolerant, higher elasticity consumers
 + Residential consumers do peak shave, 2% or so is a normal estimation.
 + Don't time shift -- in the US.
     + Using timers is not part of US culture.
     + Not built into US equipment
 + It is like prices per kWh doesn't matter but price per month does.
++ Example of an automatic adjustment mechanism.
 
 https://www-sciencedirect-com.proxy.lib.pdx.edu/science/article/pii/S092876551100042X
+
 
 ## Peak/TOU 
 
@@ -436,6 +466,8 @@ https://www-sciencedirect-com.proxy.lib.pdx.edu/science/article/pii/S09287655110
 + DWL is smaller.
 + Peaks are still shaved
 + Smart thermostats will pre-cool and heat. (https://nest.com/support/article/What-happens-during-a-Summer-or-Winter-Rush-Hour)
+
+[Socal Edison](https://www.sce.com/wps/portal/home/residential/rates/Time-Of-Use-Residential-Rate-Plans/!ut/p/b1/hc9Bb4IwFAfwz7IDx9FXipR56yLWEpVhjcNeDBisJEANspF9-3XGi3Gb7_Z_-f2T95BCGVJt_lnpvK9Mm9c_WQW7WEwY5r4nErmkwLCMFjydk4j5FmwtgD-GwaP-O1IXgkPOZkKC4G8jH0RM10CpxOGU3oEV9SzYRPPkFXsQelfwwiGaxYkF65SAICksJWMEILiCf46MkdK1KS4Pb1lbkFAj1ZWHsis796Oz62Pfn85jBxwYhsHVxui6dPemceC3ytGce5TdSnRqMqjEsyq-hqdvTtaZJw!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/) has a good one 
 
 ## Block Tariffs
 
@@ -455,6 +487,45 @@ Please keep in mind that this is all price discrimination, either second or thir
 + 2nd degree: Different products (Menu pricing)
 + 3rd degree: Different groups (Student discounts)
 
+## Price Discrimination
+
++ Usually you think of this as bad.
++ When there is a monopolist, price discrimination:
+    + Increases monopoly profits
+    + Increases sales
+    + *Decreases* dead weight loss
+
+## Monopolist with One Price
+
+![](Mon1Price.png)
+
+## First Degree (Personal Prices)
+
+![](Mon1stDegree.png)
+
+## 3rd Degree Price Discriminate
+
+![](Mon3rd.png)
+## More Formally
+
++ Add the demands together, horizontally, to get market demand
++ There is a kink
++ This causes a discontinuity in MR.
+
+## More Formally
+
+![](MonJoint.png)
+
+## And you wonder why People hate economists
+
+Discrimination Means:
+
++ ...in the real world, charging different prices depending something *other than ability* to pay or sensitivity to prices.
++ ... to an economists different prices because a *different ability* to pay.
+
+
+We have low income CARE rates and rates for  electric heat, not separate prices for male and female headed households.
+
 ## IBT
 
 + High CS for low use.
@@ -466,7 +537,12 @@ Please keep in mind that this is all price discrimination, either second or thir
 ## IBT Diagram
 
 ![](IBT.png)
-    
+
+## IBT Example
+
+Here is one from PG&E
+
+https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_SCHEDS_E-1.pdf
     
 
 ## DBT
@@ -478,6 +554,13 @@ Please keep in mind that this is all price discrimination, either second or thir
 
 ![](DBT.png)
 
+## DBT Example?
+
+You don't really see these for electricity any more.
+
+You do see them in competitive markets as a volume discount.
+
+https://www.verizonwireless.com/plans/data-only-plan/
 
 ## Life-line or Low-Income Tarrifs
 
@@ -492,3 +575,9 @@ Please keep in mind that this is all price discrimination, either second or thir
     + Lower price for poor, weights them more highly.
 + Wait, why lower prices for students and the elderly?
     + More elastic demand because more flexibility.
+    
+## Examples
+
++ California Low-income (CARE) [tariff](https://www.pacificpower.net/content/dam/pacific_power/doc/About_Us/Rates_Regulation/California/Approved_Tariffs/Rate_Schedules/Residential_Service_California_Alternative_Rates_for_Energy_CARE_Optional_for_Qualifying_Customers.pdf)
++ Regular [Tariff](https://www.pacificpower.net/content/dam/pacific_power/doc/About_Us/Rates_Regulation/California/Approved_Tariffs/Rate_Schedules/Residential_Service.pdf) 
+Often
