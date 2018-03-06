@@ -17,6 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
     + Balances efficiency, in the dead weight loss sense, with other objectives, e.g., equity.
     + Includes at least a nod to marginal cost pricing at some level.
 
+
 ## General Rate Patterns
 
 + Two-Part
@@ -379,7 +380,6 @@ There are a few common methodologies for estimating peak load.
     + Explanatory variables are correlated.
     + They share explanatory power
     + Messes up parameter estimates and variances are too high but forecasts are still good.
-    + https://s3.amazonaws.com/woodsjworking/DraftConferncePaper.pdf (Pages 18-19)
 
 ##  More Problems
 
@@ -467,15 +467,17 @@ https://www-sciencedirect-com.proxy.lib.pdx.edu/science/article/pii/S09287655110
 + Peaks are still shaved
 + Smart thermostats will pre-cool and heat. (https://nest.com/support/article/What-happens-during-a-Summer-or-Winter-Rush-Hour)
 
-[Socal Edison](https://www.sce.com/wps/portal/home/residential/rates/Time-Of-Use-Residential-Rate-Plans/!ut/p/b1/hc9Bb4IwFAfwz7IDx9FXipR56yLWEpVhjcNeDBisJEANspF9-3XGi3Gb7_Z_-f2T95BCGVJt_lnpvK9Mm9c_WQW7WEwY5r4nErmkwLCMFjydk4j5FmwtgD-GwaP-O1IXgkPOZkKC4G8jH0RM10CpxOGU3oEV9SzYRPPkFXsQelfwwiGaxYkF65SAICksJWMEILiCf46MkdK1KS4Pb1lbkFAj1ZWHsis796Oz62Pfn85jBxwYhsHVxui6dPemceC3ytGce5TdSnRqMqjEsyq-hqdvTtaZJw!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/) has a good one 
+[*Socal Edison*](https://www.sce.com/wps/portal/home/residential/rates/Time-Of-Use-Residential-Rate-Plans/!ut/p/b1/hc9Bb4IwFAfwz7IDx9FXipR56yLWEpVhjcNeDBisJEANspF9-3XGi3Gb7_Z_-f2T95BCGVJt_lnpvK9Mm9c_WQW7WEwY5r4nErmkwLCMFjydk4j5FmwtgD-GwaP-O1IXgkPOZkKC4G8jH0RM10CpxOGU3oEV9SzYRPPkFXsQelfwwiGaxYkF65SAICksJWMEILiCf46MkdK1KS4Pb1lbkFAj1ZWHsis796Oz62Pfn85jBxwYhsHVxui6dPemceC3ytGce5TdSnRqMqjEsyq-hqdvTtaZJw!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/) has a good one 
 
 ## Block Tariffs
 
 + Block tariffs, different prices depending on use are the most common in the US.
 + DBT
+    + As if the utility made a special capital expansion just for you.
     + Tries to mimic scale effects, lower AC as quantity increases.
     + As if all loads were correlated with each other
 + IBT
+    + As if you are responsible for additional capital expansions because of your load.
     + Tries to encourage conservation
     + Often intended to help the poor.
 
@@ -578,6 +580,150 @@ https://www.verizonwireless.com/plans/data-only-plan/
     
 ## Examples
 
-+ California Low-income (CARE) [tariff](https://www.pacificpower.net/content/dam/pacific_power/doc/About_Us/Rates_Regulation/California/Approved_Tariffs/Rate_Schedules/Residential_Service_California_Alternative_Rates_for_Energy_CARE_Optional_for_Qualifying_Customers.pdf)
-+ Regular [Tariff](https://www.pacificpower.net/content/dam/pacific_power/doc/About_Us/Rates_Regulation/California/Approved_Tariffs/Rate_Schedules/Residential_Service.pdf) 
++ California Low-income (CARE) [_tariff_](https://www.pacificpower.net/content/dam/pacific_power/doc/About_Us/Rates_Regulation/California/Approved_Tariffs/Rate_Schedules/Residential_Service_California_Alternative_Rates_for_Energy_CARE_Optional_for_Qualifying_Customers.pdf)
++ Regular [_Tariff_](https://www.pacificpower.net/content/dam/pacific_power/doc/About_Us/Rates_Regulation/California/Approved_Tariffs/Rate_Schedules/Residential_Service.pdf) 
 Often
+
+## In Short
+
++ The form of the tariffs are usually aimed to get to marginal cost pricing
+    + The conception of marginal cost differs, personal power plant of DBR, personal responsibility in IBR.
+    + Time scale of marginal cost (Costing period), minute-by-minute of RT, average within a day with TOU, etc.
++ Some 3rd degree discrimination
+    + Industrial, agricultural pumping, etc.
+    + Low income CARE rates
+    + Electric heating rates.
+
+
+## Summary So Far
+
++ We have established the revenue requirements for each rate class.
++ Briefly looked at ways of estimating how much energy will be required in the future.
+    + Top down load forecasting methodology, including regression based and  quantile regression.
+    + Survey based, bottom up, methods
++ The basic "shapes" of tariffs.
+
+We need to transition how tariffs are set.
+
+## Where to Start
+
++ Start with incremental costs of how to add capacity or generation to serve the future load.
+    + Use the test year.
+    + Assume that you satisfy the increase  with cheap fixed cost, high fuel cost peakers.
+    + A system simulation, like AURORA, focusing on loss of load expectation (LOLE) target.
++ Rig prices so that the incremental costs are distributed.
++ True up the prices to meet the revenue requirement.
+
+## AC vs MC Battle
+
++ Much of the difference is between average costs and marginal costs.
++ More accurately, between marginal costs and average costs masquerading as marginal costs.
+
+
+## Peaker Method
+
+Blend of old vertically integrated cost of service and new ISO style regulation.
+
++ Given that peaker plants are often paid to provide stand-by service
+    + Ancillary, less than an hour, service markets
+    + Payment is often for MW of capacity withheld and usable
+    + Additional payments for MWh generated.
++ What would a merchant generator build?
++ That is how you estimate those costs.
+
+The actual methodology is _far_ more complicated.
+
+## Aurora and other simulations
+
++ Basically a model of your transmission, generation and distribution system.
++ Adding in:
+    + Weather
+    + Prices and costs to run generation, i.e., what to dispatch.
++ Run these out into the future:
+    + Find the least cost way of hitting your LOLE (Loss of Load Expectation)
+    + You run a lot of these.
+
+## Report from AURORA user
+
++ Takes 2 hrs for 20 year simulation
++ Ran 500 last month, 4 days on 5 computers.
++ Mapping expected costs on a latin hypercube design.
+
+
+## Key Difference Between Electricity and Natural Gas
+
++ With electricity, power takes all paths, some more than others.
+    + Paths with low resistance and reactance (Remember the reactive power) will take more.
+    + Equal sized wire generally means equal power.
+    + Hard to allocate who benefits from adding transmission.
++ With Natural gas
+    + Valves!
+    + You can more easily split out incremental cost.
+
+## On Average (Cost) Raises Its Head
+
+The book has a nice worked example of Rolled-In (average)  vs Incremental Rates (marginal) on p. 251-255.  
+
++ Path from A to B: \$100 cost, 100MMBtu, Rate = $\frac{\$100}{100MMBtu}$ \$1/MMBtu
++ Now add a new customer that also wants to transport 100MMBtu from A to D.
+    + Share part of the path from A to B at intermediate point C.
+    + A to C carries 200MMBtu, 100MMBtu for person at B and 100MMBtu for person at D.
+    + C to B carries the original 100MMBtu
+    + C to D, the new pipe, carries the new 100MMBtu
+
+Total cost of the pipeline goes from \$100 to \$250
+
+## How Average Cost would work
+
+This is a we are all friends (Rolled-in) Rates.
+
++ $\frac{\$250}{200MMBtu} = \$1.25/MMBtu$ 
++ The customers going from A to B were paying a $1/MMBtu before.
++ Original customers subsidize the new ones.
+
+## Now break it up into pieces
+
++ A to C carries 200MMBtu on \$50 worth of pipeline, $\frac{\$50}{200MMBtu} = \$0.25/MMBtu$ 
++ At C
+    + 100 MMBtu goes on from C to B on $50 worth of pipeline, $\frac{\$50}{100MMBtu} = \$0.50/MMBtu$ 
+    + 100 MMBtu goes on from C to D on the new $150 pipeline, $\frac{\$150}{100MMBtu} = \$1.50/MMBtu$
++ In summary
+    + A to B, \$0.25/MMBtu + \$0.50/MMBtu = \$0.75/MMBtu
+    + A to D, \$0.25/MMBtu + \$1.50/MMBtu = \$1.75/MMBtu
+
+The new customers help defray the cost of the pipeline from A to C by doubling the use.
+
+## The Death Spiral, Rolled-in Rates and Cream Skimming.
+
++ Cream Skimming means pulling some low cost to serve customers out of the system.
++ In this case picture the two rolled-in rate prices, \$1.25/MMBtu and \$1.00/MMBtu.
++ You could convince some of the original A to B customers to leave
+    + Build a new A to B pipeline for $100
+    + Offer to transport for \$1.20/MMBtu
+    + Works as long as $100/$1.2 = 83.33 MMBtu defect.  Call it 85 MMBtu
++ After the defection of 85 MMBtu the original ABCD system carries 115 MMBtu for a cost of $250.
++ The original system has to charge $250/115 MMBtu = \$2.17/MMBtu
+
+That would induce others to leave.
+
+
+## Cream Skimming
+
+Attracting the low cost to serve customers under a rolled-in price regime and serving only those customers.  This leaves the high cost customers for the incumbent.
+
++ Charter schools
++ Health insurance
++ Life insurance
+
+When you have rolled-in prices, there is a chance this will happen.
+
+## Methods to True up 
+
++ It is rare for a marginal cost study to yield exactly the revenue requirement.
++ Most often it is adjusted up.
+    + Proportional prices (Opposite of Ramsey)
+    + Ramsey
+
+## Up next
+
++ Chapter 8, adjustment mechanisms.
