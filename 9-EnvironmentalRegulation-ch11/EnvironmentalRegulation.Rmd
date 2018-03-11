@@ -1,0 +1,58 @@
+---
+title: "Environmental Regulation"
+author: "James Woods"
+date: ""
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## What is an Externality?
+
+
+
+## Externalities Cause Over and Underproduction
+
+## Welfare Effects of Positive Externalities
+
+![](UnderuseMarket.png)
+
+## Welfare Effects of Negative Externalities
+
+
+![](NegativeGoodsMarket.png)
+
+
+## Sometimes the Cost is Too High to Put a Price on
+
++ Leaded gas
+
+## Wait? Optimal Pollution
+
+## When There are No Property Rights
+
+![](OveruseExternalityMarket.png)
+
+
+
+## The Major Approaches
+
++ Command and Control
+    + In levels
+    + In equipment
++ Pigouvian Taxes
++ Cap and Trade
+
+There are also hybrids, cap and trade with price ceilings and floors.
+
+## A word on costs
+
++ Value of a statistical life
++ Percieved vs Actual risk
++ Different Costs
+    + Dammage Cost
+    + Abatement Cost
+    + Prevention Cost
