@@ -662,7 +662,7 @@ The actual methodology is _far_ more complicated.
 
 ## On Average (Cost) Raises Its Head
 
-The book has a nice worked example of Rolled-In (average)  vs Incremental Rates (marginal) on p. 251-255.  
+The book has a nice worked example of Rolled-In (average)  vs Incremental Rates (marginal) on p. 251-255.  BTW 100 MMBtu = 1,000 therms, not 100.
 
 + Path from A to B: \$100 cost, 100MMBtu, Rate = $\frac{\$100}{100MMBtu}$ \$1/MMBtu
 + Now add a new customer that also wants to transport 100MMBtu from A to D.
