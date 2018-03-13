@@ -251,7 +251,7 @@ Note: Party is socially optimal.
 
 + The allocation of property rights (Party or Quiet) does not matter for what happens -- a party is thrown.
 + What matters is the allocation of the benefits.
-    + Right to quiet:  Alice $0, Bob $3, Party
+    + Right to quiet:  Alice $0,  Bob $3 , Party
     + Right to party:  Alice $0, Bob $8, Party
 + If trade is not allowed:
     + Right to quiet:  Alice $5, Bob $0, No party
@@ -298,7 +298,7 @@ Note: Party is socially optimal.
 + Can I save the allowance from one year to the next
 + What about those offsets?
 
-## Shortage and Surplusses
+## Shortage and Surpluses
 
 + At the ceiling, people want more allocations than exist.
 + At the floor, people want fewer allocations than are for sale.
@@ -322,6 +322,7 @@ Someone (Government) stands ready to buy and sell allocations at all times:
     + Hope you don't run  out of money before you get to sell.
 + They sell when the prices hit the ceiling.
     + Hope you bought enough when you were at the floor.
++ CA does this with the Price Containment Reserve (https://www.arb.ca.gov/cc/capandtrade/reservesale/reservesale.htm)
 
 No guarantee of revenue neutrality.  History shows that these spend a lot of time at the floor value.
 
@@ -360,9 +361,9 @@ If the price is low, you don't invest to make these reductions.
 
 + Way harder to chose the right level of allowances from year to year
     + Mistakes, almost always too many allowances, are carried forward.
-    + 
-
-## Futures Markets
++ Turns Cap and Trade into a slowly increasing carbon tax
+    + With poor revenue collection
+    + At a purposefully lower rate
 
 ## Market Power
 
@@ -460,6 +461,17 @@ The intent is to require allowances for:
 + Point  sources more than 20kT $CO_2$
 
 Note that agriculture and Forestry are not connected to this system. A firm level list is on p. 69 (http://www.oregon.gov/deq/FilterDocs/ghgmarketstudy.pdf)  
+
+## Why Not Everything?
+
++ Somethings are easy (cheap) to meter
+    + These are the covered entities
+    + Use the stick (force to buy allowances)
++ Some are hard (expensive) to meter
+    + Ag and others
+    + Use the carrot (Offsets)
+    + They pay for monitoring
+
 
 ## Point of Regulation
 
@@ -566,7 +578,7 @@ Example:
     + A sells to B.
     + B sells to C
     + ...
-    + Z sells to IOU. We don't know if the power is green or brown so assume Natural Gas
+    + Z sells to IOU. We don't know if the power is green or brown so assume Natural Gas (Actual Rule when you don't know)
 
 ## Interaction with PUC
 
@@ -701,7 +713,11 @@ JUST PUT IT IN THE RULES:  No colluding.
 
 + Offsets protocols https://www.arb.ca.gov/cc/capandtrade/offsets/offsets.htm#protocols
 + Offset verification (https://www.arb.ca.gov/cc/capandtrade/offsets/verification/verification.htm)
-
++ Note that:
+    + These can be clawed back for overstateing even 5%.
+    + Trade at a discount because of this.
+    + Don't cheat
+    
 CA limited this. 
 
 8% total now 4% with 2% in state.
@@ -709,15 +725,6 @@ CA limited this.
 Little action because the price of allowances are not high.  On the floor.
 
 
-## California's Offset Reduction
-
-+ Allowance allocation
-
-+ Risk diminishes with more online and should be removed.
-
-+ JW we need to focus on the effect on relative energy prices.
-
-+ What about trade patterns changing?
 
 
 
