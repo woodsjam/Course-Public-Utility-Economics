@@ -143,7 +143,7 @@ End Result:  Feds decide they need to so something and Create Interstate Commerc
 + 1992 Energy Policy Act - If vertically integrated, you must carry power for others.
 + 1992 FERC 636 - Natural gas pipelines can't carry their own gas. Unbundle
 + 1996 FERC 888/889 Deregulation with open access transmission and pricing
-+ 199 FERC 2000 ISO and RTO for more competition.
++ 1999 FERC 2000 ISO and RTO for more competition.
 
 # Other
 
