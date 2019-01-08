@@ -53,7 +53,7 @@ And that is mostly true...
 
 # The Public Purpose Hypothesis is then modified
 
- Regulatory agencies are started with the public in mind, but they are mismanged or corrupted.
+ Regulatory agencies are started with the public in mind, but they are mismanaged or corrupted.
 
 # Killing Strawman Part 1
  
@@ -62,10 +62,10 @@ And that is mostly true...
 
 # Killing Strawman Part 2
 
-+ Legislation is frequently suboptimal or contradictory.
++ Legislation is frequently sub-optimal or contradictory.
     + Favorite example, full employment and low inflation.
 + The legislative budget process can be though of as a market
-    + There is some disciplen
+    + There is some discipline
     
 # It is the fault of the legislature
 

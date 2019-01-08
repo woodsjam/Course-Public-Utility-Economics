@@ -35,11 +35,11 @@ Any technical skills that students are missing will be supplemented with in-clas
 ## Key Dates
 
 + Midterm: Feb 6th
-+ Final Exam: March 21st,	12:30-12:20
++ Final Exam: March 21st,	12:30-2:20
 
 # Contact Information
 
-Communication will be handled through slack https://utilityeconwinter19.slack.com. You should have received an invitation, if not just go to that URL and use your @pdx.edu email to sign up. There are reasonable help documents to get you started. https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users
+Communication will be handled through slack https://utilityeconw19.slack.com. You should have received an invitation, if not just go to that URL and use your @pdx.edu email to sign up. There are reasonable help documents to get you started. https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users
 
 Slack will be used for IM, email and forum style communication.  It even handles phone calls. If you have a question about course material or the course itself, ask in one of the channels. If you have a personal message that is not intended for others, send a direct message.
 
@@ -158,8 +158,11 @@ As with any evolving field, things will happen over the course of the term.  The
 
 + Distributed Energy Resources (DER)
     + This is not about utility scale storage. Fitzgerald, Garrett, et al. "The economics of battery energy storage." Rocky Mountain Institute (2015). https://www.rmi.org/insight/economics-battery-energy-storage/
+    + Federal Energy Regulatory Commission. "The potential benefits of distributed generation and rate-related issues that may impede their expansion." USDOE,(Ed.) (2007). https://www.ferc.gov/legal/fed-sta/exp-study.pdf
+    + Basak, Prasenjit, et al. "A literature review on integration of distributed energy resources in the perspective of control, protection and stability of microgrid." Renewable and Sustainable Energy Reviews 16.8 (2012): 5545-5556. http://www.sciencedirect.com.proxy.lib.pdx.edu/science/article/pii/S1364032112003772
 
 + Cap and Trade
+    + Metcalf, Gilbert E.. 2009. "Market-Based Policy Options to Control U.S. Greenhouse Gas Emissions." Journal of Economic Perspectives, 23(2): 5-27. http://stats.lib.pdx.edu/proxy.php?url=https://www.aeaweb.org/articles?id=10.1257/jep.23.2.5
 
 + Transportation Electrification
 

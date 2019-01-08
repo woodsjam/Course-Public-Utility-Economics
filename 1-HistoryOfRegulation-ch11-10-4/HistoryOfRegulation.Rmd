@@ -85,7 +85,7 @@ End Result:  Feds decide they need to so something and Create Interstate Commerc
 
   + Due process clause (5th and 14th amendment) "No person shall ... be deprived of life, liberty, or property, without due process of law"
   + Commerce Clause (Art 1, sec 8, clause 3) "to regulate commerce with foreign nations, and among the several states, and with the Indian tribes."
-  + Takings clause ( 5th too) "nor shall private property be taken for public use, without just compensation"
+  + Takings clause (5th too) "nor shall private property be taken for public use, without just compensation"
   
 
 # About Vietor and the trends in regulation from book
@@ -108,8 +108,8 @@ End Result:  Feds decide they need to so something and Create Interstate Commerc
 # 1930s
 
 + 1930: Oil prorationing
-+ 1933:  Banking Act, Securities Act
-+ 1934:  Banking Act, Communications Act (Federal Communications Commission)|
++ 1933: Banking Act, Securities Act
++ 1934: Banking Act, Communications Act (Federal Communications Commission)|
 + 1935: Motor Carrier Act, Public Utility Act (Federal Power Commission), Securities Exchange Act (SEC)
 + 1938: Civil Aeronautics Act (Civil Aeronautics Board),  Natural Gas Act (Pipelines not gas prices)
 + 1940: Transportation Act
@@ -250,7 +250,7 @@ End Result:  Feds decide they need to so something and Create Interstate Commerc
 
 Econ often adds the positive and normative distinction:
 
-  + What is: positive
+  + What is: Positive
   + What should: Normative
 
 You may argue that normative theory is not a theory but then we could not use phrases like:
@@ -324,7 +324,7 @@ And that is mostly true...
 
 # Implicit Model (in Words)
 
-+ Profits are higher when firms in an industry that colludes.
++ Profits are higher when firms in an industry collude.
     + Some industry characteristics make it hard to collude in goods market. (Large number of firms)
     + But easy to collude in the regulatory market.
 + If collusion is hard, the industry requests regulation from legislatures.
