@@ -4,7 +4,7 @@ author: "James Woods"
 date: ""
 output:
   beamer_presentation: default
-  ioslides_presentation: default
+theme: "Berlin"
 ---
 
 ```{r setup, include=FALSE}

@@ -1,0 +1,109 @@
+---
+title: "Cost and Math Primer"
+output: beamer_presentation
+theme: "Berlin"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Plan
+
++ Slowly build up some micro theory and math
++ Lots of jumping up and down to work on the board
+
+## Single Product Cost Functions
+
+$$Cost = C(q)$$
+
++ Single parameter q, which is output measured with some logical unit.
++ Cost functions must be monotonically increasing, $\forall q'>q,~  C(q')>C(q)$
++ Commonly divided into fixed and variable cost $C(q) = F + VC(q)$
+    + $F$ is fixed, uncorrelated with output.
+    + $VC(q)$ is variable, correlated.  Just like $C(q)$, is monotonic in $q$.
+
+## Examples 
+
+We will work with these two as concrete examples
+
+1.  $C_1(q) = F + \alpha q^2$
+2.  $C_2(q) = F + \alpha q$
+
+Grab pens and plot one out.  If you have not had calculus, pick $C_2$
+
+##  We have lots of derived costs
+
++ Average Cost: $AC(q) = \frac{C(q)}{q}$
++ Average Variable Cost : $AVC(q) = \frac{VC(q)}{q}$
++ Marginal Cost: $MC(q) = \frac{\partial}{\partial q} C(q) = \frac{\partial}{\partial q} VC(q)$
+
+Find AC, AVC and MC for your cost functions.  Then plot them out.
+
+## Sub and Super Additivity
+
+Subadditive:  $f(x+y) \leq f(x) + f(y)$
+
+Example:  Pour 1 C water into 1 C salt and get 1 C salty water -- not 2 C.
+
+Some functions are globally subadditive, some over ranges.
+
+## Relation to Costs
+
+$$C(x+y) \leq C(x) + C(Y)$$
+
+Subadditive costs mean that it is cheaper for one firm to produce than two.
+
+## Are your functions subadditive?
+
++ One is globally subadditive.
++ One is subadditive over a range.
+    + Try assuming subadditivity and find the range where it is true.
+    + You should find subadditive when F is high and superadditive when F is low.
+    
+## Subadditivity By AC
+
++ Subadditivity implies Economies of Scale.
++ Economies of scale (One Definition): $AC(q') \leq AC(q) ~when~ q'>q$
++ Helps decide if we should, for low production costs, have one big firm or many small firms.
++ Also, if $MC<AC$ then subadditive.
+
+## General Pattern in Economics
+
+
++ Each agent has a way of evaluating how well off they are from choices, utility, profit.
++ They have constraints on achieving those objectives, income, legal limits.
++ This allows you to predict behavior.
+  
+  
+If you know what someone wants and how they are constrained you can predict their behavior.    
+
+## An Objective For Firms -- Profit
+
+$$\Pi(q) = R(q) - C(q)$$
+
++ The idea is that firms are trying to make as much money in total as possible.
++ Not, most per unit, or most sales.
++ R is "Revenue", Pq.
+
+## Different Revenue Function for Each Example
+
+We need to do this because there is not always a solution for every revenue function.
+
++ $q$ use $P = P_0 - \gamma q$, i.e., a firm with market power.
++ $q^2$ use $P = P_0$, a firm with no market power.
+
+## What to Do
+
++ Set up your objective function
++ Find profit maximizing output, $q$.
++ Find Revenue, Costs, and Profit and the optimum.
+
+
+## Now Graphically
+
++ Put your P function in the graph.
++ Create marginal revenue, $MR(q)  = \frac{\partial}{\partial q} R(q)$.
++ Profit maximizing is generally, $MC=MR$.
++ Cost, Revenue and Profits are areas.
+

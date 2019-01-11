@@ -1,6 +1,7 @@
 ---
 title: "Deeper Dive on Theories of Regulation"
 output: beamer_presentation
+theme: "Berlin"
 ---
 
 ```{r setup, include=FALSE}
@@ -64,7 +65,7 @@ And that is mostly true...
 
 + Legislation is frequently sub-optimal or contradictory.
     + Favorite example, full employment and low inflation.
-+ The legislative budget process can be though of as a market
++ The legislative budget process can be thought of as a market
     + There is some discipline
     
 # It is the fault of the legislature
