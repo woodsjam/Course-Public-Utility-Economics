@@ -154,4 +154,11 @@ What if you don't know costs but you know demand can you still get the firm to p
 
 ![](LM.PNG)
 
+
+## Problems for Our Practical Solution Regulation
+
+
+
+## Franchise Bidding.
+
 ## Next Up
