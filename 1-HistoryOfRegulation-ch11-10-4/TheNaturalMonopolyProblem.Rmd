@@ -136,7 +136,7 @@ Whole different idea on fair being about Q and not P.
 
 ## Loeb-Magat
 
-What if you don't know costs but you know demand can you still get the firm to produce the effiecient output?
+What if you don't know costs but you know demand can you still get the firm to produce the efficient output?
 
 + Yes, give them a subsidy equal to consumer surplus.
 + Collect the tax from other revenue sources.
@@ -157,8 +157,12 @@ What if you don't know costs but you know demand can you still get the firm to p
 
 ## Problems for Our Practical Solution Regulation
 
++ The Averch–Johnson Effect
++ Incentive to increase demand
++ Lock-in of long-term assets
++ ...
 
-
-## Franchise Bidding.
 
 ## Next Up
+
+The Law
