@@ -55,9 +55,9 @@ End Result:  Feds decide they need to so something and Create Interstate Commerc
 
 + Background:  
 
-    + Weath concentrating in the railroads.  Some was because of large federal subsidies in kind (land) and directly.
+    + Wealth concentrating in the railroads.  Some was because of large federal subsidies in kind (land) and directly.
       + Up to 20 square miles per mile of railroad, checkerboarded next to the rail line.
-      + Low interest loans with amount of loan determined by teraine.
+      + Low interest loans with amount of loan determined by terrain.
       + Standford is famous for faking maps so there were more mountains.
     + Railroads were colluding to keep prices up.
 
@@ -109,7 +109,7 @@ End Result:  Feds decide they need to so something and Create Interstate Commerc
 
 + 1930: Oil prorationing
 + 1933: Banking Act, Securities Act
-+ 1934: Banking Act, Communications Act (Federal Communications Commission)|
++ 1934: Communications Act (Federal Communications Commission)|
 + 1935: Motor Carrier Act, Public Utility Act (Federal Power Commission), Securities Exchange Act (SEC)
 + 1938: Civil Aeronautics Act (Civil Aeronautics Board),  Natural Gas Act (Pipelines not gas prices)
 + 1940: Transportation Act
@@ -136,7 +136,7 @@ End Result:  Feds decide they need to so something and Create Interstate Commerc
 + Natural gas (in stages)
 + Radio, cable
 
-+ See Economic Report of the President 1989, p. 196 http://www.presidency.ucsb.edu/economic_reports/1989.pdf
++ See Economic Report of the President 1989, p. 196 https://www.presidency.ucsb.edu/sites/default/files/books/presidential-documents-archive-guidebook/the-economic-report-of-the-president-truman-1947-obama-2017/1989.pdf
 
 # Major Energy Deregulation
 

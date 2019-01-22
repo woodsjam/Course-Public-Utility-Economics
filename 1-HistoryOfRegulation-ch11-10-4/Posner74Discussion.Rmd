@@ -1,0 +1,28 @@
+---
+title: "Posner (1974) Discussion"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+##
+
+1. p. 344 "The theory teaches that the value of cartelization is greater, the less elastic the demand for the industry's product ..."  Explain.
+
+##
+
+2. p. 351 "Courts have long handled highly complex economic questions, such as those which arise in antitrust cases, no less efficiently (or more inefficiently) than the agencies."  Contrast this with complaints that courts don't deal well with statistical evidence.
+
+##
+
+3. p. 354 "The CAB gave cash subsidies to the airlines for many years: its control over entry prevented the subsidies from attracting new entrants." What theoretical reason would they have for doing this? 
+
+##
+
+4.  p. 351 "Much regulation, I argued, may be the product of coalitions between the regulated industry and customer groups, the former obtaining some monopoly profits from regulation, the latter obtaining lower prices ..." Explain with trucking and rail.
+
+##
+
+5. Critique, p. 348 "The industry does not quite have the best of both worlds, because the firms' profits from favorable legislation, and hence their incentive to seek it, will be diminished by the amount of the payoffs to employees."
