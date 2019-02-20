@@ -1,0 +1,140 @@
+---
+title: "Institution Overview"
+output: beamer_presentation
+theme: "Berlin"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## The Players
+
++ Investor Owned Utilities (IOUs)
+    + BIG
+    + Holding companies with multiple subsidiaries.
+    + Sister companies with common parent.
++ Public
+    + Muni -- City owned
+    + PUD -- Own district with boards
+    + Co-ops -- Private non-profit (rural)
+
+## Types of Players
+
++ Vertically integrated -- G + T (>115kV) + D (<35kV)
+    + They own some of each but buy some too.
+    + Often D is all them.
++ Distribution Only -- D
+    + Don't own T or D but buy on the market.
+    + Look at restructured states for this.
+    + SDG&E recently said they were interested.
++ Note that T is open access, like a toll road with posted prices.    
+    
+## Multiple Jurisdictions for Siting
+
+These overlap:
+
++ EPA, BLM and others have some say.
++ FERC handles most Federal
+    + If Hydro or Nuke sighting the FERC
++ If other type off generation then local PUC.
+
+## General Pattern
+
+If you can make it work with a well designed market -- do it.
+
+If you can't -- cost of service regulation.
+
+Modern trend to incentive regulation.
+
+## Federal Power is  Odd
+
++ BPA is classic
+    + The army corp of engineers runs the dams.
+    + BPA (Power Marketing Agency) sells the power.
++ Generally
+    + Sell to local D or G/T/D company
+    + Have other G + T resources
+    
+## G Only
+
++ Often called merchant power
++ or IPP
++ or non-utility generator
+
+## Public Owned
+
+Tend to be G only but:
+
++ Our local PUDs do own generation.
++ Most power is from contract purchase
++ BPA is often the supplier for the co-ops.
+
+## Do Customers Have Choice?
+
+A: Sometimes
+
++ Large customers
+    + Billed for D by local utility
+    + Purchase G on contract
+    + Pay for T bundled with G or by OASIS posted prices.
+    
++ Residential and Others
+    + In fully deregulated yes
+    + Often the old local was default, exception Texas
+    + Often marketing costs exceed profit so not done.
+
++ Community Choice, big groups choosing G, is the next big wave.
+
+## Transmission
+
++ The interconnects  are in sync but not with each other.
++ Still exchange power by DC connects.
++ FERC covers rates and service standards for this.
+    + Access via OATT/OASIS.  OASIS is  implementation of part of OATT.
+    + OATT has a lot in it.  Prices are only part.
+    
+## Managing Transmission
+
++ FERC delegated a lot of reliability to  North American Electric Reliability Council (NERC).
++ ISO/RTO voluntary but characteristics created by FERC
+    + Plan, operate, dispatch and provide OASIS.
+    + Notice OWN is not on the list.
+    + Control area for their region
++ Others operate control areas outside ISO/RTO territory
+    + BPA
+    + Our local IOUs
++ ISO/RTO run markets
+    + Ancillary services
+    + Power Markets
+
+## Expanding ISO/RTO
+
++ CAISO has plans for expanding
+    + PGE and Pacific Power are tentatively on board
++ Energy Imbalance Markets
+    + Power market outside bounds of ISO
+    
+## The Locals
+
++ OPUC is governor appointed
++ COUs and Co-ops are by vote
+    + Sometimes per person (COU)
+    + Sometimes per meter (Co-ops)
+    + Rules for Co-ops vary.
+    
+## What they Do
+
++ Revenue requirement
++ Allocate costs
++ Design prices
++ Quality Standards
++ Check IOU finances
++ Be a judge in disputes.
+
+Consumer advocate is sometimes in or separate agency and sometimes separate.  Oregon CUB is separate.
+    
+
+    

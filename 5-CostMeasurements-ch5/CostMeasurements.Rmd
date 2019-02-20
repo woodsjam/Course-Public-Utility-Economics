@@ -412,10 +412,10 @@ You need some measure of sameness but there are complications.
 ## For continuous data
 
 Take inspiration from optimal bandwidth in histograms.
+
 + Start with a broad category, all electric utilities without mergers and acquisitions that provide dividends.
 + Collect the data of interest, say beta
 + Make a histogram and choose boxes by formula
-
     + Sturges $\lceil \log_2 n \rceil +1$
     + Rice $\lceil 2n^{1/3} \rceil$
     + Many many more

@@ -1,0 +1,36 @@
+---
+title: "Choosing Presentation Days"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Presentations of Utility Topic
+
++ You have chosen topics
++ You have a 30 min presentation to do during the last two weeks of class.
++ There will be three per day for four class days.
+
+
+# In Class
+
++ Three people do presentations
++ All in attendance will be asked:
+    + Evaluate content
+    + Presentation  overall
+    + Ability of person to respond to questions.
+    + Pick one of the three as the best.
+    
+Note that there is some strategy on how to choose days.
+
+# Day Preference Procedure
+
++ Rank the four days
++ I will randomize the order of the slips.
++ Give people first choice until slots in day are gone.
++ If your first choice is unavailable:
+    + Give you second choice
+    + If that is unavailable, third.
+    + etc.

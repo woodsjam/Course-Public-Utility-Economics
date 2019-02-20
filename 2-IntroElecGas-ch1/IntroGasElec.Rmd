@@ -4,7 +4,7 @@ author: "James Woods"
 date: ''
 output:
   beamer_presentation: default
-  ioslides_presentation: default
+
 ---
 
 ```{r setup, include=FALSE}
@@ -54,9 +54,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![](chart3.png)
 
+
 ## Most Storage is just old gas wells
 
-![](http://www.energyinfrastructure.org/~/media/energyinfrastructure/images/ng-storage/updated-2-18/typeofngstoragegraphic-218.png?la=en)
+
+![](typeofngstoragegraphic-218.png)
+
 
 ## Storage is very seasonal
 
@@ -133,7 +136,7 @@ Caveat IANAE and I will do thing like call current amps and the like. Also, this
 
 ## Picture for this
 
-![](http://images.slideplayer.com/17/5297074/slides/slide_27.jpg)
+![](slide_27.jpg)
 
 source: http://slideplayer.com/slide/5297074/
 
@@ -193,7 +196,7 @@ source: http://slideplayer.com/slide/5297074/
 
 ## Coal from the outside
 
-![](http://appvoices.org/images/uploads/2012/02/Asheville-coal-plant-e1432059203783.jpg)
+![](Asheville-coal-plant-e1432059203783.jpg)
 Source: http://appvoices.org/images/uploads/2012/02/Asheville-coal-plant-e1432059203783.jpg
 
 ## Coal on the inside
@@ -211,7 +214,7 @@ Source: http://appvoices.org/images/uploads/2012/02/Asheville-coal-plant-e143205
 
 Radiation to heat water and then ...similar to coal.  Just a reaction chamber
 
-![](http://www.nuclear-power.net/wp-content/uploads/2014/11/inside_core.jpg?11abca)
+![](inside_core.jpg)
 
 ## Local Reactor Columbia Generating Station
 
@@ -256,7 +259,7 @@ Radiation to heat water and then ...similar to coal.  Just a reaction chamber
 ## Biomas One in Eugene. 30 MW and keeps catching on fire.
 
 
-![](http://www.woodbioenergymagazine.com/magazine/2009/summer/images/article-biomass-one-001.jpg)
+![](article-biomass-one-001.jpg)
 
 source: http://www.woodbioenergymagazine.com/magazine/2009/summer/article-biomass-one.html
 
@@ -271,7 +274,7 @@ source: http://www.woodbioenergymagazine.com/magazine/2009/summer/article-biomas
 
 ## Neal Hot Spring in Malheur. 30 MW
 
-![](http://geo-energy.org/images/plants/Aidlin.jpg)
+![](Aidlin.jpg)
 
 ## Diesel and other Fuel Oils
 
@@ -301,7 +304,7 @@ source: http://www.woodbioenergymagazine.com/magazine/2009/summer/article-biomas
 
 So, you spin a turbine
 
-![](http://www.eia.gov/energyexplained/images/hydro%20copy.png)
+![](hydro_copy.png)
 
 
 ## Hydro can be complex
@@ -321,7 +324,7 @@ So, you spin a turbine
 
 ## Everything Comes with a cost
 
-![](https://d3n8a8pro7vhmx.cloudfront.net/hetchhetchy/pages/33/attachments/original/1415484942/taber_w_caption.png?1415484942)
+![](taber_w_caption.png)
 
 ## Wind
 
@@ -483,29 +486,51 @@ Please note that lots of power quality issues need to be solved on the D side, w
 + Utility: Supply customer needs with T+G or with DG. Trade-offs between the two in an isoquant/isocost sense.
 + Customer: Decide to take utility solution or provide with private DG. (Make vs Buy).
 
-<!-- # Odd Diagrams and Points in the Report -->
+## What is going on NOW?
 
-<!-- ## Fig 3-4 -->
-<!-- ![](Fig34.png) -->
+## Your List
 
-<!-- ## What is Wrong? -->
-
-<!-- + Need two diagrams, one for constrained DG and one for wholesale electricity market -->
-<!-- + Confuses Reduced usage is Value to Participants with utility cost reductions and reduction in DWL. -->
-
-<!-- ## Fig 3-7 -->
-
-<!-- + Gives perfect competition result for a competitive public utility. -->
-<!-- + Somehow, it can be rate of return regulated. -->
-<!-- + Analysis should be that of a price ceiling with a reduction in demand and a reduction in the ceiling. -->
-
-## What is going on NOW
++ Net Neutrality
++ Ocean Hypoxia and Acidification.
++ Small Scale Renewables
++ Small Scale Renewables with tie-in to qualifying facilities.
++ Getting rid of Nuclear.
++ Something about internet access and  competition.
++ Natural Gas and Water Mergers.
++ FERCs Storage bidding
++ Low income F like low income telephone.
++ Cap and Trade General
++ Commercial Buildings
 
 
-+ Proposed rule for virtual power plants, though not by that name, as well as new definitions so DER can participate at the wholesale level. (Nov 17, 2016)
+## What About Oregon PUC?
+
+They just finished a forward looking review SB 978 with some items.
+
+
+## My List
+
++ Cap and Trade
+    + Banking
+    + The collar and how to implement.
+    + Adaptive Allowances
+    + Offset limitations.
++ Interaction of cap and trade with Renewable Portfolio Standards (RPS)
++ Transportation electrification
++ Methane leakage
++ Community Choice Aggregation
++ Storage
++ Expansion of CAISO
++ Friction in use of the Energy Imbalance Market
++ Natural Gas moving into water for offsets from methane capture.
+
+
+## FERC
+
++ Virtual power plants, though not by that name, as well as new definitions so DER can participate at the wholesale level
     + https://www.ferc.gov/whats-new/comm-meet/2016/111716/E-1.pdf
     + CAISO has had them for a few years http://www.caiso.com/Documents/Non-GeneratorResourceRegulationEnergyManagementImplementationPlan.pdf
-+ New York is on the topic too. (Oct 27th, 2016) http://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={59B620E6-87C4-4C80-8BEC-E15BB6E0545E}
++ New York is on the topic too.  http://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={59B620E6-87C4-4C80-8BEC-E15BB6E0545E}
 
 
 ##  The FERC Proposal
@@ -554,8 +579,8 @@ The reason is that demand response is considered a residual definition, if not g
 + Aggregation allows you to combine many small units and operate them as one large unit.
 
 + Common practice
-    + Banks are savings agregators
-    + Corporations are investment aggegators to accommodate small investments.
+    + Banks are savings aggregators
+    + Corporations are investment aggregators to accommodate small investments.
 
 
 ## The FERC Proposal for Participation Model
@@ -655,5 +680,25 @@ This will be where the next round of trouble will be.  How will the load serving
 + May offset some smart grid costs, the generator pays rather than the Load Serving Entity.
 + Connects with making the nodes as broad as possible to increase competition.
 
+## What About Oregon?
+
+They just finished a forward looking review SB 978 with some items.
+
+
+## My List
+
++ Cap and Trade
+    + Banking
+    + The collar and how to implement.
+    + Adaptive Allowances
+    + Offset limitations.
++ Interaction of cap and trade with Renewable Portfolio Standards (RPS)
++ Transportation electrification
++ Methane leakage
++ Community Choice Aggregation
++ Storage
++ Expansion of CAISO
++ Friction in use of the Energy Imbalance Market
++ Natural Gas moving into water for offsets from methane capture.
 
 

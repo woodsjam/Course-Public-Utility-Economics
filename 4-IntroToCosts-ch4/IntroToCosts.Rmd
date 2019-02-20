@@ -33,7 +33,7 @@ knitr::opts_chunk$set(echo = FALSE)
     + Government uses Governmental Accounting Standards Board (GASB) in addition
     + You will also see some very specific systems such as FERC's _Uniform System of Accounts_. http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&SID=054f2bfd518f9926aac4b73489f11c67&rgn=div5&view=text&node=18:1.0.1.3.34&idno=18
 
-## They rules have goals
+## The rules have goals
 
 + Helpful to potential investors and creditors
 + Helpful for making financial decisions
@@ -275,7 +275,7 @@ Cash Flow Statement:
 
 ## Taxes
 
-+ This seems simple, Taxes are an expense, so ,pass the expense on to the consumer.
++ This seems simple, Taxes are an expense, so, pass the expense on to the consumer.
 + But ...
     + Tax depreciation is different than regulatory depreciation
     + Tax savings is front loaded in MACRS.
