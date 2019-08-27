@@ -1,0 +1,32 @@
+---
+title: "Presentation Schedule"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# March 4
+
++ Clement
++ Michelle
++ Jon
+
+# March 6
+
++ DeeAnn
++ Lennae
++ Jose
+
+# March 11
+
++ Adam
++ Max
++ Brett
+
+# March 13
+
++ Taylor
++ Morrison
++ Foster

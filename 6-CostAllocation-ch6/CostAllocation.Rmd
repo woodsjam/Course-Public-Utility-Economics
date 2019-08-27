@@ -58,8 +58,6 @@ Note that many of these costs are shared, like a public good, or that the action
 + This will help us evaluate some of the problems with common practice and some vague statements in the book.
 + We will return to common practice with focus on choosing the proper volume index for each kind of joint/common cost.
 
-## Mechanism Design and Game Theory Approaches
-
 ## The Regulatory Allocation Mechanisms
 
 + Often approximate a rules from mechanism design called the Clarke Pivot Rule and cooperative game theory called the Shapely Value.
@@ -114,7 +112,7 @@ Charge the player the difference between social welfare if they didn't exist and
 
 ## Clarke Pivot Example 1
 
-+ Do we get a painting with cost $14?
++ Do we sell painting with cost $14?
 + Two agents, A, B with true benefits of, ${6,10}$.
 
 + A
@@ -131,7 +129,7 @@ Does not raise enough to pay for the painting and treats both agents the same.  
 
 ## Clarke Pivot Example 2
 
-+ Do we get a painting with cost $14?
++ Do we sell a painting for $14?
 + Two agents, A, B with true benefits of, ${10,12}$.
 
 
@@ -149,7 +147,7 @@ Raises more than enough for the painting  and treats both agents the same.  Both
 
 ## Clarke Pivot Example 3
 
-+ Do we get a painting with cost of $7?
++ Do we sell a painting with cost of $7?
 + Three agents, A, B and C with true benefits of, ${1,3,5}$.
 
 + A
@@ -192,7 +190,7 @@ Raises enough to pay for the painting and everyone pays their personal benefit s
 
 ##  Observations
 
-+ As the social benefits get larger relative to price the more revenue is collected. Examples 2 and 4.
++ As the social benefits get larger relative to price, the more revenue is collected. Examples 2 and 4.
 
 + If a player is not pivotal, they pay their marginal valuation.
 
@@ -298,7 +296,7 @@ For Common Costs (Same thing at same time)
 ## The Right Volume Index
 
 + A volume index is a generalization of quantity that allows you to measure more than one thing at once.
-+ Many volumes have more than one logical volume index, for example a restaurant.
++ More than one logical volume index, for example a restaurant.
     + Tops -- Good for wait staff
     + Plates -- Balance between wait staff and food costs.
     + Revenue -- Good for food costs
