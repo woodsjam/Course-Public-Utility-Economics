@@ -50,7 +50,7 @@ Some functions are globally subadditive, some over ranges.
 
 ## Relation to Costs
 
-$$C(x+y) \leq C(x) + C(Y)$$
+$$C(x+y) \leq C(x) + C(y)$$
 
 Subadditive costs mean that it is cheaper for one firm to produce than two.
 
@@ -100,10 +100,26 @@ We need to do this because there is not always a solution for every revenue func
 + Find Revenue, Costs, and Profit and the optimum.
 
 
-## Now Graphically
+## Now Connect to Graphical
 
 + Put your P function in the graph.
 + Create marginal revenue, $MR(q)  = \frac{\partial}{\partial q} R(q)$.
 + Profit maximizing is generally, $MC=MR$.
 + Cost, Revenue and Profits are areas.
+
+## More Area Related Ideas
+
++ This is about identifying:
+    + Revenue or expenditures
+    + CS/PS and interpretations
+    + Cost areas
+    
+## Types of Price Discrimination
+
++ 1st Degree (Personal Prices for price and quantity):  Different prices for people and amounts.
++ 2nd Degree (Versional): Different prices for different quantities but same across groups .
++ 3rd Degree (Groups):  Different prices for different consumer groups.
+
+Mix and match is possible.  Diagrams will flip back and forth between market and individual demands.
+
 
