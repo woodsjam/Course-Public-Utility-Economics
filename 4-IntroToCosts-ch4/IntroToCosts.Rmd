@@ -70,7 +70,7 @@ knitr::opts_chunk$set(echo = FALSE)
 + https://prezi.com/agobxmlocjgj/acco
 untingnoquiz/
 
-+ For Additional Details: http://ec314-pdx-edu.wikidot.com/basic-accounting
++ For Additional Details: http://woodsecon.wikidot.com/basic-accounting
 
 # Specifics for Economic Regulation
 
@@ -137,8 +137,8 @@ After that it can get odd :
 
 There are official definitions but these are easier:
 
-+ Joint used for several products at the same time
-+ Common used for several products but *not* at the same time.
++ Joint used for several products at the same time.  Complements in production.
++ Common used for several products but *not* at the same time. Substitutes in production.
 
 Gets complicated quickly (Sausage Making Example):
 
@@ -281,7 +281,7 @@ Cash Flow Statement:
     + Tax savings is front loaded in MACRS.
     + Normalization spreads it out.
 + This encourages states to use the utility as a tax collector
-    + Oregon has rules limiting this. http://arcweb.sos.state.or.us/pages/rules/oars_800/oar_860/860_022.html
+    + Oregon has rules limiting this. https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=4036
     + OAR 860-022-0040
     + OAR 860-022-0042
     

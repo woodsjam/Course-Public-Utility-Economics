@@ -59,7 +59,7 @@ In almost all cases, the idea is to find out what the revenue requirement should
 + Observe the needs of the system, the location of the customers and what they consume.
 + Design a system that would satisfy these customers.
 + Price that system.
-+ Example: Oregon Quality Education Model (http://www.ode.state.or.us/search/results/?id=166)
++ Example: Oregon Quality Education Model (https://www.oregon.gov/ode/reports-and-data/taskcomm/Pages/QEMReports.aspx)
 + You can see other examples of this in the EIA cost estimates.
 
 ## Ideal System Comments
