@@ -16,8 +16,8 @@ options(scipen=999)
 
 + Background on how economists think about allocating costs.  
     + Efficiency in the sense of paying your incremental costs, the Clarke Pivot Rule
-    + Sharing costs in a coalition in a way that seems fair, the Shapley Value
-+ This will look odd
+    + Sharing costs in a coalition in a way that seems fair, the Shapley Value (1953) 
+    + This will look odd
 + How  PUCs look at allocating costs
     + These will look very sane, but
     + Give incentives for some parties to leave the coalition, find a new service provider.
@@ -34,7 +34,7 @@ The individual:
     + Price goes up when lots of people want electricity at the same time. 
 + Look at the individual peak, $\max kW_i$
     + Associated with the cost of the distribution system close to an individual
-    + But, if an individual down the street has a higher peak demand, the you benefit because fewer local outages.
+    + But, if an individual down the street has a higher peak demand, then you benefit because fewer local outages.
 + Sunk costs of you, e.g., service head, meter, Depending on jurisdiction
 + Fixed cost because of you, e.g., bill sent to you
     
@@ -112,80 +112,77 @@ Charge the player the difference between social welfare if they didn't exist and
 
 ## Clarke Pivot Example 1
 
-+ Do we sell painting with cost $14?
-+ Two agents, A, B with true benefits of, ${6,10}$.
++ Do we *sell* a painting for $14?
++ Two agents, A, B with true benefits of, ${6,10}$. NOTE: We should not sell.
 
 + A
-    + With A, the value to the others is $6+10 =16$.
-    + Without A, the value of the painting is still $14, the avoided cost.
-    + A is charged $2.
+    + With A, the social value is $6+10 =16$.
+    + Without A, you would sell painting for $14, greater than B value of \$10.
+    + A is charged $2 = 16 - 14$.
 + B
-    + With B, the value to the others is still $16.
-    + Without B, the value of the painting is still the avoided costs, $14.
-    + B is charged $2.
+    + With B, the social value is still $16.
+    + Without B, you should sell painting for $14, greater than A value of \$6.
+    + B is charged $2 = 16 - 14$.
     
-Does not raise enough to pay for the painting and treats both agents the same.  Both are pivotal. Without them, the choice would flip from keeping the painting to not keeping it.
+Raises \$4. Not as much as sale, but we keep it.  Both are *pivotal*. Without either, the choice would flip from keeping the painting to not keeping it.
 
 
 ## Clarke Pivot Example 2
 
-+ Do we sell a painting for $14?
++ Do we buy a painting for $14?
 + Two agents, A, B with true benefits of, ${10,12}$.
 
-
 + A
-    + With A, the value to the others is $10+12 =22$.
-    + Without A, the value of the painting is still $14, the avoided cost.
-    + A is charged $8.
+    + With A, the social value is $10 + 12 - 14 = 8$.
+    + Without A, you don't buy the painting and social value is zero.
+    + A is charged $8 = 8 - 0$.
 + B
-    + With B, the value to the others is still $22.
-    + Without B, the value of the painting is still the avoided costs, $14.
-    + B is charged $8.
+    + With B, the social value is still $8.
+    + Without B, you don't buy the painting.
+    + B is charged $8 = 8 - 0$.
     
-Raises more than enough for the painting  and treats both agents the same.  Both are pivotal, without them, the choice would flip from keeping the painting to not keeping it.
+Raises $16 and you buy the painting for $14.  Both are pivotal, without them, the choice would flip from keeping the painting to not keeping it.
 
 
 ## Clarke Pivot Example 3
 
-+ Do we sell a painting with cost of $7?
-+ Three agents, A, B and C with true benefits of, ${1,3,5}$.
++ Do we buy a painting for $7?
++ Three agents, A, B and C with true benefits of, ${1,3,5}$. Buying it is good.
 
 + A
-    + With A, the value to the others is $1+3+5 =9$.
-    + Without A, the value of the painting is still $3+5 =8$.
-    + A is charged $1.
+    + With A, social value is $1+3+5 -7 =2$.
+    + Without A, the value of the painting is still $3+5 -7 =1$.
+    + A is charged $1 = 2-1$ and we buy painting.
 + B
-    + With B, the value to the others is still $1+3+5 =9$.
-    + Without B, the value of the painting is the avoided costs, $7.
-    + B is charged $2.
+    + Without B, the other only value painting at $1+5 =6$. No buy
+    + B is charged $2 = 2 - 0$. Buy painting.
 + C
-    + With C, the value to the others is still $9.
-    + Without C, the value of the painting is still the avoided costs, $7.
+    + Without C, the social value of the painting is still less than avoided costs, $7. No Buy
     + C is charged $2.
+
+## Comments
     
-Does not raise enough to pay for the painting, but charges B and C more because they were pivotal.
+ Charges B and C more because they were pivotal. The choice would change if they didn't exist, or had different preferences.
     
-    
+Collect only $5 for $7 painting.    
 
 ## Clarke Pivot Example 4
 
-+ Do we get a painting with cost of $14?
++ Do we buy a painting with cost of $14?
 + Three agents, A, B and C with true benefits of, ${9,10,12}$.
 
 + A
-    + With A, the value to the others is $9+10+12 =31$.
-    + Without A, the value of the painting is still $10+12 =22$.
+    + Social value is $9+10+12 -14 =17$.
+    + Without A, the value of the painting is still $10+12 -14 =8$.
     + A is charged $9.
 + B
-    + With B, the value to the others is still $9+10+12 =31$.
-    + Without B, the value of the painting is $9+12 =21$.
+    + Without B, the value of the painting is $9+12 -14 =7$.
     + B is charged $10.
 + C
-    + With C, the value to the others is still $31.
-    + Without C, the value of the painting is $9+10=19$.
+    + Without C, the value of the painting is $9+10 -14=5$.
     + B is charged $12.
     
-Raises enough to pay for the painting and everyone pays their personal benefit since they would not change the social choice.  Nobody is pivotal.
+Raises enough to pay for the painting, $9+10+12 =31$ and everyone pays their personal benefit since they would not change the social choice.  Nobody is pivotal.
 
 
 ##  Observations
@@ -209,16 +206,14 @@ The Shapley Value comes from cooperative game theory. It is a unique way of dist
 + Linear: You can subdivide the coalition and the system still works.
 
 
-<!-- ## Obligatory formula  -->
+## Obligatory formula
 
-<!-- The amount that player i gets, $\phi_i(v)$, is some function of what they all produce together, $v$.  -->
+The amount that player i gets, $\phi_i(v)$, is some function of what they all produce together, $v$.
 
-<!-- $$\phi_i(v)=\sum_{S \subseteq N \setminus -->
-<!-- \{i\}} \frac{|S|!\; (n-|S|-1)!}{n!}(v(S\cup\{i\})-v(S))$$ -->
+$$\phi_i(v)=\sum_{S \subseteq N \setminus
+\{i\}} \frac{|S|!\; (n-|S|-1)!}{n!}(v(S\cup\{i\})-v(S))$$
 
-
-
-<!-- Ignore this. The math notation gets in the way. -->
+Ignore this. The math notation gets in the way.
 
 ## Shapely Intuition
 
@@ -298,7 +293,7 @@ For Common Costs (Same thing at same time)
 + A volume index is a generalization of quantity that allows you to measure more than one thing at once.
 + More than one logical volume index, for example a restaurant.
     + Tops -- Good for wait staff
-    + Plates -- Balance between wait staff and food costs.
+    + Plates/covers -- Balance between wait staff and food costs.
     + Revenue -- Good for food costs
 + Utilities usually use some combination of
     + Customer counts

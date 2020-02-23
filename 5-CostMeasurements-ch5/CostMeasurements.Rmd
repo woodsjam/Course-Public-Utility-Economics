@@ -4,7 +4,6 @@ author: "James Woods"
 date: ""
 output:
   beamer_presentation: default
-  ioslides_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -121,13 +120,12 @@ Key terms:
 + Prudent:  Makes sense at the time it was made.  Not penalized for not knowing the future.
 
 
-For an overview of rate making http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf
+<!-- For an overview of rate making http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf -->
 
 ## Examples of Dissallowance in Orgon
 
-+ Trojan Nuclear Power Plant (PGE) as part of a larger rate case.  http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
-
-+ Multiple Wind Projects (PacifiCorp) as part of a larger rate case. Costs associated with Rolling Hills was excluded. https://apps.puc.state.or.us/orders/2008ords/08-548.pdf
++ Trojan Nuclear Power Plant (PGE) as part of a larger rate case.  
++ Multiple Wind Projects (PacifiCorp) as part of a larger rate case. Costs associated with Rolling Hills was excluded. 
 
 
 ## Trojan
