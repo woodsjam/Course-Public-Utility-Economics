@@ -413,10 +413,21 @@ We are trying to do cap and trade with a collar but there are complications:
     + Clause for referral to Oregon Supreme Court about the "revenue bill" decision.
     + No R support 
     + No majority D.   --  Roblan (Coos Bay) was a notable holdout.
+    
+## Continues
+
++ 2019 Walkout
++ 2020 Walkout and Timber Unity
++ Executive order 20-04, March 10 https://www.oregon.gov/gov/Documents/executive_orders/eo_20-04.pdf
+    + Wait for the court cases.  This does things about carbon but PUC needs legislation.
+    + Have not analyzed.
+
+
+
 
 ## Degree of Magnitude Costs
 
-Assuming $10/T $CO_{2e}
+Assuming \$10/Ton
 
 + \$0.10 per gallon of gasoline
     + Cost ~\$2.70/Gal
@@ -430,6 +441,11 @@ Assuming $10/T $CO_{2e}
     + Cost ~\$0.05 per therm
     + HH ~ 50 therms per month
     + ~ \$2.50 month
+    
+## Current Prices
+
++ EU: 25-30 EUR/tonne
++ CA: ~15 \$/ton
 
 ## Major Questions
 
@@ -714,7 +730,7 @@ JUST PUT IT IN THE RULES:  No colluding.
 + Offsets protocols https://www.arb.ca.gov/cc/capandtrade/offsets/offsets.htm#protocols
 + Offset verification (https://www.arb.ca.gov/cc/capandtrade/offsets/verification/verification.htm)
 + Note that:
-    + These can be clawed back for overstateing even 5%.
+    + These can be clawed back for overstating even 5%.
     + Trade at a discount because of this.
     + Don't cheat
     
