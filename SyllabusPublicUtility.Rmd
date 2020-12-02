@@ -1,5 +1,5 @@
 ---
-title: "Syllabus EC437/537 Winter 2020"
+title: "Syllabus EC437/537 Winter 2021"
 author: "James Woods"
 date: ""
 output: pdf_document
@@ -20,89 +20,84 @@ This is a companion course to EC 438/538 which will address the consequences of 
 
 ## Prerequisites
 
-The undergraduate section has only the microeconomic theory as prerequisites.  The graduate section requires only graduate standing.  
 
-This means that homework and lectures need to be tuned to three groups: 
+The undergraduate section has microeconomic theory, EC 311, or the calculus based version, EC 415, listed as prerequisites.  The graduate section requires only graduate standing.
 
-+ Undergraduates that may have limited knowledge of microeconomic theory and econometrics.
-+ Graduate students outside of economics that have significant math background but little or no background in microeconomic theory and econometrics.
-+ Economics graduate students.
+As with most economics courses, the more background you bring to the class, the more get from the class.  For this class, it means bringing a background in microeconomic theory and econometrics.  Not all students will have a background in both and many of the graduate students from outside of economics will have neither.
 
-There will be times when the material may seem over your head mathematically (undergraduate) or the intuition is not coming through (non-economics graduate students), but I will do my best to keep the course balanced and moving forward with some class time spent on math or microeconomic theory as needed.
-
-Any technical skills that students are missing will be supplemented with in-class tutorials and homework assignments.
-
-## Key Dates
-
-+ Midterm: Feb 5th
-+ Final Exam: *Thursday*, March 19	12:30-14:20.
-+ Last Day to Withdraw or Change Grade Option: February 23rd.
-+ Holiday: January 20th
 
 # Contact Information
 
-Communication will be handled through slack https://utilityeconw20.slack.com. You should have received an invitation, if not just go to that URL and use your @pdx.edu email to sign up. There are reasonable help documents to get you started. https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users
+Communication will be handled through slack https://utilityeconw21.slack.com. You should have received an invitation, if not just go to that URL and use your @pdx.edu email to sign up. There are reasonable help documents to get you started. https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users
 
-Slack will be used for IM, email and forum style communication.  It even handles phone calls. If you have a question about course material or the course itself, ask in one of the channels. If you have a personal message that is not intended for others, send a direct message.
+Slack will be used for IM, email and forum style communication.  It even handles voice calls. If you have a question about course material or the course itself, ask in one of the channels, e.g., #general. If you have a personal message that is not intended for others, send a direct message, i.e., @woodsj. The group has global do not disturb hours of 10pm - 8am.  If you would like something different, alter your personal settings.
+
+
+Please note that I am not online all the time, and when I am online I will prioritize well-phrased questions with sufficient detail.  I tend to ignore general complaints, questions that can be answered by reading the syllabus or using the search bar.
 
 Office Hours:
 
-+ My office is in CH 241-O.
-+ + Drop in office hours are Monday 3:00 PM - 4:30 and Tuesday 9:00 AM - 10:30 AM through the last week of class. There is no need to make an appointment for these hours -- just come.
++ There are no in-person office hours this term.  We will use Zoom to meet face-to-face. 
++ Drop in office hours are Monday 3-4pm and Tuesday 10am-Noon through the last week of classes. I will keep a Zoom meeting up during this time.
++ You can schedule one-on-one meetings at https://woodsj.youcanbook.me/.
 
 # Textbook and Other Resources
 
-The main text for the course is Lesser, Johnathan A. & Leonardo R. Giacchino. Fundamentals of Energy Regulation, ed 2. Public Utilities Fortnightly, 2013. It was chosen with undergraduates in mind and illustrates many of the concepts they learned in EC 311/415. 
+The two main texts for the course are:
 
-This text will be supplemented with journal articles and books available electronically through the library.
++ Viscusi, W. Kip, et al. Economics of Regulation and Antitrust, Fourth Edition, MIT Press, 2005. ProQuest Ebook Central, https://ebookcentral-proquest-com.proxy.lib.pdx.edu/lib/psu/detail.action?docID=3338843.
++ Lesser, Johnathan A. & Leonardo R. Giacchino. Fundamentals of Energy Regulation, ed 2. Public Utilities Fortnightly, 2013. 
+
+These will be supplemented with journal articles and books available electronically through the library.
 
 # Assessments and Grade Policy
 
-Your grade in the class will be based on your performance on homework assignments and two exams.  
+We have all had some experience with remote learning by now and have seen the general lack of productivity and the walls of students with mics and cameras off.  I have experimented with breakout rooms, but those fail quickly when students are unprepared either because they have not kept up with their reading or have not reviewed material from prerequisits for this class.  Rather than shaking my fist at the sky in frustration, I'm embracing the problem as a silent meeting.
 
-+ Final Exam (30%)
-+ Midterm  (30%)
-+ Homework (40%)
+Silent meetings were a reaction to people not having read the material and treating discussion like a scene from a martial arts movie where the group of attackers wait one at a time to attack the protagonist.  The fact is, we have not always read the material and we all want to talk and ask questions at the same time except when someone asks, "Are there any questions?"  
 
+The regular class periods, which will be held in zoom, will look a little strange.  About a week before the class meeting, the reading for the day will be scheduled. This could be a chapter or one of the journal articles.  I will outline the reading in a google doc with topic headings that closely match the topic headings in the reading. Students will be assigned these sections in round robin fashion and it will be your job to create part of a table read.  Which is a document about six pages long, that summarizes the arguments in each section, criticizes those arguments, provides some criticism, perhaps a worked problem, links to background material and references, and a few question prompts for other students.
+
+That section is yours.  You own it.  You are the expert and you will get a grade on how well you did constructing that section.
+
+The table doc will be available to the class at least two days before the meeting.  Students can, but are not required to, read the document ahead of time and ask clarifying questions with the comment function in google docs.  The owners may respond to these questions or adapt their text to respond.
+
+When class starts, we will all focus on the table read and, well, read it.  Continuing to ask for clarifications and helping other people out when they have questions.  This could be as simple as a link to a definition, or perhaps outlining a good response to the document to add as an appendix, where we will generally keep worked examples and detailed mathematical logic.  If someone needs some more detailed help, we can put them in a zoom breakout room with the owner of the section.
+
+We will then break out of silent mode each owner will then summarize the discussion and answer some of the questions that were asked in the first pass.  The owner will then delegate some of the suggested fixes to other students while fixing a few on their own.  We will then finish some of the delegated tasks, which could involve a few people jumping in a breakout room to come up with a solution.  We will then repeat that process until we are done.
+
+These table reads will remain live for the rest of the term and can be used as a reference for the homework assignements and exams.
+
+## Table Read Documents
 
 ## Homework
 
-There will be several assignments over the term.  All will be equally weighted and are intended to be completed by an individual. When written, they will be due Sunday at 11:59pm on D2L to avoid confusion. 
-
-Homework may also take the form of an in-class presentation on a course topic.  This will typically be a shared experience, focusing on one of the assigned readings. Students will focus on related literature, mathematical models, or statistical analysis depending on the skill set of the students.
-
 ## Exams
 
-Exams are open book and open note and can best be  described as old-school show-off-what-you-know questions.  Examples will be handed out a few weeks before the midterm.
-
-Please bring a laptop to class on exam day. You will be submitting your exams on a google doc that you write in class supplemented with paper diagrams and math.
 
 # Topics and Readings
 
-Each topic has some readings that both undergraduates and graduate students will read and some that are specific to each. 
-
-
-+ Cost Theory Basis Regulation
-    + Introduction. Ch 11, Viscusi, W. Kip, Joseph E. Harrington, and John M. Vernon. Economics of regulation and antitrust. MIT press, 2005. http://search.library.pdx.edu/PSU:psu_library:CP71189149050001451     
-    + Lesser & Giacchino, Ch 2 (More small details on electricity than Viscusi and simpler theory)
-
-+ Regulation and Public Enterprise
++ Introduction to Regulation
+    + Making Regulations, Ch 2, Viscusi, W. Kip, Joseph E. Harrington, and John M. Vernon. Economics of regulation and antitrust. MIT press, 2005. http://search.library.pdx.edu/PSU:psu_library:CP71189149050001451
     + Efficiency and Technical Progress, Ch 4, Viscusi, et al (2005)
-    + Theory of Natural Monopoly. Ch 10, Viscusi, et al (2005)
-    + Public Enterprise. Ch 14, Viscusi, et al (2005)
-    + History of Regulation
-        + Posner, Richard A. “Theories of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 5, no. 2, 1974, pp. 335–358. JSTOR, https://www-jstor-org.proxy.lib.pdx.edu/stable/3003113.
-        + Stigler, George J. “The Theory of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 2, no. 1, 1971, pp. 3–21 (https://www-jstor-org.proxy.lib.pdx.edu/stable/3003160)
-        + Peltzman, Sam. "Toward a more general theory of regulation." The Journal of Law and Economics 19.2 (1976): 211-240. https://www.jstor.org/stable/725163
-        + Becker, Gary. “Toward a More General Theory of Regulation.” The Journal of Law & Economics, vol. 19, no. 2, 1976, pp. 245–248. https://www-jstor-org.proxy.lib.pdx.edu/stable/725165
-        + Becker, Gary S. “A Theory of Competition Among Pressure Groups for Political Influence.” The Quarterly Journal of Economics, vol. 98, no. 3, 1983, pp. 371–400.https://www-jstor-org.proxy.lib.pdx.edu/stable/1886017.
+    + Theory of Natural Monopoly, Ch 11
 
-+ Introduction to Electricity and Natural Gas
-    + Lesser & Giacchino, Ch 1 (Good read on the history of gas and electric regulation)
-    + Natural Monopoly Regulation and Electric Power,  Ch 12, Viscusi, et al (2005)
-    + Economic Regulation of Energy, Ch 18, Viscusi, et al (2005)
-    + Lesser & Giacchino, Ch 3 (More electricity specific details on Costs.)
++ Models of Regulation
+    + Introduction to Economic Regulation, Ch 10, Viscusi, et al (2005)
+    + Posner, Richard A. “Theories of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 5, no. 2, 1974, pp. 335–358. JSTOR, https://www-jstor-org.proxy.lib.pdx.edu/stable/3003113.
+    + Stigler, George J. “The Theory of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 2, no. 1, 1971, pp. 3–21 (https://www-jstor-org.proxy.lib.pdx.edu/stable/3003160)
+    + Peltzman, Sam. "Toward a more general theory of regulation." The Journal of Law and Economics 19.2 (1976): 211-240. https://www.jstor.org/stable/725163
+    + Becker, Gary. “Toward a More General Theory of Regulation.” The Journal of Law & Economics, vol. 19, no. 2, 1976, pp. 245–248. https://www-jstor-org.proxy.lib.pdx.edu/stable/725165
+    + Becker, Gary S. “A Theory of Competition Among Pressure Groups for Political Influence.” The Quarterly Journal of Economics, vol. 98, no. 3, 1983, pp. 371–400.https://www-jstor-org.proxy.lib.pdx.edu/stable/1886017.
+
     
++ Electricity and Natural Gas    
+    + Lesser & Giacchino, Ch 1 (Good read on the history of gas and electric regulation)
+    + Natural Monopoly Regulation and Electric Power, Ch 12, Viscusi, et al (2005)
+    + Lesser & Giacchino, Ch 2 (More small details on electricity than Viscusi and simpler theory)
+    + Lesser & Giacchino, Ch 3 (More electricity specific details on Costs.)
+
+
 + Cost Measurement
     + Lesser & Giacchino, Ch 5
     + Oregon Public Utility Commission, "Regulation of Water Utility Rates and Service" http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf
@@ -123,17 +118,15 @@ of Regulatory Utility Commissioners (1992) http://pubs.naruc.org/pub/53A20BE2-23
     + Lesser & Giacchino, Ch 7
     + Allcott, Hunt. "Rethinking real-time electricity pricing." Resource and energy economics 33.4 (2011): 820-842. https://www-sciencedirect-com.proxy.lib.pdx.edu/science/article/pii/S092876551100042X
     
-+ Environmental Regulation
-    + Efficiency and Technical Progress, Ch 19-21, Viscusi, et al (2005)
 
-Evolving Topics
+As with any evolving field, things happen.  I will present some optional topics if time is available. Cap and trade is not on the table for the Oregon Legislature this session, so we will focus on these current Oregon issues.  This is subject to change:
 
-As with any evolving field, things happen.  I will present some optional topics if time is available.
++ Faruqui, Ahmad, Mariko Geronimo Aydin, and John Higham. "Factors behind the formation of community choice aggregation." The Electricity Journal 33.10 (2020): 106862. https://stats.lib.pdx.edu/proxy.php?url=https://www.sciencedirect.com/science/article/abs/pii/S1040619020301548
++ Costello, Kenneth W. "How PBR can go wrong." The Electricity Journal 33.7 (2020): 106801. https://www.sciencedirect.com/science/article/abs/pii/S1040619020300932
 
 
 # Other Rules
 
-  
 + When completing assignments *The work must be authentically and genuinely your own or group. In other words, if you are copying answers you found online, it is not your work.*
   
 + In this classroom, we support and value diversity.  To do so requires that we:
