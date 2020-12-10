@@ -3,6 +3,7 @@ title: "Syllabus EC437/537 Winter 2021"
 author: "James Woods"
 date: ""
 output: pdf_document
+fontsize: 12pt
 ---
 
 ```{r setup, include=FALSE}
@@ -66,7 +67,7 @@ When class starts, we will all focus on the table read and, well, read it.  Cont
 
 We will then break out of silent mode each owner will then summarize the discussion and answer some of the questions that were asked in the first pass.  The owner will then delegate some of the suggested fixes to other students while fixing a few on their own.  We will then finish some of the delegated tasks, which could involve a few people jumping in a breakout room to come up with a solution.  We will then repeat that process until we are done.
 
-These table reads will remain live for the rest of the term and can be used as a reference for the homework assignements and exams.
+These table reads will remain live for the rest of the term and can be used as a reference for the homework assignments and exams.
 
 ## Table Read Documents
 
