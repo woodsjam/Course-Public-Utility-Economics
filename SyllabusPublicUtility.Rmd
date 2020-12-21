@@ -41,6 +41,7 @@ Office Hours:
 + There are no in-person office hours this term.  We will use Zoom to meet face-to-face. 
 + Drop in office hours are Monday 3-4pm and Tuesday 10am-Noon through the last week of classes. I will keep a Zoom meeting up during this time.
 + You can schedule one-on-one meetings at https://woodsj.youcanbook.me/.
++ I tend to respond quickly in slack but have DnD hours set from 5pm till 7am.
 
 # Textbook and Other Resources
 
@@ -53,13 +54,25 @@ These will be supplemented with journal articles and books available electronica
 
 # Assessments and Grade Policy
 
-We have all had some experience with remote learning by now and have seen the general lack of productivity and the walls of students with mics and cameras off.  I have experimented with breakout rooms, but those fail quickly when students are unprepared either because they have not kept up with their reading or have not reviewed material from prerequisits for this class.  Rather than shaking my fist at the sky in frustration, I'm embracing the problem as a silent meeting.
+Course grades will be determined by your performance as both a creator of table reads, briefly explained below but expanded on later, your participation in those table reads, homework assignments, a midterm and a final.  In short, with the exception of the table read and zoom, it is a traditional class set up.
 
-Silent meetings were a reaction to people not having read the material and treating discussion like a scene from a martial arts movie where the group of attackers wait one at a time to attack the protagonist.  The fact is, we have not always read the material and we all want to talk and ask questions at the same time except when someone asks, "Are there any questions?"  
+The porportion of your grade from each task is defined below.
 
-The regular class periods, which will be held in zoom, will look a little strange.  About a week before the class meeting, the reading for the day will be scheduled. This could be a chapter or one of the journal articles.  I will outline the reading in a google doc with topic headings that closely match the topic headings in the reading. Students will be assigned these sections in round robin fashion and it will be your job to create part of a table read.  Which is a document about six pages long, that summarizes the arguments in each section, criticizes those arguments, provides some criticism, perhaps a worked problem, links to background material and references, and a few question prompts for other students.
++ Table Read Creation and Leadership: 20%
++ Table Read Participation: 20%
++ Homework: 20%
++ Midterm: 20%
++ Final: 20%
 
-That section is yours.  You own it.  You are the expert and you will get a grade on how well you did constructing that section.
+## Table Read Documents
+
+We have all had some experience with remote learning by now and have seen the general lack of productivity and the screens of students with mics and cameras off.  I have experimented with breakout rooms, but those fail quickly when students are unprepared either because they have not kept up with their reading, or have not reviewed material from prerequisits for this class.  Rather than shaking my fist at the sky in frustration, I'm embracing the problem.
+
+The regular class periods, which will be held in zoom, will look a little strange.  About a week before the class meeting, the reading for the day will be scheduled. This could be a chapter or one of the journal articles.  I will outline the reading in a google doc with topic headings that closely match the topic headings in the reading. Students will be assigned these sections in round robin fashion and it will be your job to create part of a table read.  
+
+A table read is a document about six pages long, that summarizes the arguments in each section, criticizes those arguments, provides a worked problem, links to background material and references, and a few question prompts for other students.
+
+That section is yours.  You own it.  You are the expert and you will get a grade on how well you did constructing that section. _You will be evaluated on what you have produced based on a provided rubric._
 
 The table doc will be available to the class at least two days before the meeting.  Students can, but are not required to, read the document ahead of time and ask clarifying questions with the comment function in google docs.  The owners may respond to these questions or adapt their text to respond.
 
@@ -67,14 +80,25 @@ When class starts, we will all focus on the table read and, well, read it.  Cont
 
 We will then break out of silent mode each owner will then summarize the discussion and answer some of the questions that were asked in the first pass.  The owner will then delegate some of the suggested fixes to other students while fixing a few on their own.  We will then finish some of the delegated tasks, which could involve a few people jumping in a breakout room to come up with a solution.  We will then repeat that process until we are done.
 
-These table reads will remain live for the rest of the term and can be used as a reference for the homework assignments and exams.
+_Students will be evaluated based on their contributions to the table read and evaluated by a provided rubric._  Please note that this is not intended to be the usual make a comment on the discussion board exercise, where a simple, "I agree!" gives full credit.  We are talking about creating diagrams, setting up problems, finding supporting data, references to other sources.  It is intended to be a substantive contribution.
 
-## Table Read Documents
+These table reads will remain live for the rest of the term and can be used as a reference for the homework assignments and exams.
 
 ## Homework
 
+These will be due periodically, no more than once per week. If you are familiar with Costa's levels of inquiry, the homework will tend to be level two and one questions.
+
 ## Exams
 
+There is both a midterm and a final exam in this class.  These are different from the homework assignments, which focus on one chapter or article at a time.  The questions will require you to synthesize what you have learned, comparing and contrasting, using models and data from multiple sources to support your argument.  
+
+These are open-note, open-book exams, but that should indicate that these are more difficult questions.  Don't expect to burn through some algebra problems.  If you are familiar with Costa's levels of inquiry, these are level three questions.  The homework will tend to be level two and one.
+
+A set of potential questions will be distributed ahead of the exams.  Only a subset of the questions will be chosen for the exam.
+
+On exam day a google doc will be shared with you.  You should complete your work in that document.  If you need to include diagrams or mathematical derivations, you can do those on paper, take a photo and upload it to the associated D2L assignment folder.  Each photo should be labeled, e.g., figure 1, with corresponding text in your google doc to indicate where the figure should be included.
+
+As per normal, exams are intended to measure individual performance.  The work you turn in should be authentically yours.  Communication between students during the exam is not allowed.
 
 # Topics and Readings
 
