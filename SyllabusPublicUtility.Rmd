@@ -1,8 +1,10 @@
 ---
 title: "Syllabus EC437/537 Winter 2021"
 author: "James Woods"
-date: ""
-output: pdf_document
+date: ''
+output:
+  word_document: default
+  pdf_document: default
 fontsize: 12pt
 ---
 
@@ -56,25 +58,34 @@ These will be supplemented with journal articles and books available electronica
 
 Course grades will be determined by your performance as both a creator of table reads, briefly explained below but expanded on later, your participation in those table reads, homework assignments, a midterm and a final.  In short, with the exception of the table read and zoom, it is a traditional class set up.
 
-The porportion of your grade from each task is defined below.
+The proportion of your grade from each task is defined below.
 
 + Table Read Creation and Leadership: 20%
 + Table Read Participation: 20%
 + Homework: 20%
-+ Midterm: 20%
-+ Final: 20%
++ Midterm (Feb 3): 20%
++ Final (March 18, 12:30-2:20pm) : 20%
+
+
+## P/NP Grades 
+
+PSU's policy on how P/NP grades will be used during the COVID-19 pandemic is in flux.  For Winter term, P/NP grades will count as letter grades for satisfying major and degree requirements.  
+
+Most faculty expect there to be an asterisk on pandemic period grades, but we can't guarantee how they will be perceived outside PSU.
+
+Please consult your funder for potential financial implications of switching to P/NP.  Not all scholarships will fund P/NP courses, and the VA may ask for a return of tuition, fees and associated BAH payments if the student does not pass the course.
 
 ## Table Read Documents
 
-We have all had some experience with remote learning by now and have seen the general lack of productivity and the screens of students with mics and cameras off.  I have experimented with breakout rooms, but those fail quickly when students are unprepared either because they have not kept up with their reading, or have not reviewed material from prerequisits for this class.  Rather than shaking my fist at the sky in frustration, I'm embracing the problem.
+We have all had some experience with remote learning by now and have seen the general lack of productivity and the screens of students with mics and cameras off.  I have experimented with breakout rooms, but those fail quickly when students are unprepared either because they have not kept up with their reading, or have not reviewed material from prerequisites for this class.  Rather than shaking my fist at the sky in frustration, I'm embracing the problem.
 
-The regular class periods, which will be held in zoom, will look a little strange.  About a week before the class meeting, the reading for the day will be scheduled. This could be a chapter or one of the journal articles.  I will outline the reading in a google doc with topic headings that closely match the topic headings in the reading. Students will be assigned these sections in round robin fashion and it will be your job to create part of a table read.  
+The regular class periods, which will be held in zoom, will look a little strange.  About a week before the class meeting, the reading for the day will be scheduled. This could be a chapter or one of the journal articles.  I will outline the reading in a Google doc with topic headings that closely match the topic headings in the reading. Students will be assigned these sections in round robin fashion and it will be your job to create part of a table read.  
 
 A table read is a document about six pages long, that summarizes the arguments in each section, criticizes those arguments, provides a worked problem, links to background material and references, and a few question prompts for other students.
 
 That section is yours.  You own it.  You are the expert and you will get a grade on how well you did constructing that section. _You will be evaluated on what you have produced based on a provided rubric._
 
-The table doc will be available to the class at least two days before the meeting.  Students can, but are not required to, read the document ahead of time and ask clarifying questions with the comment function in google docs.  The owners may respond to these questions or adapt their text to respond.
+The table read will be available to the class at least two days before the meeting.  Students can, but are not required to, read the document ahead of time and ask clarifying questions with the comment function in Google docs.  The owners may respond to these questions or adapt their text to respond.
 
 When class starts, we will all focus on the table read and, well, read it.  Continuing to ask for clarifications and helping other people out when they have questions.  This could be as simple as a link to a definition, or perhaps outlining a good response to the document to add as an appendix, where we will generally keep worked examples and detailed mathematical logic.  If someone needs some more detailed help, we can put them in a zoom breakout room with the owner of the section.
 
@@ -83,6 +94,8 @@ We will then break out of silent mode each owner will then summarize the discuss
 _Students will be evaluated based on their contributions to the table read and evaluated by a provided rubric._  Please note that this is not intended to be the usual make a comment on the discussion board exercise, where a simple, "I agree!" gives full credit.  We are talking about creating diagrams, setting up problems, finding supporting data, references to other sources.  It is intended to be a substantive contribution.
 
 These table reads will remain live for the rest of the term and can be used as a reference for the homework assignments and exams.
+
+We will play through on part of a table read on the first day with this syllabus and the rubrics.
 
 ## Homework
 
@@ -96,7 +109,7 @@ These are open-note, open-book exams, but that should indicate that these are mo
 
 A set of potential questions will be distributed ahead of the exams.  Only a subset of the questions will be chosen for the exam.
 
-On exam day a google doc will be shared with you.  You should complete your work in that document.  If you need to include diagrams or mathematical derivations, you can do those on paper, take a photo and upload it to the associated D2L assignment folder.  Each photo should be labeled, e.g., figure 1, with corresponding text in your google doc to indicate where the figure should be included.
+On exam day a Google doc will be shared with you.  You should complete your work in that document.  If you need to include diagrams or mathematical derivations, you can do those on paper, take a photo and upload it to the associated D2L assignment folder.  Each photo should be labeled, e.g., figure 1, with corresponding text in your Google doc to indicate where the figure should be included.
 
 As per normal, exams are intended to measure individual performance.  The work you turn in should be authentically yours.  Communication between students during the exam is not allowed.
 
@@ -105,13 +118,13 @@ As per normal, exams are intended to measure individual performance.  The work y
 + Introduction to Regulation
     + Making Regulations, Ch 2, Viscusi, W. Kip, Joseph E. Harrington, and John M. Vernon. Economics of regulation and antitrust. MIT press, 2005. http://search.library.pdx.edu/PSU:psu_library:CP71189149050001451
     + Efficiency and Technical Progress, Ch 4, Viscusi, et al (2005)
-    + Theory of Natural Monopoly, Ch 11
+    + Theory of Natural Monopoly, Ch 11 Viscusi, et al (2005)
 
 + Models of Regulation
     + Introduction to Economic Regulation, Ch 10, Viscusi, et al (2005)
     + Posner, Richard A. “Theories of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 5, no. 2, 1974, pp. 335–358. JSTOR, https://www-jstor-org.proxy.lib.pdx.edu/stable/3003113.
     + Stigler, George J. “The Theory of Economic Regulation.” The Bell Journal of Economics and Management Science, vol. 2, no. 1, 1971, pp. 3–21 (https://www-jstor-org.proxy.lib.pdx.edu/stable/3003160)
-    + Peltzman, Sam. "Toward a more general theory of regulation." The Journal of Law and Economics 19.2 (1976): 211-240. https://www.jstor.org/stable/725163
+    + Peltzman, Sam. "Toward a more general theory of regulation." The Journal of Law and Economics 19.2 (1976): 211-240. https://www.jstor.org.proxy.lib.pdx.edu/stable/725163
     + Becker, Gary. “Toward a More General Theory of Regulation.” The Journal of Law & Economics, vol. 19, no. 2, 1976, pp. 245–248. https://www-jstor-org.proxy.lib.pdx.edu/stable/725165
     + Becker, Gary S. “A Theory of Competition Among Pressure Groups for Political Influence.” The Quarterly Journal of Economics, vol. 98, no. 3, 1983, pp. 371–400.https://www-jstor-org.proxy.lib.pdx.edu/stable/1886017.
 
