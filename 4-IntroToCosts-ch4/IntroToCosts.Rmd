@@ -3,8 +3,9 @@ title: "Intro to Costs"
 author: "James Woods"
 date: ""
 output:
-  beamer_presentation: default
-  ioslides_presentation: default
+  # beamer_presentation: default
+  # ioslides_presentation: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -94,7 +95,7 @@ untingnoquiz/
 + *Expenses* are generally on the income statement, but there are a few things that start on the balance sheet and move over to income statement.
 + *Rate Base* is generally on the balance sheet, but there are a few things that move back and forth between balance and income.
 
-Not without controversy.  Here is recent LA Times on California http://www.latimes.com/projects/la-fi-electricity-capacity/
+Not without controversy.  Here is the LA Times on California http://www.latimes.com/projects/la-fi-electricity-capacity/
 
 ## More Detail in Later Chapters
 
@@ -258,10 +259,10 @@ Cash Flow Statement:
 
 + Sometimes called mark-to-model or mark-to-fantasy
 
-+ Can be implicated in quite a few financial crises, which see every few years.
-    + Some great depression deepened by MTM, asset values crashed balance sheets.
++ Can be implicated in quite a few financial crises, which we see every few years.
+    + Some say the Great Depression deepened was by MTM, asset values crashed balance sheets.
     + S&L crisis in 80s. Not marking to market hid problems.
-    + Enron valued securities in ways that didn't make sense mark-to-model
+    + Enron valued securities in ways that didn't make sense.
 
 ## Public Utilities Have Long-lived Assets
 
@@ -342,7 +343,3 @@ There are ways around this with CAPM and others.
 
 Ideal is rare in practice for public utilities.  Gas and electric tend to be very close to .5 
 
-## Next Reading 
-
-+ Ch 5 of Lesser where we hit the details.
-+ Expect homework.

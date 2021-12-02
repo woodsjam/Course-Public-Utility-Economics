@@ -2,7 +2,9 @@
 title: "Cost Allocation"
 author: "James Woods"
 date: ""
-output: beamer_presentation
+output:
+  word_document: default
+  beamer_presentation: default
 ---
 
 ```{r setup, include=FALSE}

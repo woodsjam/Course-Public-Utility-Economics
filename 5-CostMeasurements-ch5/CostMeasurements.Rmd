@@ -3,6 +3,7 @@ title: "Cost Measurements (Ch 5)"
 author: "James Woods"
 date: ""
 output:
+  word_document: default
   beamer_presentation: default
 ---
 
