@@ -1,10 +1,8 @@
 ---
-title: "Syllabus EC437/537 Winter 2021"
+title: "Syllabus EC437/537 Winter 2022"
 author: "James Woods"
 date: ''
 output:
-  word_document:
-    reference_docx: template.docx
   pdf_document: default
 fontsize: 12pt
 ---
