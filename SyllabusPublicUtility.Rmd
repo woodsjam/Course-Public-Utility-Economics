@@ -28,21 +28,25 @@ The undergraduate section has microeconomic theory, EC 311, or the calculus base
 As with most economics courses, the more background you bring to the class, the more get from the class.  For this class, it means bringing a background in microeconomic theory and econometrics.  Not all students will have a background in both and many of the graduate students from outside of economics will have neither.
 
 
+## Technology Requirements
+
+You should have access to  Zoom and a functioning web browser.  The slides are interactive and assume you have some touch or pseudo-pen interface. For example, you could use your finger and your phone (which works but I would not recommend), a computer with a touch screen, or even a small \$30 Wacom tablet.
+
+The technology requirements are your responsibility. 
+
 # Contact Information
 
-Communication will be handled through slack https://utilityeconw21.slack.com. You should have received an invitation, if not just go to that URL and use your @pdx.edu email to sign up. There are reasonable help documents to get you started. https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users
+We will handle course communication through slack <http://woodseconomics.slack.com/>. There is an invite link on the Canvas homepage for this course. Use your @pdx.edu email to sign up. There are reasonable help documents to get you started (<https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users>)
 
-Slack will be used for IM, email and forum style communication.  It even handles voice calls. If you have a question about course material or the course itself, ask in one of the channels, e.g., #general. If you have a personal message that is not intended for others, send a direct message, i.e., @woodsj. The group has global do not disturb hours of 10pm - 8am.  If you would like something different, alter your personal settings.
-
-
-Please note that I am not online all the time, and when I am online I will prioritize well-phrased questions with sufficient detail.  I tend to ignore general complaints, questions that can be answered by reading the syllabus or using the search bar.
+Slack allows for IM and forum-style communication. It even handles phone and video calls. If you have a question about course material or the course itself, ask in one of the channels, e.g., \#public_general. If you have a personal message not intended for others, send a direct message to @woodsj.
 
 Office Hours:
 
-+ There are no in-person office hours this term.  We will use Zoom to meet face-to-face. 
-+ Drop in office hours are Monday 3-4pm and Tuesday 10am-Noon through the last week of classes. I will keep a Zoom meeting up during this time.
-+ You can schedule one-on-one meetings at https://woodsj.youcanbook.me/.
-+ I tend to respond quickly in slack but have DnD hours set from 5pm till 7am.
+Office hours, where I or the GA, Roy, will be active on Slack to answer questions via text, voice, or video, are scattered throughout the week in the attempt to make at least one convenient for you.   I will respond on Slack at other times, but I will not respond immediately.
+
++ Monday 4-5 pm
++ Tuesday 11am- 1pm
++ Thursday 1-2 pm
 
 # Textbook and Other Resources
 
@@ -59,20 +63,11 @@ Course grades will be determined by your performance as both a creator of table 
 
 The proportion of your grade from each task is defined below.
 
-+ Table Read Creation and Leadership: 20%
-+ Table Read Participation: 20%
-+ Homework: 20%
-+ Midterm (Feb 3): 20%
-+ Final (March 18, 12:30-2:20pm) : 20%
++ Table Read Creation and Leadership: 25%
++ Table Read Participation: 25%
++ Midterm (Feb 3): 25%
++ Final (March 18, 12:30-2:20pm) : 25%
 
-
-## P/NP Grades 
-
-PSU's policy on how P/NP grades will be used during the COVID-19 pandemic is in flux.  For Winter term, P/NP grades will count as letter grades for satisfying major and degree requirements.  
-
-Most faculty expect there to be an asterisk on pandemic period grades, but we can't guarantee how they will be perceived outside PSU.
-
-Please consult your funder for potential financial implications of switching to P/NP.  Not all scholarships will fund P/NP courses, and the VA may ask for a return of tuition, fees and associated BAH payments if the student does not pass the course.
 
 ## Table Read Documents
 
@@ -96,15 +91,11 @@ These table reads will remain live for the rest of the term and can be used as a
 
 We will play through on part of a table read on the first day with this syllabus and the rubrics.
 
-## Homework
-
-These will be due periodically, no more than once per week. If you are familiar with Costa's levels of inquiry, the homework will tend to be level two and one questions.
-
 ## Exams
 
-There is both a midterm and a final exam in this class.  These are different from the homework assignments, which focus on one chapter or article at a time.  The questions will require you to synthesize what you have learned, comparing and contrasting, using models and data from multiple sources to support your argument.  
+There is both a midterm and a final exam in this class. The questions will require you to synthesize what you have learned, comparing and contrasting, using models and data from multiple sources to support your argument.  
 
-These are open-note, open-book exams, but that should indicate that these are more difficult questions.  Don't expect to burn through some algebra problems.  If you are familiar with Costa's levels of inquiry, these are level three questions.  The homework will tend to be level two and one.
+These are open-note, open-book exams, but that should indicate that these are more difficult questions.  Don't expect every question to be a simple burn through some math problems.  If you are familiar with Costa's levels of inquiry, these are level three questions.  
 
 A set of potential questions will be distributed ahead of the exams.  Only a subset of the questions will be chosen for the exam.
 
@@ -164,23 +155,44 @@ As with any evolving field, things happen.  I will present some optional topics 
 
 # Other Rules
 
-+ When completing assignments *The work must be authentically and genuinely your own or group. In other words, if you are copying answers you found online, it is not your work.*
-  
-+ In this classroom, we support and value diversity.  To do so requires that we:
+# Policy Statements from the University
 
-    + Respect the dignity and essential worth of all individuals
-    + Promote a culture of respect toward all individuals
-    + Respect the privacy, property, and freedom of others
-    + Reject bigotry, discrimination, violence, or intimidation of any kind
-    + Practice personal and academic integrity and expect it from others
-    + Promote the diversity of opinions, ideas, and backgrounds, which is the lifeblood of a university
++ **PSU Grading System Undergraduate**: http://pdx.smartcatalogiq.com/2021-2022/Bulletin/Undergraduate-Studies/Grading-System-for-Undergraduates 
 
-   For additional information, please see the Office of Affirmative Action \& Equal Opportunity at http://www.pdx.edu/diversity/affirmative-action.
++ **Drop/Withdraw Deadline**: http://pdx.smartcatalogiq.com/en/2021-2022/Bulletin/Academic-Calendar
 
-+ Accommodations are collaborative efforts between students, faculty, and the Disability Resource Center.  If you have a documented disability and require accommodation, you must arrange to meet with the course instructor prior to or within the first week of the term.  The documentation of your disability must come in writing from the Disability Resource Center (Faculty letter).  Students who believe they are eligible for accommodations but who have not yet obtained approval through the DRC should contact the DRC immediately.  Reasonable and appropriate accommodations will be provided for students with documented disabilities.  For more information on the Disability Resource Center, please see http://www.drc.pdx.edu. 
++ **Academic Integrity**: Academic integrity is a vital part of the educational experience at PSU. Please see the PSU Student Code of Conduct for the university’s policy on academic dishonesty. A confirmed violation of that Code in this course may result in failure of the course.
 
-+ Academic honesty is expected and required of students enrolled in this course.  Suspected academic dishonesty in this course will be handled according to the procedures set out in the Student Code of Conduct.
++ **Incomplete Policy**: Students do not have a right to receive or demand an Incomplete grade. The option of assigning an Incomplete grade is at the discretion of the instructor when the following criteria are met. Eligibility Criteria:
 
-+ I am sympathetic to family emergencies but you must inform me as soon as possible. If the notice is verbal, please email me with your understanding of our agreement. All agreements have to be in writing.
+  1.	Required satisfactory course completion/participation. 
+  2.	Reasonable justification for the request. 
+  3.	Incomplete grade is not a substitute for a poor grade. 
+  4.	Written agreement. (See Incomplete Contract)
+  5.	Resolving the Incomplete. 
+
+
+
++ **Student Services Disability Access Statement**: If you have, or think you may have, a disability that may affect your work in this class and feel you need accommodations, contact the Disability Resource Center to schedule an appointment and initiate a conversation about reasonable accommodations. The DRC is located in 116 Smith Memorial Student Union, 503-725-4150, drc@pdx.edu, https://www.pdx.edu/disability-resource-center/ .
+
++ **Safe Campus Statement**: Portland State University desires to create a safe campus for our students. As part of that mission, PSU requires all students to take the learning module entitled Creating a Safe Campus: Preventing Gender Discrimination, Sexual Harassment, Sexual Misconduct and Sexual Assault. If you or someone you know has been harassed or assaulted, you can find the appropriate resources on PSU’s Enrollment Management & Student Affairs: Sexual Prevention & Response website at http://www.pdx.edu/sexual-assault
+
++ **Student Food Security** :Any student who has difficulty affording groceries or accessing sufficient food to eat every day, or who lacks a safe and stable place to live, and believes this may affect their performance in the course, is urged to contact Committee for Improving Student Food Security for support at foodhelp@pdx.edu. Furthermore, please notify the professor if you are comfortable in doing so. This will enable her to provide any resources that she may possess.
+
++ **Title IX Reporting**: As an instructor, students frequently come to me for assistance in matters that are not related to the course material. Please be aware that PSU’s policies require instructors to report any instance of sexual harassment, sexual and relationship violence and/or other forms of prohibited discrimination to University Officials, who keep the information private. If you would rather share information about these experiences with a PSU staff member who does not have these reporting responsibilities and can keep the information confidential, please contact one of the following campus resources.
+  + Confidential Advocates: 503.894.7982, or by scheduling online (for matters regarding sexual harassment and sexual and relationship violence)
+  + Center for Student Health and Counseling (SHAC): 1880 SW 6th Ave, 503.725.2800
+  + Student Legal Services: 1825 SW Broadway, (SMSU) M343, 503.725.4556 For more information, please complete the required student module Understanding Sexual Misconduct and Resources in D2L.
+PSU Sexual Misconduct Response website gives you comprehensive information about how to support and/or report an incident. Please complete the required student module Understanding Sexual Misconduct and Resources, which provides information about PSU policy and resources.
+
+
+
++ **Cultural Resource Centers**: The Cultural Resource Centers (CRCs) create a student-centered inclusive environment that enriches the university experience. We honor diversity, explore social justice issues, celebrate cultural traditions, and foster student identities, success, and leadership. Our centers include the Multicultural Student Center, La Casa Latina Student Center, Native American Student & Community Center, Pan African Commons, Pacific Islander, Asian, Asian American Student Center and the Middle Eastern, North African, South Asian program. We provide student leadership, employment, and volunteer opportunities; student resources such as computer labs, event, lounge and study spaces; and extensive programming. All are welcome!
+
+
++ **Recording Technology Notice**: We will use technology for virtual meetings and recordings in this course. Our use of such technology is governed by FERPA, the Acceptable Use Policy and PSU’s Student Code of Conduct. A record of all meetings and recordings is kept and stored by PSU, in accordance with the Acceptable Use Policy and FERPA. Your instructor will not share recordings of your class activities outside of course participants, which include your fellow students, TAs/GAs/Mentors, and any guest faculty or community-based learning partners that we may engage with. You may not share recordings outside of this course. Doing so may result in disciplinary action. 
+
++ **Turnitin**: Students agree that by taking this course all required papers may be subject to submission for textual similarity review to Turnitin.com for the detection of plagiarism. All submitted papers will be included as source documents in the Turnitin.com reference database solely for the purpose of detecting plagiarism of such papers. Use of Turnitin.com page service is subject to the Usage Policy and Privacy Pledge posted on the Turnitin.com site. 
+
 
 Link to this syllabus https://github.com/woodsjam/Course-Public-Utility-Economics/blob/master/SyllabusPublicUtility.pdf
