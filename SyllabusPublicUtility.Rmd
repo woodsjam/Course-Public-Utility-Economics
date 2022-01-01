@@ -3,6 +3,9 @@ title: "Syllabus EC437/537 Winter 2022"
 author: "James Woods"
 date: ''
 output:
+  word_document: default
+  html_document:
+    df_print: paged
   pdf_document: default
 fontsize: 12pt
 ---
@@ -18,19 +21,19 @@ The official description of the course is:
 
 > Examines the rationale, economic principles, and institutions of historic economic regulation. Contemporary theory of the firm and regulatory practice with a focus on energy are analyzed. Prerequisites: Ec 311 or Ec 415. 
 
-This is a companion course to EC 438/538 which will address the consequences of energy use and production, and EC 428/538 which is mostly focused on program evaluation, including energy conservation programs.
+This is a companion course to EC 438/538 which will address the consequences of energy use and production, and EC 428/538, which is mainly focused on program evaluation, including energy conservation programs.
 
 ## Prerequisites
 
 
-The undergraduate section has microeconomic theory, EC 311, or the calculus based version, EC 415, listed as prerequisites.  The graduate section requires only graduate standing.
-
-As with most economics courses, the more background you bring to the class, the more get from the class.  For this class, it means bringing a background in microeconomic theory and econometrics.  Not all students will have a background in both and many of the graduate students from outside of economics will have neither.
+The undergraduate section has microeconomic theory, EC 311, or the calculus-based version, EC 415, listed as prerequisites.  The graduate section requires only graduate standing.
 
 
 ## Technology Requirements
 
-You should have access to  Zoom and a functioning web browser.  The slides are interactive and assume you have some touch or pseudo-pen interface. For example, you could use your finger and your phone (which works but I would not recommend), a computer with a touch screen, or even a small \$30 Wacom tablet.
+You should have access to  Zoom and a functioning web browser to access Google tools.  We will primarily be using Docs and Jamboard, a shared whiteboard in the Google tools bundle. 
+
+I will assume you have some touch or pseudo-pen interface. For example, you could use your finger and your phone (which works but I would not recommend. A small stylus works much better.), a computer with a touch screen, or even a small \$30 Wacom tablet.
 
 The technology requirements are your responsibility. 
 
@@ -48,60 +51,96 @@ Office hours, where I or the GA, Roy, will be active on Slack to answer question
 + Tuesday 11am- 1pm
 + Thursday 1-2 pm
 
+You can type to us and make an audio-only call or a video one.  We are flexible.
+
 # Textbook and Other Resources
 
-The two main texts for the course are:
+The two primary texts for the course are:
 
 + Viscusi, W. Kip, et al. Economics of Regulation and Antitrust, Fourth Edition, MIT Press, 2005. ProQuest Ebook Central, https://ebookcentral-proquest-com.proxy.lib.pdx.edu/lib/psu/detail.action?docID=3338843.
 + Lesser, Johnathan A. & Leonardo R. Giacchino. Fundamentals of Energy Regulation, ed 2. Public Utilities Fortnightly, 2013. 
 
-These will be supplemented with journal articles and books available electronically through the library.
+These will be supplemented with journal articles and books available electronically through the library.  Students have often found that sharing a copy of the Lesser and Giacchino text, which we use in the second half of the course, is effective. 
+
+# The In-Class Experience
+
+This class is remote, which means it is just like a regular class.  We talk. Ask questions.  Draw things on the whiteboard/Jamboard and interact on table reads.
+
+I am implementing a version of the silent meeting, which, despite the name, is anything but silent.  You can read about it here (https://medium.com/swlh/the-silent-meeting-manifesto-v1-189e9e3487eb). It has proven itself effective in a variety of settings.
+
+## Regular Lecture Days
+
+I'll have Zoom up but will be using it primarily for audio. The in-class material will be a combination of Google slides, which I will share with you, a Jamboard for problem-solving that we can all use, and the accumulated table reads, a 5-6 page document described in detail elsewhere, for the day. This combination of tools should work better for those with slower computer processors and less memory. 
+
+Any slides I share with you and stay synced automatically. There is no need for me to screen share.  This combination of tools makes it much easier to join by phone without running Zoom in the background.
+
+## Table Read Documents
+
+We all have experience with remote learning and experienced the general lack of productivity and engagement.  I can also tell you from my side that being on camera and trying to provide enough enthusiasm and energy for an entire class is exhausting. 
+
+Rather than shaking my fist at the sky in frustration, I'm embracing the problem.
+
+We will decide on the next reading about a week before the class meeting. After that, I will break up the assignment into reasonable chunks so that each student is only responsible for a page or two of the final table read.
+
+Usually, two students will be assigned to each part of the outline.  I will share a Google Doc with you that describes your section of the document, with a link to the document if possible, and a few `must haves.`  I'm trying to avoid the problem of students skipping the complex parts, which is where the fun is, and focusing on the easy parts.
+
+After reading the source paper or chapter, start working in the Google Doc I shared with you.  
+
+You should summarize the arguments in your section, criticize those arguments, provide examples, links to background material or data, and references if needed.  
+
+I will assemble what you have done in a single table read.  There will be multiple, anonymous versions of each section.
+
+That is an important point. Your grade on the table read will be based on an anonymous class vote.  Those that created a more informative and helpful table read will get a higher grade than those that did not.  I will randomize this, so you are not always paired with the same student on every assignment.
+
+Once class starts, we will start the table read, section by section.  Your job as a participant is to use the comment feature to ask pertinent questions, provide clarifying text, additional examples, etc.  You can also answer other students' questions and expand on the examples.
+
+The intent of your participation is to improve the document and help other students understand the material. Therefore, a simple "I agree!" is not helpful. 
+
+At the end of each section, we will vote on which of the options was most helpful.   These votes will determine the grade for table read creation.
+
+You will also be evaluated on their contributions and participation in class as documented in the table read.  The GA and I will do this a few days after class to add material once you have had more time to think about the topic.
+
+These table reads will remain available for the rest of the term and are good references for the exams.
+
+We will play through a table read on the first day with this syllabus.
 
 # Assessments and Grade Policy
 
-Course grades will be determined by your performance as both a creator of table reads, briefly explained below but expanded on later, your participation in those table reads, homework assignments, a midterm and a final.  In short, with the exception of the table read and zoom, it is a traditional class set up.
+Course grades will be determined by your performance as both a creator of table reads, your participation in those table reads, a midterm, and a final.  In short, except for the table read and Zoom, it is a traditional class setup.
 
-The proportion of your grade from each task is defined below.
+The proportion of your grade from each task is defined below.  Please note that there is a distinction between the graduate and undergraduate sections.
+
+Undergraduate:
 
 + Table Read Creation and Leadership: 25%
 + Table Read Participation: 25%
 + Midterm (Feb 3): 25%
 + Final (March 18, 12:30-2:20pm) : 25%
 
+Graduate:
 
-## Table Read Documents
++ Table Read Creation and Leadership: 20%
++ Table Read Participation: 20%
++ Current Regulatory Topic Table Read: 10%
++ Midterm (Feb 3): 25%
++ Final (March 18, 12:30-2:20pm) : 25%
 
-We have all had some experience with remote learning by now and have seen the general lack of productivity and the screens of students with mics and cameras off.  I have experimented with breakout rooms, but those fail quickly when students are unprepared either because they have not kept up with their reading, or have not reviewed material from prerequisites for this class.  Rather than shaking my fist at the sky in frustration, I'm embracing the problem.
-
-The regular class periods, which will be held in zoom, will look a little strange.  About a week before the class meeting, the reading for the day will be scheduled. This could be a chapter or one of the journal articles.  I will outline the reading in a Google doc with topic headings that closely match the topic headings in the reading. Students will be assigned these sections in round robin fashion and it will be your job to create part of a table read.  
-
-A table read is a document about six pages long, that summarizes the arguments in each section, criticizes those arguments, provides a worked problem, links to background material and references, and a few question prompts for other students.
-
-That section is yours.  You own it.  You are the expert and you will get a grade on how well you did constructing that section. _You will be evaluated on what you have produced based on a provided rubric._
-
-The table read will be available to the class at least two days before the meeting.  Students can, but are not required to, read the document ahead of time and ask clarifying questions with the comment function in Google docs.  The owners may respond to these questions or adapt their text to respond.
-
-When class starts, we will all focus on the table read and, well, read it.  Continuing to ask for clarifications and helping other people out when they have questions.  This could be as simple as a link to a definition, or perhaps outlining a good response to the document to add as an appendix, where we will generally keep worked examples and detailed mathematical logic.  If someone needs some more detailed help, we can put them in a zoom breakout room with the owner of the section.
-
-We will then break out of silent mode each owner will then summarize the discussion and answer some of the questions that were asked in the first pass.  The owner will then delegate some of the suggested fixes to other students while fixing a few on their own.  We will then finish some of the delegated tasks, which could involve a few people jumping in a breakout room to come up with a solution.  We will then repeat that process until we are done.
-
-_Students will be evaluated based on their contributions to the table read and evaluated by a provided rubric._  Please note that this is not intended to be the usual make a comment on the discussion board exercise, where a simple, "I agree!" gives full credit.  We are talking about creating diagrams, setting up problems, finding supporting data, references to other sources.  It is intended to be a substantive contribution.
-
-These table reads will remain live for the rest of the term and can be used as a reference for the homework assignments and exams.
-
-We will play through on part of a table read on the first day with this syllabus and the rubrics.
+Graduate students will have total authorship of a table read on a current regulatory topic.  Instead of breaking apart one chapter or paper into smaller chunks, you will take multiple sources and create a briefing for the rest of the class with links to data, external documents that clarify, etc.  For example, if you are doing a table read recent innovations in community solar, you should link to sample tariffs and key PUC documents.  Don't worry; I will help you out with this.
 
 ## Exams
 
-There is both a midterm and a final exam in this class. The questions will require you to synthesize what you have learned, comparing and contrasting, using models and data from multiple sources to support your argument.  
+There is both a midterm and a final exam in this class. The questions will require you to synthesize what you have learned, compare and contrast, using models and data from multiple sources to support your argument.  
 
-These are open-note, open-book exams, but that should indicate that these are more difficult questions.  Don't expect every question to be a simple burn through some math problems.  If you are familiar with Costa's levels of inquiry, these are level three questions.  
+These are open-note, open-book exams. That should indicate that these are more difficult exams rather than easier than closed-note.  Don't expect every question to be a superficial burn through some math problems.  If you are familiar with Costa's levels of inquiry, these are level three questions.  
 
-A set of potential questions will be distributed ahead of the exams.  Only a subset of the questions will be chosen for the exam.
+I will keep a document of potential questions pinned in Slack. It is in your best interest to prepare to answer those questions.  Preparation could be an outline or full text.  It is not a good idea to walk in cold and wing it.
 
-On exam day a Google doc will be shared with you.  You should complete your work in that document.  If you need to include diagrams or mathematical derivations, you can do those on paper, take a photo and upload it to the associated D2L assignment folder.  Each photo should be labeled, e.g., figure 1, with corresponding text in your Google doc to indicate where the figure should be included.
+I will share a Google doc and a Jamboard with you on exam day.  You should complete your work in those documents.  
 
-As per normal, exams are intended to measure individual performance.  The work you turn in should be authentically yours.  Communication between students during the exam is not allowed.
+If you need to include diagrams or mathematical derivations and don't want to spend the time typing or using the draw function, you can do those on paper, take a photo and embed them in the document, or use the Jamboard.  If you are using Jambord, indicate in the Google Doc indicate the page of the Jamboard, so I know where to look.
+
+Exams measure individual performance.  The work you turn in should be authentically yours.  Communication between students during the exam is not allowed.
+
 
 # Topics and Readings
 
@@ -128,15 +167,13 @@ As per normal, exams are intended to measure individual performance.  The work y
 
 + Cost Measurement
     + Lesser & Giacchino, Ch 5
-    + Oregon Public Utility Commission, "Regulation of Water Utility Rates and Service" http://www.puc.state.or.us/water/water%20home%20page/Ratemaking%20Explained.pdf
     + Malko, J. Robert, and Robert Skinner. "Selecting a Capital Structure for a Regulated Electric Utility: Some Issues and Directions." The Electricity Journal 24.7 (2011): 49-56. http://stats.lib.pdx.edu/proxy.php?url=http://www.sciencedirect.com/science/article/pii/S1040619011001722
-    + Example FERC Case:  156 FERC 61,234 (2016) https://www.ferc.gov/CalendarFiles/20160928194709-EL14-12-002.pdf
-    + Example Disallowance, Trojan: Public Utility Commission of Oregon Order 95-322 http://www.puc.state.or.us/admin_hearings/key_puc_cases/95_322.pdf
-    + Example Disallowance, Rolling Hills: Public Utility Commission of Oregon Order 08-548 https://apps.puc.state.or.us/orders/2008ords/08-548.pdf
+    + Example Disallowance, Trojan: Public Utility Commission of Oregon Order 08-487 https://apps.puc.state.or.us/orders/2008ords/08-487.pdf
+    + Example Disallowance, Rolling Hills: Public Utility Commission of Oregon Order 08-548 https://apps.puc.state.or.us/orders/2008ords/08-554.pdf
     
 + Cost Allocation
     + Lesser & Giacchino, Ch 6
-    + Uniform System of Accounts, 18 CFER Part 101 https://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&SID=054f2bfd518f9926aac4b73489f11c67&rgn=div5&view=text&node=18:1.0.1.3.34&idno=18
+    + Uniform System of Accounts, 18 CFER Part 101 https://www.ecfr.gov/current/title-18/part-101
     + Electric Utility Cost Allocation Manual, National Association
 of Regulatory Utility Commissioners (1992) http://pubs.naruc.org/pub/53A20BE2-2354-D714-5109-3999CB7043CE
     + Roth, Alvin E., and Robert E. Verrecchia. "The Shapley value as applied to cost allocation: a reinterpretation." Journal of Accounting Research (1979): 295-303. http://stats.lib.pdx.edu/proxy.php?url=https://www.jstor.org/stable/2490320
@@ -144,16 +181,23 @@ of Regulatory Utility Commissioners (1992) http://pubs.naruc.org/pub/53A20BE2-23
 
 + Rate setting
     + Lesser & Giacchino, Ch 7
-    + Allcott, Hunt. "Rethinking real-time electricity pricing." Resource and energy economics 33.4 (2011): 820-842. https://www-sciencedirect-com.proxy.lib.pdx.edu/science/article/pii/S092876551100042X
-    
-
-As with any evolving field, things happen.  I will present some optional topics if time is available. Cap and trade is not on the table for the Oregon Legislature this session, so we will focus on these current Oregon issues.  This is subject to change:
-
-+ Faruqui, Ahmad, Mariko Geronimo Aydin, and John Higham. "Factors behind the formation of community choice aggregation." The Electricity Journal 33.10 (2020): 106862. https://stats.lib.pdx.edu/proxy.php?url=https://www.sciencedirect.com/science/article/abs/pii/S1040619020301548
-+ Costello, Kenneth W. "How PBR can go wrong." The Electricity Journal 33.7 (2020): 106801. https://www.sciencedirect.com/science/article/abs/pii/S1040619020300932
 
 
-# Other Rules
+Here are some options for graduate students to use for their current regulatory topic.  I will help with references once they make decisions on a topic.  
+
++ Community Choice
+  + Faruqui, Ahmad, Mariko Geronimo Aydin, and John Higham. "Factors behind the formation of community choice aggregation." The Electricity Journal 33.10 (2020): 106862. https://stats.lib.pdx.edu/proxy.php?url=https://www.sciencedirect.com/science/article/abs/pii/S1040619020301548
+
++ Performance Based Regulation
+  + Costello, Kenneth W. "How PBR can go wrong." The Electricity Journal 33.7 (2020): 106801. https://stats.lib.pdx.edu/proxy.php?url=https://www.sciencedirect.com/science/article/abs/pii/S1040619020300932
+
++ Evaluating residential PV tariffs. 
++ Energy storage in tariffs and ISOs
++ Evaluation of the CAISO energy imbalance market.
++ Transmission costs in ISO/RTO jurisdictions 
++ X-Inefficiency in Cost of Service Regulation
+
+
 
 # Policy Statements from the University
 
